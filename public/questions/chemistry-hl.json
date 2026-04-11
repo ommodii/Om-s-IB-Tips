@@ -1831,8 +1831,1580 @@
             "$CH$",
             "$C_3H_2$",
             "$CH_4$"
+        ]
+    },
+    {
+        "id": "chem-latex-145",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "The molecule $HCN$ contains a carbon-nitrogen bond. Describe the $\\sigma$ and $\\pi$ bonds within the $C\\equiv N$ structure.",
+        "answer": "One $\\sigma$ bond and two $\\pi$ bonds",
+        "options": [
+            "Two $\\sigma$ bonds and one $\\pi$ bond",
+            "One $\\sigma$ bond and two $\\pi$ bonds",
+            "Three $\\sigma$ bonds",
+            "One $\\sigma$ bond and one $\\pi$ bond"
+        ],
+        "difficulty": 1,
+        "explanation": "A triple bond ALWAYS consists of one sigma ($\\sigma$) bond formed by end-to-end overlap, and two pi ($\\pi$) bonds formed by sideways p-orbital overlaps."
+    },
+    {
+        "id": "chem-latex-146",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which correctly states the relative size of the bond angles for $SO_2$, $H_2S$, and $CO_2$?",
+        "answer": "$H_2S < SO_2 < CO_2$",
+        "options": [
+            "$CO_2 < SO_2 < H_2S$",
+            "$SO_2 < H_2S < CO_2$",
+            "$H_2S < CO_2 < SO_2$",
+            "$H_2S < SO_2 < CO_2$"
         ],
         "difficulty": 2,
-        "explanation": "Moles $C = 75/12.01 \\approx 6.25$. Moles $H = 25/1.01 \\approx 24.75$. Ratio $H:C \\approx 4:1$."
+        "explanation": "$CO_2$ is linear ($180^\\circ$). $SO_2$ is bent with 1 lone pair ($\\approx 119^\\circ$). $H_2S$ is bent with 2 lone pairs ($\\approx 92^\\circ$). Therefore, $H_2S < SO_2 < CO_2$."
+    },
+    {
+        "id": "chem-latex-147",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following bonds is the LEAST polar?",
+        "answer": "C-I",
+        "options": [
+            "C-F",
+            "C-Cl",
+            "C-O",
+            "C-I"
+        ],
+        "difficulty": 1,
+        "explanation": "Polarity depends on the electronegativity difference. Carbon (2.5) and Iodine (2.5) have almost identical electronegativities, making the C-I bond highly non-polar."
+    },
+    {
+        "id": "chem-latex-148",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "$CH_3CH_2OH$ (Ethanol) experiences which intermolecular forces? I. London dispersion, II. Dipole-Dipole, III. Hydrogen bonds",
+        "answer": "I, II, and III",
+        "options": [
+            "I only",
+            "I and II only",
+            "II and III only",
+            "I, II, and III"
+        ],
+        "difficulty": 1,
+        "explanation": "Ethanol is a polar molecule (dipole-dipole), contains an O-H group allowing hydrogen bonding, and has electron clouds producing London forces."
+    },
+    {
+        "id": "chem-latex-149",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which pairs of bonds are placed in order of DECREASING average bond length?",
+        "answer": "$C-C > C=C > C\\equiv C$",
+        "options": [
+            "$C\\equiv C > C=C > C-C$",
+            "$C-C > C=C > C\\equiv C$",
+            "$C=C > C-C > C\\equiv C$",
+            "$C-C > C\\equiv C > C=C$"
+        ],
+        "difficulty": 1,
+        "explanation": "Bond length is inversely proportional to bond order. Single bonds are the longest, followed by double bonds, with triple bonds being the shortest."
+    },
+    {
+        "id": "chem-latex-150",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Arrange the following compounds in order of INCREASING boiling points: $CH_4$, $CH_3OH$, $CH_3Cl$.",
+        "answer": "$CH_4 < CH_3Cl < CH_3OH$",
+        "options": [
+            "$CH_3Cl < CH_4 < CH_3OH$",
+            "$CH_4 < CH_3Cl < CH_3OH$",
+            "$CH_3OH < CH_3Cl < CH_4$",
+            "$CH_4 < CH_3OH < CH_3Cl$"
+        ],
+        "difficulty": 2,
+        "explanation": "$CH_4$ exhibits only weak London forces. $CH_3Cl$ is polar (dipole-dipole). $CH_3OH$ can form strong hydrogen bonds, thus having the highest boiling point."
+    },
+    {
+        "id": "chem-latex-151",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following describes the structure of elemental Silicon?",
+        "answer": "A 3-dimensional giant covalent network with $sp^3$ hybridization",
+        "options": [
+            "A 2-dimensional lattice of $sp^2$ hybridized atoms",
+            "A simple molecular solid with strong London forces",
+            "A 3-dimensional giant covalent network with $sp^3$ hybridization",
+            "An ionic lattice of $Si^{4+}$ and delocalized electrons"
+        ],
+        "difficulty": 1,
+        "explanation": "Elemental silicon adopts a structure identical to diamond, forming a continuous 3D giant covalent network of tetrahedrally bonded atoms."
+    },
+    {
+        "id": "chem-latex-152",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "flashcard",
+        "question": "What is the hybridization of the central Phosphorus atom in $PCl_5$?",
+        "answer": "$sp^3d$",
+        "difficulty": 2,
+        "explanation": "Phosphorus in $PCl_5$ forms 5 sets of bonding pairs (an expanded octet), requiring the hybridization of one s, three p, and one d orbital ($sp^3d$) to form a trigonal bipyramidal structure."
+    },
+    {
+        "id": "chem-latex-153",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Calculate the number of moles in 35.0 grams of calcium carbonate ($CaCO_3$).",
+        "answer": "0.350 mol",
+        "options": [
+            "0.850 mol",
+            "0.350 mol",
+            "3.50 mol",
+            "0.400 mol"
+        ],
+        "difficulty": 2,
+        "explanation": "Molar mass of $CaCO_3 \\approx 40.08 + 12.01 + (3 \\times 16.00) = 100.09\\text{ g mol}^{-1}$. $n = \\frac{35.0}{100.09} \\approx 0.350\\text{ mol}$."
+    },
+    {
+        "id": "chem-latex-154",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Determine the empirical formula of a compound containing 40.0% Carbon, 6.7% Hydrogen, and 53.3% Oxygen by mass.",
+        "answer": "$CH_2O$",
+        "options": [
+            "$C_2H_4O_2$",
+            "$CH_2O$",
+            "$C_3H_6O_3$",
+            "$CHO$"
+        ]
+    },
+    {
+        "id": "chem-latex-155",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "What is the mass of Calcium needed to generate $0.05\\text{ m}^3$ of $H_2$ gas at $1.0 \\times 10^5\\text{ Pa}$ and $25.0^{\\circ}\\text{C}$? ($Ca + 2H_2O \\rightarrow Ca(OH)_2 + H_2$)",
+        "answer": "80.8 g",
+        "options": [
+            "40.4 g",
+            "80.8 g",
+            "121.2 g",
+            "20.2 g"
+        ],
+        "difficulty": 3,
+        "explanation": "$n(H_2) = (100000 \\times 0.05) / (8.31 \\times 298.15) \\approx 2.017\\text{ mol}$. The ratio of $Ca:H_2$ is $1:1$. Mass of $Ca = 2.017 \\times 40.08 \\approx 80.8\\text{ g}$."
+    },
+    {
+        "id": "chem-latex-156",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "A reaction has $\\Delta H = -50\\text{ kJ mol}^{-1}$ and $\\Delta S = -100\\text{ J K}^{-1}\\text{mol}^{-1}$. At what temperature does the reaction become non-spontaneous?",
+        "answer": "Above 500 K",
+        "options": [
+            "Above 500 K",
+            "Below 500 K",
+            "Above 200 K",
+            "Below 200 K"
+        ],
+        "difficulty": 2,
+        "explanation": "Spontaneity changes when $\\Delta G = 0$. $T = \\Delta H / \\Delta S = -50000 / -100 = 500\\text{ K}$. Since both are negative, it is spontaneous at low temperatures and non-spontaneous above 500 K."
+    },
+    {
+        "id": "chem-latex-157",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "Define the standard enthalpy of formation ($\\Delta H_f^\\ominus$).",
+        "answer": "The enthalpy change when one mole of a compound is formed from its elements in their standard states under standard conditions.",
+        "difficulty": 1,
+        "explanation": "Standard states are defined at 100 kPa and a specified temperature (usually 298 K)."
+    },
+    {
+        "id": "chem-latex-158",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which of the following processes represents an endothermic enthalpy change?",
+        "answer": "The atomization of iodine ($I_{2(s)} \\rightarrow 2I_{(g)}$)",
+        "options": [
+            "The condensation of steam",
+            "The neutralization of an acid and base",
+            "The atomization of iodine ($I_{2(s)} \\rightarrow 2I_{(g)}$)",
+            "The formation of carbon dioxide from its elements"
+        ],
+        "difficulty": 1,
+        "explanation": "Atomization involves breaking bonds and overcoming intermolecular forces, which requires an input of energy (endothermic)."
+    },
+    {
+        "id": "chem-latex-159",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "For the reaction $2NO(g) + O_2(g) \\rightarrow 2NO_2(g)$, the rate law is $Rate = k[NO]^2[O_2]$. What happens to the rate if the volume of the container is halved?",
+        "answer": "It increases by a factor of 8",
+        "options": [
+            "It increases by a factor of 2",
+            "It increases by a factor of 4",
+            "It increases by a factor of 8",
+            "It remains unchanged"
+        ],
+        "difficulty": 3,
+        "explanation": "Halving the volume doubles the concentration of both reactants. Rate $= k(2[NO])^2(2[O_2]) = k(4[NO]^2)(2[O_2]) = 8 \\times$ the original rate."
+    },
+    {
+        "id": "chem-latex-160",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "Which of the following does NOT shift the position of equilibrium in a reversible reaction?",
+        "answer": "Adding a catalyst",
+        "options": [
+            "Changing the temperature",
+            "Changing the pressure of gases",
+            "Adding more reactant",
+            "Adding a catalyst"
+        ],
+        "difficulty": 1,
+        "explanation": "A catalyst increases the rates of both the forward and reverse reactions equally, reaching equilibrium faster but not changing its position."
+    },
+    {
+        "id": "chem-latex-161",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "flashcard",
+        "question": "Calculate the pH of a $0.05\\text{ mol dm}^{-3}$ solution of a strong acid like $HCl$.",
+        "answer": "pH = 1.3",
+        "difficulty": 2,
+        "explanation": "$pH = -\\log_{10}[H^+] = -\\log_{10}(0.05) \\approx 1.3$."
+    },
+    {
+        "id": "chem-latex-162",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "Which is the conjugate base of $H_2PO_4^-$?",
+        "answer": "$HPO_4^{2-}$",
+        "options": [
+            "$H_3PO_4$",
+            "$PO_4^{3-}$",
+            "$HPO_4^{2-}$",
+            "$H_2P_2O_7^{2-}$"
+        ],
+        "difficulty": 2,
+        "explanation": "A conjugate base is formed by removing one $H^+$ from the acid. Removing $H^+$ from $H_2PO_4^-$ yields $HPO_4^{2-}$."
+    },
+    {
+        "id": "chem-latex-163",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "In an $S_N2$ reaction, which species acts as a good nucleophile?",
+        "answer": "$OH^-$",
+        "options": [
+            "$CH_4$",
+            "$BF_3$",
+            "$Na^+$",
+            "$OH^-$"
+        ],
+        "difficulty": 1,
+        "explanation": "Nucleophiles are electron-rich species that can donate an electron pair. $OH^-$ has lone pairs and a negative charge, making it a strong nucleophile."
+    },
+    {
+        "id": "chem-latex-164",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "flashcard",
+        "question": "Describe the mechanism of an $S_N1$ reaction.",
+        "answer": "A two-step process: First, the leaving group detaches to form a carbocation intermediate (slow). Second, the nucleophile attacks the carbocation (fast).",
+        "difficulty": 2,
+        "explanation": "Because the carbocation is planar, the nucleophile can attack from either side, often resulting in a racemic mixture."
+    },
+    {
+        "id": "chem-latex-165",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which transition metal ion is colorless in aqueous solution?",
+        "answer": "$Zn^{2+}$",
+        "options": [
+            "$Cu^{2+}$",
+            "$Fe^{2+}$",
+            "$Zn^{2+}$",
+            "$Cr^{3+}$"
+        ],
+        "difficulty": 2,
+        "explanation": "Zinc ($Zn^{2+}$) has a full 3d subshell ($3d^{10}$). With no partially filled d-orbitals, d-d electron transitions cannot occur, so the solution is colorless."
+    },
+    {
+        "id": "chem-latex-166",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Select the correct electron configuration for the $Fe^{3+}$ ion.",
+        "answer": "$[Ar] \\ 3d^5$",
+        "options": [
+            "$[Ar] \\ 4s^2 3d^3$",
+            "$[Ar] \\ 3d^5$",
+            "$[Ar] \\ 4s^1 3d^4$",
+            "$[Ar] \\ 3d^6$"
+        ],
+        "difficulty": 2,
+        "explanation": "Iron ($Fe$) is $[Ar] \\ 4s^2 3d^6$. When forming ions, transition metals lose their 4s electrons first. Losing 3 electrons gives $[Ar] \\ 3d^5$."
+    },
+    {
+        "id": "chem-latex-167",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Across Period 3, from Na to Cl, what is the general trend in first ionization energy?",
+        "answer": "It generally increases due to increasing effective nuclear charge",
+        "options": [
+            "It generally decreases due to increasing atomic radius",
+            "It generally increases due to increasing effective nuclear charge",
+            "It remains constant because they are in the same shell",
+            "It fluctuates randomly with no clear trend"
+        ],
+        "difficulty": 1,
+        "explanation": "As protons are added across the period, the effective nuclear charge increases, gripping the valence electrons more tightly."
+    },
+    {
+        "id": "chem-latex-168",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "In a voltaic cell formed by $Zn_{(s)} / Zn^{2+}_{(aq)}$ and $Cu_{(s)} / Cu^{2+}_{(aq)}$ half-cells, at which electrode does oxidation occur?",
+        "answer": "The Zinc electrode (Anode)",
+        "options": [
+            "The Copper electrode (Anode)",
+            "The Zinc electrode (Cathode)",
+            "The Zinc electrode (Anode)",
+            "The Copper electrode (Cathode)"
+        ],
+        "difficulty": 1,
+        "explanation": "Oxidation always occurs at the Anode (An Ox). Zinc is more reactive than copper, so zinc acts as the anode and is oxidized."
+    },
+    {
+        "id": "chem-latex-169",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "State the standard cell potential ($E^\\ominus_{cell}$) formula.",
+        "answer": "$E^\\ominus_{cell} = E^\\ominus_{cathode} - E^\\ominus_{anode}$",
+        "difficulty": 1,
+        "explanation": "If the calculated $E^\\ominus_{cell}$ is positive, the reaction is spontaneous."
+    },
+    {
+        "id": "chem-latex-170",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "What is the oxidation state of Phosphorus in $H_3PO_4$?",
+        "answer": "+5",
+        "options": [
+            "+3",
+            "+5",
+            "-3",
+            "+4"
+        ],
+        "difficulty": 1,
+        "explanation": "$H$ is $+1$ ($3 \\times 1 = +3$), $O$ is $-2$ ($4 \\times -2 = -8$). To balance to $0$, $P$ must be $+5$."
+    },
+    {
+        "id": "chem-latex-171",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which row represents the enthalpy change for condensation and sublimation phase changes?",
+        "answer": "Exothermic; Endothermic",
+        "options": [
+            "Endothermic; Exothermic",
+            "Endothermic; Endothermic",
+            "Exothermic; Exothermic",
+            "Exothermic; Endothermic"
+        ],
+        "difficulty": 1,
+        "explanation": "Condensation (gas to liquid) releases energy as intermolecular forces form. Sublimation (solid to gas) requires energy to overcome all intermolecular forces."
+    },
+    {
+        "id": "chem-latex-172",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which of the following is correct in an endothermic reaction?",
+        "answer": "Temperature of surroundings decreases; Energy stored in bonds increases",
+        "options": [
+            "Temperature of surroundings increases; Energy stored in bonds increases",
+            "Temperature of surroundings increases; Energy stored in bonds decreases",
+            "Temperature of surroundings decreases; Energy stored in bonds increases",
+            "Temperature of surroundings decreases; Energy stored in bonds decreases"
+        ],
+        "difficulty": 1,
+        "explanation": "In endothermic reactions, heat is absorbed from the surroundings (cooling them) and converted into chemical potential energy stored in the products."
+    },
+    {
+        "id": "chem-latex-173",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which of the following statements is FALSE?",
+        "answer": "The standard enthalpy of formation for a pure compound in its standard state is zero",
+        "options": [
+            "Hess's law states enthalpy change is independent of the route taken",
+            "$\\Delta H_r^\\ominus = \\sum \\Delta H_f^\\ominus \\text{(products)} - \\sum \\Delta H_f^\\ominus \\text{(reactants)} $",
+            "The standard enthalpy of formation of $O_{2(g)}$ is zero",
+            "The standard enthalpy of formation for a pure compound in its standard state is zero"
+        ],
+        "difficulty": 1,
+        "explanation": "The standard enthalpy of formation is zero ONLY for elements in their standard states. Pure compounds have a non-zero enthalpy of formation."
+    },
+    {
+        "id": "chem-latex-174",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which of the following reactions will have the greatest decrease in entropy ($\\Delta S < 0$)?",
+        "answer": "$N_{2(g)} + 3H_{2(g)} \\rightarrow 2NH_{3(g)}$",
+        "options": [
+            "$N_{2(g)} + 3H_{2(g)} \\rightarrow 2NH_{3(g)}$",
+            "$H_{2(g)} + I_{2(g)} \\rightarrow 2HI_{(g)}$",
+            "$2SO_{2(g)} + O_{2(g)} \\rightarrow 2SO_{3(g)}$",
+            "$N_{2(g)} + O_{2(g)} \\rightarrow 2NO_{(g)}$"
+        ],
+        "difficulty": 2,
+        "explanation": "The Haber process (Option A) converts 4 moles of gas into 2 moles of gas. This reduction in the number of gaseous particles results in the largest decrease in disorder."
+    },
+    {
+        "id": "chem-latex-175",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "A reaction is endothermic and results in an increase in entropy. Which statement is true?",
+        "answer": "The reaction is spontaneous at high temperatures",
+        "options": [
+            "The reaction is always spontaneous",
+            "The reaction is never spontaneous",
+            "The reaction is spontaneous at high temperatures",
+            "The reaction is spontaneous at low temperatures"
+        ],
+        "difficulty": 2,
+        "explanation": "In $\\Delta G = \\Delta H - T\\Delta S$, if $\\Delta H$ is positive and $\\Delta S$ is positive, the $T\\Delta S$ term must be large enough to make $\\Delta G$ negative, which happens at high temperatures."
+    },
+    {
+        "id": "chem-latex-176",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "A block of Nickel (70g, $c = 0.50\\text{ J g}^{-1}\\text{K}^{-1}$) absorbs 350 J of heat. If the initial temperature was $18.70^{\\circ}\\text{C}$, what is the final temperature?",
+        "answer": "$28.70^{\\circ}\\text{C}$",
+        "options": [
+            "$28.70^{\\circ}\\text{C}$",
+            "$18.70^{\\circ}\\text{C}$",
+            "$11.30^{\\circ}\\text{C}$",
+            "$23.70^{\\circ}\\text{C}$"
+        ],
+        "difficulty": 2,
+        "explanation": "$\\Delta T = q / (m \\times c) = 350 / (70 \\times 0.5) = 10^{\\circ}\\text{C}$. $T_f = 18.70 + 10 = 28.70^{\\circ}\\text{C}$."
+    },
+    {
+        "id": "chem-latex-177",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which combination of $\\Delta H$ and $\\Delta S$ results in a reaction being spontaneous at all temperatures?",
+        "answer": "$\\Delta H = \\text{negative}, \\Delta S = \\text{positive}$",
+        "options": [
+            "$\\Delta H = \\text{positive}, \\Delta S = \\text{positive}$",
+            "$\\Delta H = \\text{positive}, \\Delta S = \\text{negative}$",
+            "$\\Delta H = \\text{negative}, \\Delta S = \\text{positive}$",
+            "$\\Delta H = \\text{negative}, \\Delta S = \\text{negative}$"
+        ],
+        "difficulty": 1,
+        "explanation": "If enthalpy is negative (releasing energy) and entropy is positive (increasing disorder), $\\Delta G$ will be negative regardless of the temperature."
+    },
+    {
+        "id": "chem-latex-178",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "What is the enthalpy change for the reaction: $\\frac{1}{2}N_{2(g)} + \\frac{1}{2}O_{2(g)} \\rightarrow NO_{(g)}$, given $\\frac{1}{2}N_2 + O_2 \\rightarrow NO_2$ ($\\Delta H = +33.9$ kJ) and $NO + \\frac{1}{2}O_2 \\rightarrow NO_2$ ($\\Delta H = -56.5$ kJ)?",
+        "answer": "+90.4 kJ",
+        "difficulty": 3,
+        "explanation": "Using Hess's Law: Reverse the second equation ($NO_2 \\rightarrow NO + \\frac{1}{2}O_2, \\Delta H = +56.5$) and add it to the first ($33.9 + 56.5 = 90.4$ kJ)."
+    },
+    {
+        "id": "chem-latex-179",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which fuel is most likely to undergo incomplete combustion?",
+        "answer": "Coal",
+        "options": [
+            "Propane",
+            "Coal",
+            "Natural gas",
+            "Ethanol"
+        ],
+        "difficulty": 1,
+        "explanation": "Solid fuels like coal often have limited oxygen access compared to gases or liquids, leading to the production of CO or soot (C)."
+    },
+    {
+        "id": "chem-latex-180",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "Define 'Average Bond Enthalpy'.",
+        "answer": "The energy required to break one mole of a bond in a gaseous molecule averaged over similar compounds.",
+        "difficulty": 2,
+        "explanation": "It is always endothermic (+) because breaking bonds requires energy."
+    },
+    {
+        "id": "chem-latex-181",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "What is the relationship between the equilibrium constant ($K_c$) and $\\Delta G$ if $\\Delta G$ is positive?",
+        "answer": "$K_c < 1$",
+        "options": [
+            "$K_c < 1$",
+            "$K_c > 1$",
+            "$K_c = 1$",
+            "No relationship"
+        ],
+        "difficulty": 2,
+        "explanation": "A positive $\\Delta G$ indicates a non-spontaneous reaction, meaning at equilibrium, the reactants are favored and $K_c$ will be less than 1."
+    },
+    {
+        "id": "chem-latex-182",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Calculate the enthalpy change of the cracking reaction for butane: $C_4H_{10} \\rightarrow C_2H_6 + C_2H_4$ given $C=C$ (620), $C-C$ (350), and $C-H$ (420) kJ/mol.",
+        "answer": "+80 kJ/mol",
+        "options": [
+            "+80 kJ/mol",
+            "+150 kJ/mol",
+            "-80 kJ/mol",
+            "-150 kJ/mol"
+        ],
+        "difficulty": 3,
+        "explanation": "Bonds broken: one $C-C$ (350) and two $C-H$ (840). Bonds formed: one $C=C$ (620) and one $C-C$ (350) and zero $C-H$ net change. Actually, simplified: one $C-C$ breaks and one $C=C$ forms while shifting H. Calculated: (Bonds Broken) - (Bonds Formed) = $(350) - (620 - 350) = 80$ kJ/mol."
+    },
+    {
+        "id": "chem-latex-183",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which describes a crude oil as an energy source?",
+        "answer": "Non-renewable; High energy density; Produces $SO_2$, $NO_x$, and $CO_2$",
+        "options": [
+            "Renewable; High energy density; Produces $SO_2$, $NO_x$, $CO_2$",
+            "Non-renewable; High energy density; Produces $SO_2$, $NO_x$, $CO_2$",
+            "Non-renewable; High energy density; Produces only $CO_2$",
+            "Non-renewable; Low energy density; Produces $SO_2$, $NO_x$, $CO_2$"
+        ],
+        "difficulty": 1,
+        "explanation": "Crude oil is a fossil fuel (non-renewable) with a high specific energy but releases sulfur and nitrogen impurities along with greenhouse gases."
+    },
+    {
+        "id": "chem-latex-184",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "At chemical equilibrium, what is the state of Gibbs Free Energy ($G$)?",
+        "answer": "$G$ is at a minimum and $\\Delta G = 0$.",
+        "difficulty": 2,
+        "explanation": "Equilibrium represents the point where the system can no longer perform useful work spontaneously."
+    },
+    {
+        "id": "chem-latex-185",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which of the following describes the energy change when bonds are broken and formed?",
+        "answer": "Breaking bonds is endothermic (+), forming bonds is exothermic (-)",
+        "options": [
+            "Breaking bonds is exothermic (-), forming bonds is endothermic (+)",
+            "Breaking bonds is endothermic (+), forming bonds is exothermic (-)",
+            "Both are endothermic",
+            "Both are exothermic"
+        ],
+        "difficulty": 1,
+        "explanation": "Energy must be absorbed to overcome the electrostatic attraction between atoms (breaking), while energy is released when new stable attractions are established (forming)."
+    },
+    {
+        "id": "chem-latex-186",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Using bond enthalpy data, calculate $\\Delta H$ for the reaction: $CH_4(g) + 2O_2(g) \\rightarrow CO_2(g) + 2H_2O(g)$. Bond Enthalpies: C-H (414), O=O (498), C=O (804), O-H (463).",
+        "answer": "-808 kJ/mol",
+        "options": [
+            "-808 kJ/mol",
+            "+808 kJ/mol",
+            "-650 kJ/mol",
+            "+650 kJ/mol"
+        ],
+        "difficulty": 3,
+        "explanation": "Reactants: $4(414) + 2(498) = 2652$. Products: $2(804) + 4(463) = 3460$. $\\Delta H = 2652 - 3460 = -808$ kJ/mol."
+    },
+    {
+        "id": "chem-latex-187",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "What is the relationship between $\\Delta H_1$, $\\Delta H_2$, and $\\Delta H_3$ in a Hess's Law cycle where Route 1 is $A \\rightarrow B$ and Route 2 is $A \\rightarrow C \\rightarrow B$?",
+        "answer": "$\\Delta H_1 = \\Delta H_2 + \\Delta H_3$",
+        "difficulty": 1,
+        "explanation": "Hess's Law states that the total enthalpy change is independent of the pathway taken."
+    },
+    {
+        "id": "chem-latex-188",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which of the following compounds has the highest absolute entropy at 298 K?",
+        "answer": "$CO_{2(g)}$",
+        "options": [
+            "$C_{(s)}$",
+            "$H_2O_{(l)}$",
+            "$CO_{2(g)}$",
+            "$O_{2(g)}$"
+        ],
+        "difficulty": 2,
+        "explanation": "Gases have higher entropy than liquids and solids. $CO_2$ has higher entropy than $O_2$ because it is a more complex molecule with more ways to vibrate and rotate."
+    },
+    {
+        "id": "chem-latex-189",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which transition metal complex is likely to be used to demonstrate an endothermic equilibrium shift via color change in water?",
+        "answer": "$[Cu(H_2O)_6]^{2+} + 4Cl^- \\rightleftharpoons [CuCl_4]^{2-} + 6H_2O$",
+        "options": [
+            "$[Cu(H_2O)_6]^{2+} + 4Cl^- \\rightleftharpoons [CuCl_4]^{2-} + 6H_2O$",
+            "$H_2 + I_2 \\rightleftharpoons 2HI$",
+            "$N_2 + 3H_2 \\rightleftharpoons 2NH_3$",
+            "$2SO_2 + O_2 \\rightleftharpoons 2SO_3$"
+        ],
+        "difficulty": 3,
+        "explanation": "The formation of the yellow chloro-complex from the blue aqua-complex is endothermic. Increasing temperature shifts the equilibrium to the right (yellow)."
+    },
+    {
+        "id": "chem-latex-190",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "State the enthalpy of formation for $N_{2(g)}$ at standard conditions.",
+        "answer": "0 kJ/mol",
+        "difficulty": 1,
+        "explanation": "By definition, the enthalpy of formation of an element in its standard state is zero."
+    },
+    {
+        "id": "chem-latex-191",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "What is the correct order of specific energy (kJ/g) from highest to lowest for these fuels?",
+        "answer": "Hydrogen > Methane > Butane > Ethanol",
+        "options": [
+            "Hydrogen > Methane > Butane > Ethanol",
+            "Methane > Hydrogen > Butane > Ethanol",
+            "Ethanol > Butane > Methane > Hydrogen",
+            "Hydrogen > Butane > Methane > Ethanol"
+        ],
+        "difficulty": 2,
+        "explanation": "Hydrogen has the highest specific energy because it has the highest energy-to-mass ratio. Alkanes follow, and alcohols are lower due to being partially oxidized."
+    },
+    {
+        "id": "chem-latex-192",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "In a hydrogen fuel cell under acidic conditions, what is the reaction occurring at the cathode?",
+        "answer": "$O_2 + 4H^+ + 4e^- \\rightarrow 2H_2O$",
+        "options": [
+            "$H_2 \\rightarrow 2H^+ + 2e^-$",
+            "$O_2 + 4H^+ + 4e^- \\rightarrow 2H_2O$",
+            "$2H_2O \\rightarrow O_2 + 4H^+ + 4e^-$",
+            "$O_2 + 2H_2O + 4e^- \\rightarrow 4OH^-$"
+        ],
+        "difficulty": 2,
+        "explanation": "At the cathode, reduction occurs. Oxygen gas reacts with protons to form water."
+    },
+    {
+        "id": "chem-latex-193",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which method of determining enthalpy change is generally the MOST accurate?",
+        "answer": "Method using enthalpies of formation",
+        "options": [
+            "Method using average bond enthalpies",
+            "Method using enthalpies of formation",
+            "Method using calorimetry with a styrofoam cup",
+            "Method using boiling point elevation"
+        ],
+        "difficulty": 2,
+        "explanation": "Enthalpies of formation are specific to the compounds involved, whereas bond enthalpies are averages across many different compounds and are less precise."
+    },
+    {
+        "id": "chem-latex-194",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Calculate $\\Delta G^\\ominus$ for the sublimation of dry ice ($CO_{2(s)} \\rightarrow CO_{2(g)}$) at 298 K, given $\\Delta H = +26.1\\text{ kJ/mol}$ and $\\Delta S = +70.0\\text{ J/K mol}$.",
+        "answer": "+5.24 kJ/mol",
+        "options": [
+            "+5.24 kJ/mol",
+            "-5.24 kJ/mol",
+            "+24.0 kJ/mol",
+            "-24.0 kJ/mol"
+        ],
+        "difficulty": 3,
+        "explanation": "$\\Delta G = \\Delta H - T\\Delta S = 26.1 - (298 \\times 0.070) = 26.1 - 20.86 = 5.24$ kJ/mol."
+    },
+    {
+        "id": "chem-latex-195",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "Define 'Specific Heat Capacity'.",
+        "answer": "The amount of heat energy required to raise the temperature of one gram of a substance by one Kelvin (or degree Celsius).",
+        "difficulty": 1,
+        "explanation": "Commonly represented by 'c' in the equation $q = mc\\Delta T$."
+    },
+    {
+        "id": "chem-latex-196",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "What is the enthalpy change for the reaction $2CO(g) + O_2(g) \\rightarrow 2CO_2(g)$ using enthalpies of formation: $CO = -110.5, CO_2 = -393.5$ kJ/mol?",
+        "answer": "-566.0 kJ",
+        "options": [
+            "-283.0 kJ",
+            "-566.0 kJ",
+            "+566.0 kJ",
+            "-504.0 kJ"
+        ],
+        "difficulty": 2,
+        "explanation": "$\\Delta H = [2(-393.5)] - [2(-110.5) + 0] = -787 - (-221) = -566.0$ kJ."
+    },
+    {
+        "id": "chem-latex-197",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which factors affect the entropy of a system? I. Temperature, II. Physical state, III. Number of particles.",
+        "answer": "I, II, and III",
+        "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II, and III"
+        ],
+        "difficulty": 2,
+        "explanation": "All three change the number of possible microstates (disorder) in a system."
+    },
+    {
+        "id": "chem-latex-198",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "State the products of the incomplete combustion of butane ($C_4H_{10}$) in a very limited oxygen supply.",
+        "answer": "Carbon (soot) and Water ($C_{(s)} + H_2O_{(g)}$).",
+        "difficulty": 2,
+        "explanation": "With extremely low $O_2$, carbon is not even oxidized to $CO$, but left as elemental solid carbon."
+    },
+    {
+        "id": "chem-latex-199",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Calculate the mass of Magnesium added to $500\\text{ cm}^3$ of $HCl$ if the temperature rose by $2.0^{\\circ}\\text{C}$ and the total enthalpy change was $0.185\\text{ kJ}$. ($c_{water} = 4.18$)",
+        "answer": "This data is contradictory.",
+        "options": [
+            "0.12 g",
+            "0.01 g",
+            "This data is contradictory.",
+            "4.18 g"
+        ],
+        "difficulty": 3,
+        "explanation": "$q = mc\\Delta T = 500 \\times 4.18 \\times 2 = 4180\\text{ J} = 4.18\\text{ kJ}$. If the prompt says $\\Delta H$ is $0.185\\text{ kJ}$, it contradicts the observed temperature rise for that volume."
+    },
+    {
+        "id": "chem-latex-200",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "What is the equilibrium constant $K_c$ for the reaction $CO + 2H_2 \\rightleftharpoons CH_3OH$ if a $0.75\\text{ dm}^3$ flask contains $0.923\\text{ mol } CH_3OH$, $0.352\\text{ mol } CO$, and $0.124\\text{ mol } H_2$?",
+        "answer": "113.5",
+        "options": [
+            "21.2",
+            "113.5",
+            "151.3",
+            "85.1"
+        ],
+        "difficulty": 3,
+        "explanation": "$[CH_3OH]=1.23, [CO]=0.469, [H_2]=0.165$. $K_c = 1.23 / (0.469 \\times 0.165^2) \\approx 113.5$."
+    },
+    {
+        "id": "chem-latex-201",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "What is the sum of the coefficients when the following equation is balanced? $LiOH(aq) + H_2SO_4(aq) \\rightarrow Li_2SO_4(aq) + H_2O(l)$",
+        "answer": "6",
+        "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+        ],
+        "difficulty": 1,
+        "explanation": "Balanced equation: $2LiOH + 1H_2SO_4 \\rightarrow 1Li_2SO_4 + 2H_2O$. Sum: $2+1+1+2 = 6$."
+    },
+    {
+        "id": "chem-latex-202",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "What is the term for the maximum amount of product that would result from the complete consumption of the limiting reagent?",
+        "answer": "Theoretical yield",
+        "options": [
+            "Actual yield",
+            "Experimental yield",
+            "Percent yield",
+            "Theoretical yield"
+        ],
+        "difficulty": 1,
+        "explanation": "Theoretical yield is the calculated maximum, whereas actual/experimental yield is what is obtained in the lab."
+    },
+    {
+        "id": "chem-latex-203",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "Which statement is correct about the total number of molecules in a Maxwell-Boltzmann distribution plot at different temperatures?",
+        "answer": "The number of molecules remains the same",
+        "options": [
+            "There are more molecules at low temperatures",
+            "There are more molecules at high temperatures",
+            "The number of molecules depends on the temperature",
+            "The number of molecules remains the same"
+        ],
+        "difficulty": 1,
+        "explanation": "The area under the curve represents the total number of particles. Changing the temperature reshapes the curve but the total area (and particle count) remains constant."
+    },
+    {
+        "id": "chem-latex-204",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "Which of the following CANNOT be used to determine the rate expression for a reaction?",
+        "answer": "Theoretical mechanisms for the reaction",
+        "options": [
+            "Theoretical mechanisms for the reaction",
+            "Graphs of concentration vs. time",
+            "Graphs of rate vs. concentration",
+            "Experimental observation tables"
+        ],
+        "difficulty": 1,
+        "explanation": "Rate expressions must be determined experimentally. Mechanisms are proposed *based* on the experimental rate law, not the other way around."
+    },
+    {
+        "id": "chem-latex-205",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "For the reaction $Mg(s) + 2HNO_3(aq) \\rightarrow Mg(NO_3)_2(aq) + H_2(g)$, which factor increases the rate?",
+        "answer": "Using powdered magnesium instead of strips",
+        "options": [
+            "Lowering the temperature",
+            "Decreasing acid concentration",
+            "Increasing the volume of the acid",
+            "Using powdered magnesium instead of strips"
+        ],
+        "difficulty": 1,
+        "explanation": "Powdered magnesium has a higher surface area, increasing the frequency of successful collisions between the solid and the acid."
+    },
+    {
+        "id": "chem-latex-206",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "If the rate constant $k$ has units of mol$^{-2}$ dm$^6$ s$^{-1}$, what is the overall order of the reaction?",
+        "answer": "3",
+        "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+        ],
+        "difficulty": 2,
+        "explanation": "The formula for units of $k$ is mol$^{1-n}$ dm$^{3n-3}$ s$^{-1}$, where $n$ is the order. For $n=3$, units are mol$^{-2}$ dm$^6$ s$^{-1}$."
+    },
+    {
+        "id": "chem-latex-207",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "Cesium-137 has a half-life of 30 years (first-order decay). How long will it take for a 400 g sample to be reduced to 25 g?",
+        "answer": "120 years",
+        "options": [
+            "30 years",
+            "60 years",
+            "90 years",
+            "120 years"
+        ],
+        "difficulty": 2,
+        "explanation": "400 to 200 (1), 200 to 100 (2), 100 to 50 (3), 50 to 25 (4). Four half-lives: $4 \\times 30 = 120$ years."
+    },
+    {
+        "id": "chem-latex-208",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "What are the units of the frequency factor $A$ in the Arrhenius equation for a reaction with the rate law: $rate = k[Ester][NaOH]$?",
+        "answer": "mol$^{-1}$ dm$^3$ s$^{-1}$",
+        "options": [
+            "s$^{-1}$",
+            "mol dm$^{-3}$ s$^{-1}$",
+            "mol$^{-1}$ dm$^3$ s$^{-1}$",
+            "mol$^{-2}$ dm$^6$ s$^{-1}$"
+        ],
+        "difficulty": 3,
+        "explanation": "The frequency factor $A$ has the same units as the rate constant $k$. For a second-order reaction, $k$ is $rate / [M]^2$, resulting in mol$^{-1}$ dm$^3$ s$^{-1}$."
+    },
+    {
+        "id": "chem-latex-209",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "For the equilibrium $PCl_5(g) \\rightleftharpoons PCl_3(g) + Cl_2(g)$, a $100\\text{ cm}^3$ container has 0.723 mol $PCl_5$, 0.273 mol $PCl_3$, and 0.261 mol $Cl_2$. Calculate the reaction quotient $Q$.",
+        "answer": "0.986",
+        "options": [
+            "0.098",
+            "0.986",
+            "9.86",
+            "0.497"
+        ],
+        "difficulty": 3,
+        "explanation": "Concentrations: $[PCl_5]=7.23, [PCl_3]=2.73, [Cl_2]=2.61$. $Q = (2.73 \\times 2.61) / 7.23 \\approx 0.986$."
+    },
+    {
+        "id": "chem-latex-210",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "An endothermic reaction at equilibrium is subjected to a temperature increase. What happens to $K_c$ and the position of equilibrium?",
+        "answer": "$K_c$ changes; Shifts towards products",
+        "options": [
+            "$K_c$ changes; Shifts towards products",
+            "$K_c$ changes; Shifts towards reactants",
+            "$K_c$ stays the same; Shifts towards products",
+            "$K_c$ stays the same; Shifts towards reactants"
+        ],
+        "difficulty": 2,
+        "explanation": "For endothermic reactions, increasing temperature increases the value of $K_c$ and shifts the equilibrium to the right (products)."
+    },
+    {
+        "id": "chem-latex-211",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "What is the sum of the coefficients for the complete combustion of propan-1-ol ($C_3H_7OH$)?",
+        "answer": "25",
+        "options": [
+            "12",
+            "13",
+            "24",
+            "25"
+        ],
+        "difficulty": 2,
+        "explanation": "Equation: $2C_3H_7OH + 9O_2 \\rightarrow 6CO_2 + 8H_2O$. Sum: $2+9+6+8 = 25$."
+    },
+    {
+        "id": "chem-latex-214",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "Which statement describes a system at dynamic equilibrium?",
+        "answer": "The rate of the forward reaction equals the rate of the reverse reaction",
+        "options": [
+            "The concentration of reactants equals the concentration of products",
+            "The reaction has stopped completely",
+            "The rate of the forward reaction equals the rate of the reverse reaction",
+            "The system is open to the surroundings"
+        ],
+        "difficulty": 1,
+        "explanation": "Dynamic equilibrium means reactions continue to occur, but because the rates are equal, there is no net change in concentration."
+    },
+    {
+        "id": "chem-latex-215",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "A reaction has the rate law $rate = k[NO]^2[O_2]$. How does the rate change if $[NO]$ is doubled and $[O_2]$ is tripled?",
+        "answer": "Increases by factor of 12",
+        "options": [
+            "Increases by factor of 5",
+            "Increases by factor of 6",
+            "Increases by factor of 12",
+            "Increases by factor of 18"
+        ],
+        "difficulty": 3,
+        "explanation": "$2^2 \\times 3 = 4 \\times 3 = 12$."
+    },
+    {
+        "id": "chem-latex-216",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "In the reaction $C_2H_6O(l) + 3O_2(g) \\rightarrow 2CO_2(g) + 3H_2O(g)$, the rate of appearance of $CO_2$ is $3.0 \\times 10^{-2}$ mol dm$^{-3}$ s$^{-1}$. What is the rate of disappearance of $O_2$?",
+        "answer": "4.5 $\\times 10^{-2}$ mol dm$^{-3}$ s$^{-1}$",
+        "options": [
+            "4.5 $\\times 10^{-2}$ mol dm$^{-3}$ s$^{-1}$",
+            "3.0 $\\times 10^{-2}$ mol dm$^{-3}$ s$^{-1}$",
+            "6.0 $\\times 10^{-2}$ mol dm$^{-3}$ s$^{-1}$",
+            "1.5 $\\times 10^{-2}$ mol dm$^{-3}$ s$^{-1}$"
+        ],
+        "difficulty": 2,
+        "explanation": "The stoichiometric ratio of $O_2$ to $CO_2$ is $3:2$. Therefore, the rate of $O_2$ disappearance is $1.5 \\times$ the rate of $CO_2$ appearance ($3.0 \\times 1.5 = 4.5$)."
+    },
+    {
+        "id": "chem-latex-217",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "A reaction is first order with respect to [M]. When [M] = 1.0 mol dm$^{-3}$, the rate is 0.5 s$^{-1}$. What is the rate when [M] = 1.5 mol dm$^{-3}$?",
+        "answer": "0.75 s$^{-1}$",
+        "options": [
+            "1.0 s$^{-1}$",
+            "2.0 s$^{-1}$",
+            "0.25 s$^{-1}$",
+            "0.75 s$^{-1}$"
+        ],
+        "difficulty": 2,
+        "explanation": "For a first-order reaction, rate is directly proportional to concentration. If concentration increases by a factor of 1.5, the rate also increases by 1.5 ($0.5 \\times 1.5 = 0.75$)."
+    },
+    {
+        "id": "chem-latex-218",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "Which of the following determines the frequency factor (A) in the Arrhenius equation?",
+        "answer": "The frequency of collisions in which molecules have the correct orientation",
+        "options": [
+            "The frequency of collisions in which molecules lose kinetic energy",
+            "The frequency of collisions in which molecules form a transition state",
+            "The frequency of collisions in which molecules have the correct orientation",
+            "The frequency of collisions in which molecules exceed activation energy"
+        ],
+        "difficulty": 1,
+        "explanation": "The frequency factor A accounts for both the frequency of collisions and the probability that they occur with the correct geometry/orientation."
+    },
+    {
+        "id": "chem-latex-219",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "If 0.86 moles of $N_2$ are mixed with 0.50 moles of $H_2$ for the reaction $N_2 + 3H_2 \\rightarrow 2NH_3$, which reactant is in excess?",
+        "answer": "$N_2$",
+        "options": [
+            "$N_2$",
+            "$H_2$",
+            "Both are in excess",
+            "Neither is in excess"
+        ],
+        "difficulty": 2,
+        "explanation": "Ratio required is $1 N_2 : 3 H_2$. For 0.50 moles of $H_2$, only $0.50/3 = 0.167$ moles of $N_2$ are needed. Since 0.86 moles are present, $N_2$ is in excess."
+    },
+    {
+        "id": "chem-latex-220",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "When 11.0 g of propane ($M_w = 44.0$) is combusted in 8.0 g of oxygen ($M_w = 32.0$), which is the excess reactant and how many moles remain?",
+        "answer": "Propane ($C_3H_8$); 0.20 moles",
+        "options": [
+            "Oxygen; 0.20 moles",
+            "Propane; 0.20 moles",
+            "Oxygen; 0.25 moles",
+            "Propane; 0.25 moles"
+        ],
+        "difficulty": 3,
+        "explanation": "Moles propane = 0.25; Moles $O_2$ = 0.25. $C_3H_8 + 5O_2 \\rightarrow 3CO_2 + 4H_2O$. 0.25 moles $O_2$ only needs 0.05 moles propane. Remaining propane = $0.25 - 0.05 = 0.20$ moles."
+    },
+    {
+        "id": "chem-latex-221",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "flashcard",
+        "question": "Explain the difference between the reaction quotient (Q) and the equilibrium constant ($K_c$).",
+        "answer": "Q is calculated using concentrations at any point in time; $K_c$ is calculated only when the system is at equilibrium.",
+        "difficulty": 1,
+        "explanation": "Comparing Q to $K_c$ allows us to predict the direction in which a reaction will proceed to reach equilibrium."
+    },
+    {
+        "id": "chem-latex-222",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "Calculate the theoretical yield of methanol if 600 g of CO reacts with excess $H_2$. ($CO + 2H_2 \\rightarrow CH_3OH$)",
+        "answer": "686 g",
+        "options": [
+            "600 g",
+            "686 g",
+            "485 g",
+            "1200 g"
+        ],
+        "difficulty": 2,
+        "explanation": "Moles CO = $600 / 28.01 = 21.42$ mol. Molar ratio 1:1, so 21.42 mol methanol. Mass = $21.42 \\times 32.04 = 686.3$ g."
+    },
+    {
+        "id": "chem-latex-223",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "flashcard",
+        "question": "State Le Chatelier's Principle.",
+        "answer": "If a system at equilibrium is subjected to a change, the position of equilibrium shifts to minimize the effect of that change.",
+        "difficulty": 1,
+        "explanation": "This applies to changes in concentration, pressure (for gases), and temperature."
+    },
+    {
+        "id": "chem-latex-224",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "What happens to the rate constant (k) of a reaction when the temperature is increased?",
+        "answer": "It increases exponentially",
+        "options": [
+            "It remains constant",
+            "It increases linearly",
+            "It increases exponentially",
+            "It decreases"
+        ],
+        "difficulty": 2,
+        "explanation": "According to the Arrhenius equation, $k = Ae^{-E_a/RT}$, an increase in T leads to an exponential increase in the rate constant."
+    },
+    {
+        "id": "chem-latex-225",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "Which of the following is correct for the equilibrium: $Cr_2O_7^{2-}(aq) + H_2O(l) \\rightleftharpoons 2CrO_4^{2-}(aq) + 2H^+(aq)$?",
+        "answer": "$K_c = [CrO_4^{2-}]^2 [H^+]^2 / [Cr_2O_7^{2-}]$ ",
+        "options": [
+            "$K_c = [CrO_4^{2-}]^2 [H^+]^2 / [Cr_2O_7^{2-}] [H_2O]$ ",
+            "$K_c = [CrO_4^{2-}] [H^+] / [Cr_2O_7^{2-}]$ ",
+            "$K_c = [CrO_4^{2-}]^2 [H^+]^2 / [Cr_2O_7^{2-}]$ ",
+            "$K_c = [Cr_2O_7^{2-}] / [CrO_4^{2-}]^2 [H^+]^2$ "
+        ],
+        "difficulty": 2,
+        "explanation": "Pure liquids like $H_2O$ are omitted from the equilibrium constant expression in dilute aqueous solutions."
+    },
+    {
+        "id": "chem-latex-226",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "A reaction mechanism is Step 1: $X \\rightarrow I$ (slow), Step 2: $I + Y \\rightarrow Z$ (fast). What is the rate law?",
+        "answer": "Rate = k[X]",
+        "options": [
+            "Rate = k[X][Y]",
+            "Rate = k[X]",
+            "Rate = k[I][Y]",
+            "Rate = k[X]^2"
+        ],
+        "difficulty": 2,
+        "explanation": "The rate-determining step is the slow step. The rate law is determined by the reactants of the slow step."
+    },
+    {
+        "id": "chem-latex-227",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "For the reaction $N_2(g) + 2O_2(g) \\rightleftharpoons 2NO_2(g)$, $K_c$ is $8.3 \\times 10^{-10}$ at 298 K and $9.1 \\times 10^{-11}$ at 320 K. Is the forward reaction exothermic or endothermic?",
+        "answer": "Exothermic",
+        "options": [
+            "Exothermic",
+            "Endothermic",
+            "Athermal",
+            "Cannot be determined"
+        ],
+        "difficulty": 3,
+        "explanation": "As temperature increases, $K_c$ decreases. This means the equilibrium shifted toward the reactants (left), which happens in an exothermic reaction when heat is added."
+    },
+    {
+        "id": "chem-latex-228",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "flashcard",
+        "question": "Define 'Activation Energy' ($E_a$).",
+        "answer": "The minimum energy that colliding particles must possess for a reaction to occur.",
+        "difficulty": 1,
+        "explanation": "It corresponds to the energy required to reach the transition state."
+    },
+    {
+        "id": "chem-latex-229",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "What is the equilibrium concentration of CO if 1.0 mol each of $CH_4, H_2O, H_2,$ and $CO$ are placed in a 1 dm$^3$ flask and at equilibrium $[H_2O] = 0.5$ mol dm$^{-3}$? ($CH_4 + H_2O \\rightleftharpoons 3H_2 + CO$)",
+        "answer": "1.5 mol dm$^{-3}$",
+        "options": [
+            "0.5 mol dm$^{-3}$",
+            "1.0 mol dm$^{-3}$",
+            "1.5 mol dm$^{-3}$",
+            "2.0 mol dm$^{-3}$"
+        ],
+        "difficulty": 3,
+        "explanation": "Change in $[H_2O] = -0.5$. Since ratio is 1:1 for CO, Change in $[CO] = +0.5$. Equilibrium $[CO] = 1.0 + 0.5 = 1.5$."
+    },
+    {
+        "id": "chem-latex-230",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "A reaction has $rate = k[NO][NO_2]$. Using experimental data: Trial 1 ([0.05], [0.05]) rate 4.8e-3. Trial 2 ([0.10], [0.05]) rate 9.6e-3. What is the order with respect to NO?",
+        "answer": "1",
+        "options": [
+            "0",
+            "1",
+            "2",
+            "3"
+        ],
+        "difficulty": 2,
+        "explanation": "Doubling [NO] while keeping $[NO_2]$ constant doubled the rate. Therefore, the order is 1."
+    },
+    {
+        "id": "chem-latex-243",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which statement is correct for a nitric acid solution?",
+        "answer": "It is completely ionized in water",
+        "options": [
+            "It is completely ionized in water",
+            "It exists mainly as undissociated molecules",
+            "The solution reacts only with weak bases",
+            "The solution has a pH value greater than 7"
+        ],
+        "difficulty": 1,
+        "explanation": "Nitric acid ($HNO_3$) is a strong acid, meaning it dissociates nearly $100\\%$ in aqueous solution."
+    },
+    {
+        "id": "chem-latex-244",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which of the following expressions for $K_w$ is correct for a conjugate acid-base pair?",
+        "answer": "$K_w = K_a \\times K_b$",
+        "options": [
+            "$K_w = K_a + K_b$",
+            "$K_w = K_a - K_b$",
+            "$K_w = K_a \\times K_b$",
+            "$K_w = K_a / K_b$"
+        ],
+        "difficulty": 1,
+        "explanation": "For any conjugate acid-base pair at $298\\text{ K}$, the product of their dissociation constants equals the ionic product of water ($1.0 \\times 10^{-14}$)."
+    },
+    {
+        "id": "chem-latex-245",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which statement about electrochemical cells is correct?",
+        "answer": "In a voltaic cell, the cathode is the positive electrode",
+        "options": [
+            "In an electrolytic cell, the cathode is the positive electrode",
+            "In a voltaic cell, the cathode is the positive electrode",
+            "Electrolytic cells require a salt bridge",
+            "The reaction in a voltaic cell is non-spontaneous"
+        ],
+        "difficulty": 1,
+        "explanation": "In voltaic cells, the cathode is $(+)$. In electrolytic cells, the power supply makes the cathode $(-)$ to attract cations for reduction."
+    },
+    {
+        "id": "chem-latex-246",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "What feature must all Lewis bases possess?",
+        "answer": "A lone pair of electrons",
+        "options": [
+            "An incomplete octet",
+            "A lone pair of electrons",
+            "A negative charge",
+            "A proton to donate"
+        ],
+        "difficulty": 1,
+        "explanation": "A Lewis base is defined as an electron pair donor. To donate a pair, it must have at least one lone pair."
+    },
+    {
+        "id": "chem-latex-247",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "The nitration of benzene follows which reaction mechanism?",
+        "answer": "Electrophilic substitution",
+        "options": [
+            "Electrophilic addition",
+            "Electrophilic substitution",
+            "Nucleophilic addition",
+            "Nucleophilic substitution"
+        ],
+        "difficulty": 1,
+        "explanation": "Benzene reacts with electrophiles (like $NO_2^+$) to replace a hydrogen atom, preserving the stable aromatic ring."
+    },
+    {
+        "id": "chem-latex-248",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "flashcard",
+        "question": "Calculate the pH of a $0.0100\\text{ mol dm}^{-3}$ solution of $LiOH$ at $298\\text{ K}$.",
+        "answer": "pH = 12.0",
+        "difficulty": 2,
+        "explanation": "$[OH^-] = 10^{-2}$, so $pOH = 2$. $pH = 14 - pOH = 12$."
+    },
+    {
+        "id": "chem-latex-249",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "When wine (pH 6.5) is exposed to air and turns into vinegar (pH 4.5), what happens to the $[H^+]$ concentration?",
+        "answer": "Increased by a factor of 100",
+        "options": [
+            "Decreased by 100",
+            "Increased by 2",
+            "Increased by 100",
+            "Decreased by a factor of 2"
+        ],
+        "difficulty": 2,
+        "explanation": "A decrease of 2 pH units corresponds to a $10^2$ (100) increase in hydronium ion concentration."
+    },
+    {
+        "id": "chem-latex-250",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which of the following describes a nucleophile?",
+        "answer": "Electron-rich species with a lone pair that donates to an electron-deficient center",
+        "options": [
+            "Electron-deficient species that accepts a lone pair",
+            "Electron-rich species with a lone pair that donates to an electron-deficient center",
+            "A species that always carries a positive charge",
+            "A species that undergoes homolytic fission"
+        ],
+        "difficulty": 1,
+        "explanation": "Nucleophiles are 'nucleus lovers'—they seek positive/electron-poor centers to donate their electron pairs."
+    },
+    {
+        "id": "chem-latex-251",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which species is produced by the heterolytic fission of the C-Br bond in $(CH_3)_3CBr$?",
+        "answer": "$Br^-$",
+        "options": [
+            "$Br \\cdot$",
+            "$Br^+$",
+            "$Br^-$",
+            "$(CH_3)_3C \\cdot$"
+        ],
+        "difficulty": 2,
+        "explanation": "In heterolytic fission, the more electronegative atom (Br) takes both electrons from the bond, forming a bromide ion and a carbocation."
+    },
+    {
+        "id": "chem-latex-252",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Determine the standard cell potential ($E^\\ominus_{cell}$) for a cell with $Pb|Pb^{2+}$ ($-0.13\\text{ V}$) and $Ag|Ag^+$ ($+0.80\\text{ V}$).",
+        "answer": "0.93 V",
+        "options": [
+            "0.67 V",
+            "0.93 V",
+            "1.47 V",
+            "1.73 V"
+        ],
+        "difficulty": 2,
+        "explanation": "$E_{cell} = E_{cathode} - E_{anode} = 0.80 - (-0.13) = 0.93\\text{ V}$."
+    },
+    {
+        "id": "chem-latex-253",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "flashcard",
+        "question": "Define 'Buffer Solution'.",
+        "answer": "A solution that resists changes in pH when small amounts of acid or base are added.",
+        "difficulty": 1,
+        "explanation": "It typically consists of a weak acid and its conjugate base, or a weak base and its conjugate acid."
+    },
+    {
+        "id": "chem-latex-254",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which combination forms a buffer solution?",
+        "answer": "$NH_3(aq)$ and $NH_4Cl(aq)$",
+        "options": [
+            "$HCl(aq)$ and $NaCl(aq)$",
+            "$NaOH(aq)$ and $NaCl(aq)$",
+            "$NH_3(aq)$ and $NH_4Cl(aq)$",
+            "$HNO_3(aq)$ and $NH_3(aq)$ in equal molarity"
+        ],
+        "difficulty": 2,
+        "explanation": "A buffer requires a weak species and its salt. $NH_3$ is a weak base and $NH_4Cl$ provides the conjugate acid."
+    },
+    {
+        "id": "chem-latex-255",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "What happens to the oxidation state of Manganese when $Mn^{3+}$ is converted to $MnO_4^-$?",
+        "answer": "It increases from +3 to +7",
+        "options": [
+            "It decreases from +3 to +2",
+            "It increases from +3 to +4",
+            "It increases from +3 to +7",
+            "It stays the same"
+        ],
+        "difficulty": 2,
+        "explanation": "In $MnO_4^-$, $Mn + 4(-2) = -1 \\implies Mn = +7$. The increase in oxidation state indicates oxidation."
+    },
+    {
+        "id": "chem-latex-256",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which indicator is most suitable for titrating ethanoic acid (weak acid) with sodium hydroxide (strong base)?",
+        "answer": "Phenolphthalein ($pK_a \\approx 9.6$)",
+        "options": [
+            "Methyl orange ($pK_a \\approx 3.7$)",
+            "Bromocresol green ($pK_a \\approx 4.7$)",
+            "Bromothymol blue ($pK_a \\approx 7.0$)",
+            "Phenolphthalein ($pK_a \\approx 9.6$)"
+        ],
+        "difficulty": 2,
+        "explanation": "The equivalence point of a weak acid-strong base titration is in the basic range (pH > 7). Phenolphthalein's color change interval matches this range."
+    },
+    {
+        "id": "chem-latex-257",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which molecule acts as a Lewis acid in the reaction $NH_3 + BF_3 \\rightarrow NH_3BF_3$?",
+        "answer": "$BF_3$",
+        "options": [
+            "$NH_3$",
+            "$BF_3$",
+            "$NH_3BF_3$",
+            "None"
+        ],
+        "difficulty": 1,
+        "explanation": "$BF_3$ has an incomplete octet and accepts an electron pair from the nitrogen in $NH_3$."
+    },
+    {
+        "id": "chem-latex-258",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "flashcard",
+        "question": "State the major product formed when propene reacts with chlorine gas ($Cl_2$).",
+        "answer": "1,2-dichloropropane",
+        "difficulty": 2,
+        "explanation": "This is an electrophilic addition reaction where the $Cl-Cl$ bond breaks and chlorine atoms add across the double bond."
+    },
+    {
+        "id": "chem-latex-259",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which of the following represents a propagation step in the free-radical substitution of methane?",
+        "answer": "$CH_4 + Cl \\cdot \\rightarrow CH_3 \\cdot + HCl$",
+        "options": [
+            "$Cl_2 \\rightarrow 2Cl \\cdot$",
+            "$CH_4 + Cl \\cdot \\rightarrow CH_3 \\cdot + HCl$",
+            "$CH_3 \\cdot + Cl \\cdot \\rightarrow CH_3Cl$",
+            "$CH_3 \\cdot + CH_3 \\cdot \\rightarrow C_2H_6$"
+        ],
+        "difficulty": 2,
+        "explanation": "Propagation steps consume one radical and produce a new one, keeping the chain reaction going."
+    },
+    {
+        "id": "chem-latex-260",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "In the electrolysis of concentrated aqueous $NaCl$, what are the major products at the anode and cathode?",
+        "answer": "Anode: $Cl_2$; Cathode: $H_2$",
+        "options": [
+            "Anode: $O_2$; Cathode: $H_2$",
+            "Anode: $Cl_2$; Cathode: $Na$",
+            "Anode: $Cl_2$; Cathode: $H_2$",
+            "Anode: $Na$; Cathode: $Cl_2$"
+        ],
+        "difficulty": 3,
+        "explanation": "At the anode, $Cl^-$ is in high concentration and is oxidized over water. At the cathode, $H_2O$ is more easily reduced than $Na^+$."
+    },
+    {
+        "id": "chem-latex-261",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "flashcard",
+        "question": "What is the oxidation state of Sulfur in the thiosulfate ion, $S_2O_3^{2-}$?",
+        "answer": "+2",
+        "difficulty": 2,
+        "explanation": "$2x + 3(-2) = -2 \\implies 2x - 6 = -2 \\implies 2x = 4 \\implies x = +2$."
+    },
+    {
+        "id": "chem-latex-262",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "Which compound undergoes an $S_N1$ reaction at the fastest rate?",
+        "answer": "2-iodo-2-methylpropane",
+        "options": [
+            "1-chlorobutane",
+            "2-chlorobutane",
+            "2-chloro-2-methylpropane",
+            "2-iodo-2-methylpropane"
+        ],
+        "difficulty": 3,
+        "explanation": "$S_N1$ is fastest for tertiary substrates because they form stable carbocations. Iodine is a better leaving group than chlorine due to its larger size and weaker C-I bond."
+    },
+    {
+        "id": "chem-latex-263",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "flashcard",
+        "question": "Define 'Amphiprotic'.",
+        "answer": "A species that can act as both a Brønsted-Lowry acid (proton donor) and a Brønsted-Lowry base (proton acceptor).",
+        "difficulty": 2,
+        "explanation": "Water ($H_2O$) is the classic example, as it can form $H_3O^+$ or $OH^-$."
+    },
+    {
+        "id": "chem-latex-264",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "What is the approximate $K_a$ of a $0.1\\text{ mol dm}^{-3}$ solution of a weak acid with a pH of 5.0?",
+        "answer": "$10^{-9}$",
+        "options": [
+            "$10^{-5}$",
+            "$10^{-6}$",
+            "$10^{-9}$",
+            "$10^{-10}$"
+        ],
+        "difficulty": 3,
+        "explanation": "$[H^+] = 10^{-5}$. $K_a \\approx [H^+]^2 / [HA] = (10^{-5})^2 / 0.1 = 10^{-10} / 10^{-1} = 10^{-9}$."
     }
 ]

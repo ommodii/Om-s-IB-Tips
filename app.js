@@ -155,7 +155,7 @@ async function fetchAndLoadManifest() {
     const statusEl = document.getElementById('upload-status');
     statusEl.innerHTML = 'Connecting to Question Bank manifest...';
     try {
-        const res = await fetch('/public/questions/manifest.json');
+        const res = await fetch(`/public/questions/manifest.json?t=${new Date().getTime()}`);
         if (!res.ok) throw new Error("Manifest not found.");
         const manifest = await res.json();
         
@@ -163,7 +163,7 @@ async function fetchAndLoadManifest() {
         
         // Fetch files in parallel
         const fetchPromises = manifest.banks.map(async (fileUrl) => {
-            const fRes = await fetch(fileUrl);
+            const fRes = await fetch(`${fileUrl}?t=${new Date().getTime()}`);
             if (!fRes.ok) throw new Error(`Failed to load ${fileUrl}`);
             return fRes.json();
         });
