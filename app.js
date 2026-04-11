@@ -57,6 +57,7 @@ function saveDB() {
 }
 
 // Ensure each question has stats initialized
+
 function initQuestionStats(q) {
     if (!q.stats) {
         q.stats = {
@@ -1033,6 +1034,30 @@ function toggleTheme() {
 
 document.getElementById('dark-toggle-desktop').addEventListener('click', toggleTheme);
 document.getElementById('dark-toggle-mobile').addEventListener('click', toggleTheme);
+
+// --- 11. iOS PWA Install Prompt ---
+function checkPwaPrompt() {
+    const isIos = () => {
+        const userAgent = window.navigator.userAgent.toLowerCase();
+        return /iphone|ipad|ipod/.test(userAgent);
+    };
+
+    const isInStandaloneMode = () => ('standalone' in window.navigator) && (window.navigator.standalone);
+
+    if (isIos() && !isInStandaloneMode() && !localStorage.getItem('ios_a2hs_prompted')) {
+        const promptEl = document.getElementById('ios-pwa-prompt');
+        if (promptEl) {
+            setTimeout(() => {
+                promptEl.classList.remove('hidden');
+            }, 3000); // 3-second delay to not disrupt initial UX
+            
+            document.getElementById('btn-close-pwa').addEventListener('click', () => {
+                promptEl.classList.add('hidden');
+                localStorage.setItem('ios_a2hs_prompted', 'true');
+            });
+        }
+    }
+}
 
 function initApp() {
     loadDB();

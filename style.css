@@ -407,6 +407,22 @@ body.subject-tint-math { background-color: #f8fafc; }
     to { opacity: 0; transform: translateX(-50%) translateY(-8px); }
 }
 
+/* PWA Prompt */
+.pwa-prompt {
+    position: fixed;
+    bottom: 80px;
+    left: 16px;
+    right: 16px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    z-index: 9999;
+    padding: var(--sp-16);
+    animation: toastSlideUp 0.3s forwards;
+}
+.text-accent-blue { color: var(--accent-blue); }
+
 /* Player Card */
 .bg-dark { background: var(--text-primary); }
 [data-theme="dark"] .bg-dark { background: #111; border: 1px solid #333; }
