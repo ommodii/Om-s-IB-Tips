@@ -1292,5 +1292,547 @@
         "answer": "The energy required to remove one mole of electrons from one mole of gaseous atoms in their ground state.",
         "difficulty": 1,
         "explanation": "Standard definition. Key components: one mole, gaseous state, ground state."
+    },
+    {
+        "id": "chem-latex-107",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which combination corresponds to the strongest metallic bond?",
+        "answer": "High ionic charge and small ionic radius",
+        "options": [
+            "Low ionic charge and small ionic radius",
+            "High ionic charge and large ionic radius",
+            "High ionic charge and small ionic radius",
+            "Low ionic charge and large ionic radius"
+        ],
+        "difficulty": 2,
+        "explanation": "Metallic bond strength is determined by charge density. Higher charge and smaller radius result in stronger electrostatic attraction between the cations and the delocalized electrons."
+    },
+    {
+        "id": "chem-latex-108",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "flashcard",
+        "question": "Describe the metallic bonding in Iron ($Fe$).",
+        "answer": "The electrostatic attraction between a lattice of positive iron ions and a sea of delocalized electrons.",
+        "difficulty": 1,
+        "explanation": "This model explains properties like malleability and electrical conductivity."
+    },
+    {
+        "id": "chem-latex-109",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Why does the electrical resistance of metals increase with temperature?",
+        "answer": "Increased vibration of the metal lattice ions",
+        "options": [
+            "Decreased number of delocalized electrons",
+            "Increased vibration of the metal lattice ions",
+            "The metal ions becoming larger",
+            "The electrons moving faster through the lattice"
+        ],
+        "difficulty": 2,
+        "explanation": "As temperature increases, the cations in the lattice vibrate more, which obstructs the path of the delocalized electrons, increasing resistance."
+    },
+    {
+        "id": "chem-latex-110",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which series shows the correct order of metallic bond strength from strongest to weakest?",
+        "answer": "$Mg > Na > K > Rb$",
+        "options": [
+            "$Na > K > Rb > Mg$",
+            "$Mg > Na > K > Rb$",
+            "$Rb > K > Na > Mg$",
+            "$Mg > Rb > K > Na$"
+        ],
+        "difficulty": 2,
+        "explanation": "Magnesium has more valence electrons ($2+$) and a smaller radius than Sodium ($1+$). Within Group 1, bond strength decreases as the ionic radius increases down the group."
+    },
+    {
+        "id": "chem-latex-111",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which functional group is present in butanoic acid?",
+        "answer": "Carboxyl",
+        "options": [
+            "Carbonyl",
+            "Hydroxyl",
+            "Carboxyl",
+            "Ester"
+        ],
+        "difficulty": 1,
+        "explanation": "Carboxylic acids are characterized by the $-COOH$ (carboxyl) functional group."
+    },
+    {
+        "id": "chem-latex-112",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which homologous series has the general formula $C_nH_{2n}O$ and contains a carbonyl group at the end of the chain?",
+        "answer": "Aldehydes",
+        "options": [
+            "Ketones",
+            "Alcohols",
+            "Aldehydes",
+            "Carboxylic acids"
+        ],
+        "difficulty": 1,
+        "explanation": "Both aldehydes and ketones share this formula, but aldehydes have the carbonyl group at the end ($CHO$), whereas ketones have it in the middle ($C=O$)."
+    },
+    {
+        "id": "chem-latex-113",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "flashcard",
+        "question": "Identify two features of a homologous series.",
+        "answer": "Members have the same general formula and differ by a $CH_2$ unit.",
+        "difficulty": 1,
+        "explanation": "They also share similar chemical properties and show a graduation in physical properties (like boiling points)."
+    },
+    {
+        "id": "chem-latex-114",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which pair of compounds are structural isomers?",
+        "answer": "Propanal and propanone",
+        "options": [
+            "Propane and propene",
+            "Propanal and propanone",
+            "Ethanol and ethanoic acid",
+            "Methane and ethane"
+        ],
+        "difficulty": 2,
+        "explanation": "Structural isomers have the same molecular formula ($C_3H_6O$) but different arrangements of atoms."
+    },
+    {
+        "id": "chem-latex-115",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which compound can exist as optical isomers (enantiomers)?",
+        "answer": "2-bromobutane",
+        "options": [
+            "Bromoethane",
+            "2-bromopropane",
+            "2-bromobutane",
+            "1-bromobutane"
+        ],
+        "difficulty": 3,
+        "explanation": "2-bromobutane has a chiral carbon (the second carbon is bonded to H, Br, methyl, and ethyl), allowing for non-superimposable mirror images."
+    },
+    {
+        "id": "chem-latex-116",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "flashcard",
+        "question": "How can infrared (IR) spectroscopy differentiate between an alcohol and a carboxylic acid?",
+        "answer": "Carboxylic acids have a $C=O$ peak ($1700-1750$ cm$^{-1}$) in addition to the $-OH$ peak.",
+        "difficulty": 2,
+        "explanation": "Alcohols will only show the broad $-OH$ absorption ($3200-3600$ cm$^{-1}$), while acids show both the $-OH$ and the sharp $C=O$ carbonyl stretch."
+    },
+    {
+        "id": "chem-latex-117",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which spectra would show the difference between propan-2-ol and propanal?",
+        "answer": "I, II, and III",
+        "options": [
+            "I and II only",
+            "II and III only",
+            "I and III only",
+            "I, II, and III"
+        ],
+        "difficulty": 3,
+        "explanation": "Mass spec (I) shows different fragmentation; IR (II) shows different functional groups ($-OH$ vs $C=O$); $^1H$ NMR (III) shows different hydrogen environments."
+    },
+    {
+        "id": "chem-latex-118",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "flashcard",
+        "question": "What is a racemic mixture?",
+        "answer": "A mixture containing equal amounts of both enantiomers.",
+        "difficulty": 2,
+        "explanation": "Racemic mixtures are not optically active because the rotations of plane-polarized light cancel each other out."
+    },
+    {
+        "id": "chem-latex-119",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Which analytical technique is used to determine the ratio of $^{14}N$ to $^{15}N$?",
+        "answer": "Mass spectrometry",
+        "options": [
+            "Infrared spectroscopy",
+            "Mass spectrometry",
+            "$^1H$ NMR spectroscopy",
+            "Distillation"
+        ],
+        "difficulty": 2,
+        "explanation": "Mass spectrometry separates ions based on their mass-to-charge ratio, making it ideal for isotopic analysis."
+    },
+    {
+        "id": "chem-latex-120",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "What is the systematic IUPAC name for $MnO_2$?",
+        "answer": "Manganese(IV) oxide",
+        "options": [
+            "Manganese(II) oxide",
+            "Manganese oxide",
+            "Manganese(IV) oxide",
+            "Magnesium oxide"
+        ],
+        "difficulty": 1,
+        "explanation": "In $MnO_2$, oxygen has an oxidation state of $-2$. To be neutral, Manganese must be $+4$."
+    },
+    {
+        "id": "chem-latex-121",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following is NOT a characteristic property of metals resulting from metallic bonding?",
+        "answer": "Low melting points",
+        "options": [
+            "Good thermal conductivity",
+            "Low melting points",
+            "Malleability",
+            "Good electrical conductivity"
+        ],
+        "difficulty": 1,
+        "explanation": "Metallic bonds are generally strong due to the attraction between cations and delocalized electrons, typically resulting in high melting points (though there are exceptions like Mercury)."
+    },
+    {
+        "id": "chem-latex-122",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "flashcard",
+        "question": "Explain why sodium metal is malleable while sodium chloride is brittle.",
+        "answer": "In metals, delocalized electrons allow layers of cations to slide; in ionic crystals, shifting layers causes like-charges to repel and shatter the lattice.",
+        "difficulty": 2,
+        "explanation": "The 'sea of electrons' acts as a flexible glue in metals, whereas the rigid lattice of alternating ions in NaCl cannot withstand shifting without repulsion."
+    },
+    {
+        "id": "chem-latex-123",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Metallic bonding is best characterized by which statement?",
+        "answer": "Valence electrons are delocalized and held loosely by a positive lattice of ions",
+        "options": [
+            "Valence electrons are shared between adjacent positive ions",
+            "Valence electrons are lost by the nuclei to become ions",
+            "Valence electrons remain closely associated with a positive lattice",
+            "Valence electrons are delocalized and held loosely by a positive lattice of ions"
+        ],
+        "difficulty": 1,
+        "explanation": "This describes the 'sea of delocalized electrons' model essential for metallic bonding."
+    },
+    {
+        "id": "chem-latex-124",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "flashcard",
+        "question": "Identify a non-metallic substance that is electrically conductive and explain why.",
+        "answer": "Graphite; it has delocalized electrons within its hexagonal layers.",
+        "difficulty": 1,
+        "explanation": "In graphite, each carbon is $sp^2$ hybridized, leaving one delocalized electron per carbon atom to carry charge."
+    },
+    {
+        "id": "chem-latex-125",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which characteristic is the best indicator of the strength of a metallic bond?",
+        "answer": "Melting Point",
+        "options": [
+            "Electron affinity",
+            "Electronegativity",
+            "Ionic radius",
+            "Melting Point"
+        ],
+        "difficulty": 2,
+        "explanation": "The melting point reflects the energy required to overcome the electrostatic attractions between the cations and the delocalized electrons."
+    },
+    {
+        "id": "chem-latex-126",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Titanium ($1910^\\circ$C) has a much higher melting point than Potassium ($68^\\circ$C). What atomic feature primarily causes this?",
+        "answer": "Titanium has more delocalized electrons and a smaller ionic radius.",
+        "options": [
+            "Titanium has a larger atomic mass.",
+            "Titanium has more delocalized electrons and a smaller ionic radius.",
+            "Potassium has a higher first ionization energy.",
+            "Potassium ions have a higher charge."
+        ],
+        "difficulty": 2,
+        "explanation": "Bond strength increases with the number of delocalized electrons (Ti provides more than K) and decreasing ionic radius (Ti is smaller), leading to stronger attractions."
+    },
+    {
+        "id": "chem-latex-127",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Based on periodic trends, which series correctly orders the elements by increasing melting points?",
+        "answer": "Cs < Rb < Sr < Zr",
+        "options": [
+            "Rb < Sr < Zr < Cs",
+            "Cs < Zr < Sr < Rb",
+            "Cs < Rb < Sr < Zr",
+            "Zr < Sr < Rb < Cs"
+        ],
+        "difficulty": 2,
+        "explanation": "Melting points generally increase across a period (Na to Al or Cs to Zr) as the number of delocalized electrons increases and ionic radius decreases."
+    },
+    {
+        "id": "chem-latex-128",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "flashcard",
+        "question": "Element X forms an oxide $XO_2$ that reacts with water to form $H_2XO_3$. Element Y forms an oxide $YO$ that reacts with water to form $Y(OH)_2$. Identify X and Y from Period 3.",
+        "answer": "X is Sulfur ($S$); Y is Magnesium ($Mg$).",
+        "difficulty": 3,
+        "explanation": "Sulfur dioxide forms sulfurous acid (acidic non-metal oxide); Magnesium oxide forms magnesium hydroxide (basic metal oxide)."
+    },
+    {
+        "id": "chem-latex-129",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which statements regarding metallic bonding are correct? I. Higher ion charge = weaker bond. II. Larger ionic radius = weaker bond. III. More delocalized electrons = stronger bond.",
+        "answer": "II and III only",
+        "options": [
+            "I, II, and III",
+            "II and III only",
+            "I only",
+            "D. II only"
+        ],
+        "difficulty": 2,
+        "explanation": "Statement I is false; a higher charge creates a stronger attraction to the electron sea, thus a stronger bond."
+    },
+    {
+        "id": "chem-latex-130",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "flashcard",
+        "question": "Why does the melting point of Group 1 metals decrease down the group?",
+        "answer": "The ionic radius increases, so the attraction between the nucleus and the delocalized electrons becomes weaker.",
+        "difficulty": 2,
+        "explanation": "As you go down the group, the valence electrons are further from the nucleus, reducing the 'glue' effect of the metallic bond."
+    },
+    {
+        "id": "chem-latex-131",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What characteristic of transition metals results in high electrical conductivity?",
+        "answer": "Delocalized electrons in unfilled d-orbitals",
+        "options": [
+            "Large atomic radius",
+            "Strong ionic bonds",
+            "High relative atomic mass",
+            "Delocalized electrons in unfilled d-orbitals"
+        ],
+        "difficulty": 2,
+        "explanation": "Transition metals have both s and d electrons that can be delocalized into the electron sea, providing many charge carriers."
+    },
+    {
+        "id": "chem-latex-132",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "When comparing Nickel (Ni) to Calcium (Ca), which of the following is true?",
+        "answer": "Ni has a higher melting point and greater hardness than Ca.",
+        "options": [
+            "Ni has a higher melting point and greater hardness than Ca.",
+            "Ca has a higher melting point and greater hardness than Ni.",
+            "Ca has a higher melting point, but Ni is harder.",
+            "Ni has a higher melting point, but Ca is harder."
+        ],
+        "difficulty": 2,
+        "explanation": "Transition metals (Ni) generally have stronger metallic bonds than s-block metals (Ca) due to the involvement of d-electrons in delocalization."
+    },
+    {
+        "id": "chem-latex-133",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "flashcard",
+        "question": "Why does Vanadium ($V$) have a higher melting point than Titanium ($Ti$)?",
+        "answer": "Vanadium has one more proton and one more delocalized d-electron than Titanium.",
+        "difficulty": 3,
+        "explanation": "The increased nuclear charge and additional electron in the delocalized sea strengthen the electrostatic attraction in Vanadium."
+    },
+    {
+        "id": "chem-latex-134",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Which of the following statements does NOT conform to the definition of a mole?",
+        "answer": "1 mole is the number of $H_2$ molecules in 1.01 g of $H_2$.",
+        "options": [
+            "1 mole is the number of $H_2O$ molecules in 18.02 g of $H_2O$.",
+            "1 mole of Fe has a mass equal to the relative atomic mass of Fe in grams.",
+            "1 mole of any substance contains $6.02 \\times 10^{23}$ particles.",
+            "1 mole is the number of $H_2$ molecules in 1.01 g of $H_2$."
+        ],
+        "difficulty": 1,
+        "explanation": "Molar mass of $H_2$ is $2.02\\text{ g mol}^{-1}$. Therefore, 1.01 g of $H_2$ is 0.5 moles, not 1 mole."
+    },
+    {
+        "id": "chem-latex-135",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Which compound has the largest molar mass?",
+        "answer": "$K_2Cr_2O_7$",
+        "options": [
+            "$FeSO_4$",
+            "$K_2Cr_2O_7$",
+            "$KMnO_4$",
+            "$(NH_4)_3PO_4$"
+        ],
+        "difficulty": 1,
+        "explanation": "Molar masses (approx): $FeSO_4 \\approx 152$, $K_2Cr_2O_7 \\approx 294$, $KMnO_4 \\approx 158$, $(NH_4)_3PO_4 \\approx 149$."
+    },
+    {
+        "id": "chem-latex-136",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Which statement is true regarding empirical and molecular formulas?",
+        "answer": "Organic molecules often have different empirical and molecular formulas.",
+        "options": [
+            "The empirical formula shows only the type of each atom in a molecule.",
+            "The molecular formula is always the same as the empirical formula.",
+            "Organic molecules often have different empirical and molecular formulas.",
+            "The empirical formula is always greater than the molecular formula."
+        ],
+        "difficulty": 1,
+        "explanation": "The empirical formula is the simplest ratio, whereas the molecular formula is the actual number of atoms. Many organic molecules (like glucose, $C_6H_{12}O_6$) have an empirical formula ($CH_2O$) that differs from the molecular."
+    },
+    {
+        "id": "chem-latex-137",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Calculate the number of moles in 20.5 grams of sodium phosphate ($Na_3PO_4$).",
+        "answer": "0.125 mol",
+        "options": [
+            "0.125 mol",
+            "1.25 mol",
+            "12.5 mol",
+            "125 mol"
+        ],
+        "difficulty": 2,
+        "explanation": "Molar mass of $Na_3PO_4 = (3 \\times 22.99) + 30.97 + (4 \\times 16.00) = 163.94\\text{ g mol}^{-1}$. $n = \\frac{20.5}{163.94} \\approx 0.125\\text{ mol}$."
+    },
+    {
+        "id": "chem-latex-138",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Which of the following substances has the lowest mass?",
+        "answer": "2.50 moles $CH_4$",
+        "options": [
+            "2.50 moles $H_2O$",
+            "2.50 moles $CH_4$",
+            "2.00 moles $SO_2$",
+            "2.00 moles $CO_2$"
+        ],
+        "difficulty": 2,
+        "explanation": "Masses: $H_2O$ (45.05g), $CH_4$ (40.10g), $SO_2$ (128.14g), $CO_2$ (88.02g). $CH_4$ has the lowest mass."
+    },
+    {
+        "id": "chem-latex-139",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "For the reaction $2NO_2(g) \\rightarrow N_2O_4(g)$, what volume of $N_2O_4$ is produced from $25.0\\text{ cm}^3$ of $NO_2$ at constant T and P?",
+        "answer": "12.5 cm$^3$",
+        "options": [
+            "10.0 cm$^3$",
+            "12.5 cm$^3$",
+            "25.0 cm$^3$",
+            "50.0 cm$^3$"
+        ],
+        "difficulty": 2,
+        "explanation": "According to Avogadro's law, volume ratios are the same as mole ratios for gases. $2$ parts $NO_2$ yields $1$ part $N_2O_4$, so $25.0 / 2 = 12.5\\text{ cm}^3$."
+    },
+    {
+        "id": "chem-latex-140",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "How many molecules are there in 4.80 moles of glucose?",
+        "answer": "$2.89 \\times 10^{24}$ molecules",
+        "options": [
+            "$2.89 \\times 10^{24}$ molecules",
+            "$2.50 \\times 10^{24}$ molecules",
+            "$3.50 \\times 10^{24}$ molecules",
+            "$2.59 \\times 10^{24}$ molecules"
+        ],
+        "difficulty": 1,
+        "explanation": "Number of molecules $= n \\times L = 4.80 \\times 6.02 \\times 10^{23} = 2.8896 \\times 10^{24}$."
+    },
+    {
+        "id": "chem-latex-141",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "flashcard",
+        "question": "Calculate the percentage by mass of Sulfur in Sulfur Dioxide ($SO_2$).",
+        "answer": "50%",
+        "difficulty": 1,
+        "explanation": "Molar mass of $SO_2 \\approx 32.06 + (2 \\times 16.00) = 64.06\\text{ g mol}^{-1}$. $\\S = (32.06 / 64.06) \\times 100 \\approx 50\\%$."
+    },
+    {
+        "id": "chem-latex-142",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Determine the molecular formula of lipoic acid if its empirical formula is $C_4H_7OS$ and its molar mass is $206.44\\text{ g mol}^{-1}$.",
+        "answer": "$C_8H_{14}O_2S_2$",
+        "options": [
+            "$C_4H_7OS$",
+            "$C_8H_{14}O_2S_2$",
+            "$C_{12}H_{21}O_3S_3$",
+            "$C_{16}H_{28}O_4S_4$"
+        ],
+        "difficulty": 2,
+        "explanation": "Empirical molar mass $\\approx 103.17\\text{ g mol}^{-1}$. Ratio $= 206.44 / 103.17 \\approx 2$. Multiply empirical subscripts by 2."
+    },
+    {
+        "id": "chem-latex-143",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "flashcard",
+        "question": "What is the mass of Sodium Azide ($NaN_3$) needed to generate $0.07\\text{ m}^3$ of $N_2$ at $1.01 \\times 10^5\\text{ Pa}$ and $26.0^{\\circ}\\text{C}$? ($2NaN_3 \\rightarrow 2Na + 3N_2$)",
+        "answer": "123.6 g",
+        "difficulty": 3,
+        "explanation": "1. Find moles of $N_2$ using $PV=nRT$: $n = (101000 \\times 0.07) / (8.31 \\times 299.15) \\approx 2.844\\text{ mol}$. 2. Use stoichiometry: $n(NaN_3) = n(N_2) \\times (2/3) \\approx 1.90\\text{ mol}$. 3. Mass $= 1.90 \\times 65.02 \\approx 123.6\\text{ g}$."
+    },
+    {
+        "id": "chem-latex-144",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "What is the empirical formula of a compound containing 75% Carbon and 25% Hydrogen by mass?",
+        "answer": "$CH_4$",
+        "options": [
+            "$C_3H$",
+            "$CH$",
+            "$C_3H_2$",
+            "$CH_4$"
+        ],
+        "difficulty": 2,
+        "explanation": "Moles $C = 75/12.01 \\approx 6.25$. Moles $H = 25/1.01 \\approx 24.75$. Ratio $H:C \\approx 4:1$."
     }
 ]
