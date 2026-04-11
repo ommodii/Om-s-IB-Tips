@@ -6,10 +6,25 @@
 // --- 1. Database & State Management ---
 const STORAGE_KEY = 'ib_focus_data';
 
+function toLocalString(d) {
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function getTodayString() {
+    return toLocalString(new Date());
+}
+
 const getEmptyDB = () => ({
     version: 1,
     questions: [],
-    recentSession: null
+    recentSession: null,
+    arcade_total_xp: 0,
+    streak_count: 0,
+    streak_last_date: null,
+    streak_questions_today: 0,
+    streak_questions_date: getTodayString(),
+    mastered_topics: [],
+    heatmap_data: {}
 });
 
 let db = getEmptyDB();
@@ -21,6 +36,15 @@ function loadDB() {
         try {
             db = JSON.parse(raw);
             if(!db.questions) db.questions = [];
+            if(db.arcade_total_xp === undefined) {
+                db.arcade_total_xp = 0;
+                db.streak_count = 0;
+                db.streak_last_date = null;
+                db.streak_questions_today = 0;
+                db.streak_questions_date = getTodayString();
+                db.mastered_topics = [];
+                db.heatmap_data = {};
+            }
         } catch (e) {
             console.error("Failed to parse DB", e);
             db = getEmptyDB();
@@ -30,14 +54,6 @@ function loadDB() {
 
 function saveDB() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(db));
-}
-
-function toLocalString(d) {
-    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-}
-
-function getTodayString() {
-    return toLocalString(new Date());
 }
 
 // Ensure each question has stats initialized
@@ -58,58 +74,42 @@ function initQuestionStats(q) {
 
 // --- 2. Spaced Repetition Algorithm ---
 // Simplified SM-2 inspired
-function recordAnswer(qId, isCorrect) {
+function recordAnswer(qId, isCorrect, multiplier = 1.5) {
     const q = db.questions.find(x => x.id === qId);
     if (!q) return;
 
-    q.stats.seen += 1;
-    q.stats.last_reviewed = new Date().toISOString();
-
     if (isCorrect) {
-        q.stats.correct += 1;
-        q.stats.streak += 1;
-        
         // Interval calculation
         if (q.stats.interval === 0) {
             q.stats.interval = 1;
         } else if (q.stats.interval === 1) {
             q.stats.interval = 3; // First successful review jump
         } else {
-            q.stats.interval = Math.round(q.stats.interval * q.stats.ease_factor);
+            q.stats.interval = Math.round(q.stats.interval * multiplier);
         }
-        
-        // Ease adjustment capped at 2.5
-        q.stats.ease_factor = Math.min(2.5, q.stats.ease_factor + 0.1);
-        
     } else {
-        q.stats.incorrect += 1;
-        q.stats.streak = 0;
-        
         // Reset interval to tomorrow
         q.stats.interval = 1;
-        
-        // Decrease ease
-        q.stats.ease_factor = Math.max(1.3, q.stats.ease_factor - 0.2);
     }
 
     // Set next review date
     const d = new Date();
     d.setDate(d.getDate() + q.stats.interval);
     q.stats.next_review = toLocalString(d);
-
-    saveDB();
 }
 
 
 // --- 3. UI Router ---
-const views = ['view-load', 'view-home', 'view-setup', 'view-session', 'view-summary', 'view-progress', 'view-browse'];
+const views = ['view-load', 'view-home', 'view-setup', 'view-session', 'view-summary', 'view-arcade', 'view-browse'];
 
 function switchView(viewId) {
     views.forEach(v => {
-        document.getElementById(v).classList.add('hidden');
+        const el = document.getElementById(v);
+        if(el) el.classList.add('hidden');
     });
     
-    document.getElementById(viewId).classList.remove('hidden');
+    const targetEl = document.getElementById(viewId);
+    if(targetEl) targetEl.classList.remove('hidden');
     
     // Manage nav visibility
     const isSessionActive = (viewId === 'view-session');
@@ -127,7 +127,7 @@ function switchView(viewId) {
     // View specific init hooks
     if (viewId === 'view-home') initHome();
     if (viewId === 'view-setup') initSetup();
-    if (viewId === 'view-progress') initProgress();
+    if (viewId === 'view-arcade') initArcade();
     if (viewId === 'view-browse') initBrowse();
 
     // Re-render lucide icons if new ones appear
@@ -261,8 +261,9 @@ function initHome() {
 
 document.getElementById('btn-start-due').addEventListener('click', () => {
     const today = getTodayString();
-    const dueCards = db.questions.filter(q => q.stats && (q.stats.next_review || "").slice(0, 10) <= today);
+    let dueCards = db.questions.filter(q => q.stats && (q.stats.next_review || "").slice(0, 10) <= today);
     if (dueCards.length > 0) {
+        dueCards = dueCards.sort(() => Math.random() - 0.5);
         startSession(dueCards, 'spaced');
     } else {
         alert("You are all caught up! Browse or do Topic Focus.");
@@ -339,7 +340,10 @@ document.getElementById('setup-difficulty').addEventListener('change', updateFoc
 
 document.getElementById('btn-launch-spaced').addEventListener('click', () => {
     const today = getTodayString();
-    const queue = db.questions.filter(q => q.stats && (q.stats.next_review || "").slice(0, 10) <= today);
+    let queue = db.questions.filter(q => q.stats && (q.stats.next_review || "").slice(0, 10) <= today);
+    if (queue && queue.length > 0) {
+        queue = queue.sort(() => Math.random() - 0.5);
+    }
     startSession(queue, 'spaced');
 });
 
@@ -376,8 +380,37 @@ function startSession(queue, mode) {
     renderQuestion();
 }
 
-let mcqLocked = false;
-let flipState = false; // false = front, true = back
+let speedTimerInterval = null;
+let speedTimerRemaining = 10;
+
+// --- Daily Gamification Hooks ---
+function processDailyActivity() {
+    const today = getTodayString();
+    
+    // Streak logic
+    if (db.streak_last_date !== today) {
+        db.streak_questions_today = 0;
+        
+        if (db.streak_last_date) {
+            const yesterday = new Date();
+            yesterday.setDate(yesterday.getDate() - 1);
+            if (db.streak_last_date === toLocalString(yesterday)) {
+                db.streak_count += 1;
+            } else {
+                db.streak_count = 1;
+            }
+        } else {
+            db.streak_count = 1;
+        }
+        db.streak_last_date = today;
+    }
+    
+    db.streak_questions_today += 1;
+    
+    // Heatmap Logic
+    if (!db.heatmap_data[today]) db.heatmap_data[today] = 0;
+    db.heatmap_data[today] += 1;
+}
 
 function renderQuestion() {
     if (!currentSession) return;
@@ -391,6 +424,30 @@ function renderQuestion() {
     // Reset UI state
     mcqLocked = false;
     flipState = false;
+    
+    // Dynamic Tints
+    document.body.className = '';
+    const subL = q.subject.toLowerCase();
+    if (subL.includes('chemistry')) document.body.classList.add('subject-tint-chemistry');
+    else if (subL.includes('physics')) document.body.classList.add('subject-tint-physics');
+    else if (subL.includes('math')) document.body.classList.add('subject-tint-math');
+
+    // Speed Timer Initialization
+    speedTimerRemaining = 10;
+    if (speedTimerInterval) clearInterval(speedTimerInterval);
+    const speedBar = document.getElementById('speed-timer-bar');
+    if (speedBar) {
+        speedBar.style.transition = 'none';
+        speedBar.style.width = '100%';
+        void speedBar.offsetWidth; // Force Reflow
+        speedBar.style.transition = 'width 10s linear';
+        speedBar.style.width = '0%';
+    }
+    
+    speedTimerInterval = setInterval(() => {
+        speedTimerRemaining--;
+        if (speedTimerRemaining <= 0) clearInterval(speedTimerInterval);
+    }, 1000);
     
     // Progress UI
     const progressPct = (currentSession.currentIndex / currentSession.queue.length) * 100;
@@ -475,17 +532,25 @@ function handleFlashcardFlip() {
     document.querySelector('.flashcard-inner').classList.add('flipped');
     document.querySelector('.flashcard-controls').classList.remove('hidden');
     document.querySelector('.hint-text').classList.add('hidden');
+    
+    // Stop speed timer visual
+    const speedBar = document.getElementById('speed-timer-bar');
+    if (speedBar) {
+        const computedWidth = window.getComputedStyle(speedBar).width;
+        speedBar.style.transition = 'none';
+        speedBar.style.width = computedWidth;
+    }
+    if (speedTimerInterval) clearInterval(speedTimerInterval);
 }
 
 // Attach flip click bind (once on load)
 document.querySelector('.flashcard-inner').addEventListener('click', handleFlashcardFlip);
 
-document.getElementById('btn-fc-gotit').addEventListener('click', () => {
-    handleResponse(true);
-});
-document.getElementById('btn-fc-missed').addEventListener('click', () => {
-    handleResponse(false);
-});
+// Confidence Buttons mappings
+document.getElementById('btn-fc-missed').addEventListener('click', () => handleResponse(false, {xp: 0, mult: 1.0}));
+document.getElementById('btn-fc-hard').addEventListener('click', () => handleResponse(true, {xp: 10, mult: 1.2}));
+document.getElementById('btn-fc-good').addEventListener('click', () => handleResponse(true, {xp: 20, mult: 1.5}));
+document.getElementById('btn-fc-easy').addEventListener('click', () => handleResponse(true, {xp: 25, mult: 2.0}));
 
 function handleMCQClick(optionEl, selectedRawText, correctRawText, q) {
     if (mcqLocked) return;
@@ -519,31 +584,70 @@ function handleMCQClick(optionEl, selectedRawText, correctRawText, q) {
     
     document.querySelector('.mcq-controls').classList.remove('hidden');
     
+    // Stop speed timer visual
+    const speedBar = document.getElementById('speed-timer-bar');
+    if (speedBar) {
+        const computedWidth = window.getComputedStyle(speedBar).width;
+        speedBar.style.transition = 'none';
+        speedBar.style.width = computedWidth;
+    }
+    if (speedTimerInterval) clearInterval(speedTimerInterval);
+    
     // Store result to process on NEXT click
     if (currentSession) currentSession.pendingMCQResult = isCorrect;
 }
 
 document.getElementById('btn-mcq-next').addEventListener('click', () => {
     if (currentSession && mcqLocked) {
-        handleResponse(currentSession.pendingMCQResult);
+        handleResponse(currentSession.pendingMCQResult, {xp: currentSession.pendingMCQResult ? 15 : 0, mult: 1.5});
     }
 });
 
-function handleResponse(isCorrect) {
+function handleResponse(isCorrect, params) {
     if (!currentSession) return;
     const q = currentSession.queue[currentSession.currentIndex];
     if (!q) return;
+
+    // Apply XP and Multipliers
+    let xpEarned = params.xp || 0;
+    let multiplier = params.mult || 1.0;
+
+    // Apply Speed Bonus if they were fast!
+    if (isCorrect && speedTimerRemaining > 0) {
+        xpEarned += 5;
+    }
     
-    if (currentSession.mode === 'spaced') {
-        recordAnswer(q.id, isCorrect);
-    } // Topic focus does not update SR intervals
-    
+    if (xpEarned > 0) {
+        db.arcade_total_xp += xpEarned;
+    }
+
     if (isCorrect) {
+        processDailyActivity();
         currentSession.results.correct++;
     } else {
         currentSession.results.incorrect++;
         currentSession.results.missedQuestions.push(q);
     }
+    
+    // Ensure standard generic stats increment regardless of session type
+    const targetQ = db.questions.find(x => x.id === q.id);
+    if (targetQ && targetQ.stats) {
+        targetQ.stats.seen += 1;
+        targetQ.stats.last_reviewed = new Date().toISOString();
+        if (isCorrect) {
+            targetQ.stats.correct += 1;
+            targetQ.stats.streak += 1;
+        } else {
+            targetQ.stats.incorrect += 1;
+            targetQ.stats.streak = 0;
+        }
+    }
+    
+    if (currentSession.mode === 'spaced') {
+        recordAnswer(q.id, isCorrect, multiplier);
+    } // Topic focus does not update SR intervals
+    
+    saveDB();
     
     currentSession.currentIndex++;
     renderQuestion(); // Load next gracefully terminates if finished
@@ -551,6 +655,58 @@ function handleResponse(isCorrect) {
 
 function endSession() {
     if (!currentSession) return;
+    
+    // Cleanup active bindings
+    document.body.className = '';
+    if(speedTimerInterval) clearInterval(speedTimerInterval);
+    
+    // Topic Mastery Evaluation Hook
+    const topicsEncountered = [...new Set(currentSession.queue.map(q => q.topic))];
+    let newlyMastered = [];
+    topicsEncountered.forEach(topic => {
+        if (!db.mastered_topics.includes(topic)) {
+            const tQs = db.questions.filter(q => q.topic === topic);
+            if (tQs.length > 0) {
+                let mCount = 0;
+                tQs.forEach(q => {
+                    if (q.stats && q.stats.seen >= 1 && (q.stats.correct / q.stats.seen) >= 0.75) {
+                        mCount++;
+                    }
+                });
+                if (mCount === tQs.length) {
+                    db.mastered_topics.push(topic);
+                    newlyMastered.push(topic);
+                }
+            }
+        }
+    });
+
+    if (newlyMastered.length > 0) {
+        if (window.confetti) {
+            confetti({
+                particleCount: 120,
+                spread: 80,
+                origin: {y: 0.6},
+                colors: ['#2563eb', '#16a34a', '#f59e0b', '#ec4899']
+            });
+        }
+        
+        const toast = document.getElementById('toast-mastery');
+        const tmMsg = document.getElementById('toast-message');
+        if (toast && tmMsg) {
+            tmMsg.innerText = `🎉 Topic mastered: ${newlyMastered[0]}`;
+            toast.classList.remove('hidden');
+            toast.classList.add('toast-enter');
+            setTimeout(() => {
+                toast.classList.add('toast-exit');
+                setTimeout(() => {
+                    toast.classList.add('hidden');
+                    toast.classList.remove('toast-enter', 'toast-exit');
+                }, 300);
+            }, 3000);
+        }
+    }
+
     // Save session stats locally
     const stats = {
         date: new Date().toISOString(),
@@ -610,18 +766,26 @@ document.getElementById('btn-sum-review').addEventListener('click', () => {
 });
 
 
-// --- 8. Progress View ---
-function initProgress() {
-    const container = document.getElementById('progress-container');
-    container.innerHTML = '';
+// --- 8. Arcade View ---
+function initArcade() {
+    // 1. Player Card
+    const xp = db.arcade_total_xp || 0;
+    const level = Math.floor(xp / 50) + 1;
+    const currentLevelXP = xp % 50;
     
-    // Empty state
-    if (!db.questions || db.questions.length === 0) {
-        container.innerHTML = '<p class="text-muted">No data available. Upload questions to begin tracking.</p>';
-        return;
-    }
+    document.getElementById('arcade-level').innerText = level;
+    document.getElementById('arcade-xp').innerText = currentLevelXP;
+    document.getElementById('arcade-xp-fill').style.width = `${(currentLevelXP / 50) * 100}%`;
+    
+    const streakEl = document.getElementById('arcade-streak');
+    streakEl.innerText = `🔥 ${db.streak_count || 0}`;
+    if ((db.streak_count || 0) >= 3) streakEl.classList.add('streak-glow');
+    else streakEl.classList.remove('streak-glow');
 
-    // Group by Subject -> Topic
+    // 2. Topic Mastery (SVG Rings)
+    const ringsContainer = document.getElementById('arcade-rings-container');
+    ringsContainer.innerHTML = '';
+    
     const hierarchy = {};
     db.questions.forEach(q => {
         if (!hierarchy[q.subject]) hierarchy[q.subject] = {};
@@ -630,38 +794,70 @@ function initProgress() {
     });
 
     Object.keys(hierarchy).forEach(sub => {
-        let subHtml = `<div class="card p-24 mb-24"><h3 class="mb-16">${sub}</h3>`;
+        const topHeader = document.createElement('h4');
+        topHeader.className = "text-left text-muted mt-24 mb-16 w-full border-b border-subtle pb-8";
+        topHeader.style.gridColumn = "1 / -1"; // Span all columns
+        topHeader.innerText = sub;
+        ringsContainer.appendChild(topHeader);
         
         Object.keys(hierarchy[sub]).forEach(topic => {
             const arr = hierarchy[sub][topic];
             let masteredCount = 0;
-            
             arr.forEach(q => {
-                // simple mastery calc: answered at least 2 times and accuracy >= 75%
-                if (q.stats && q.stats.seen >= 2 && (q.stats.correct / q.stats.seen) >= 0.75) {
-                    masteredCount++;
-                }
+                if (q.stats && q.stats.seen >= 1 && (q.stats.correct / q.stats.seen) >= 0.75) masteredCount++;
             });
             
-            const pct = arr.length > 0 ? (masteredCount / arr.length) * 100 : 0;
-            let fillClass = 'untouched';
-            if (masteredCount > 0) fillClass = pct >= 75 ? 'mastered' : 'learning';
-
-            subHtml += `
-                <div class="topic-progress-row">
-                    <div class="tp-header">
-                        <span>${topic}</span>
-                        <span class="text-muted">${masteredCount} / ${arr.length} mastered</span>
-                    </div>
-                    <div class="tp-track">
-                        <div class="tp-fill ${fillClass}" style="width: ${pct}%;"></div>
-                    </div>
+            const pct = arr.length > 0 ? Math.round((masteredCount / arr.length) * 100) : 0;
+            const r = 36;
+            const c = 2 * Math.PI * r;
+            const dashoffset = c - (pct / 100) * c;
+            
+            let ringClass = 'ring-bg';
+            if (pct > 0 && pct < 75) ringClass = 'ring-amber';
+            else if (pct >= 75 && pct < 100) ringClass = 'ring-blue';
+            else if (pct === 100) ringClass = 'ring-green';
+            
+            const div = document.createElement('div');
+            div.innerHTML = `
+                <svg width="80" height="80" viewBox="0 0 80 80" class="ring-svg mx-auto">
+                    <circle cx="40" cy="40" r="${r}" class="ring-bg"></circle>
+                    <circle cx="40" cy="40" r="${r}" class="ring-fg ${ringClass}" stroke-dasharray="${c}" stroke-dashoffset="${pct === 0 ? c : dashoffset}" transform="rotate(-90 40 40)"></circle>
+                    <text x="40" y="40" class="ring-text" dy="2">${pct}%</text>
+                </svg>
+                <div class="mt-8">
+                    <div class="text-sm font-medium truncate w-full" title="${topic}">${topic}</div>
+                    <div class="text-xs text-muted">${masteredCount} / ${arr.length}</div>
                 </div>
             `;
+            ringsContainer.appendChild(div);
         });
-        subHtml += `</div>`;
-        container.innerHTML += subHtml;
     });
+
+    // 3. Heatmap
+    const heatContainer = document.getElementById('arcade-heatmap-container');
+    heatContainer.innerHTML = '';
+    heatContainer.style.gridAutoFlow = 'column'; // Force column-major top-to-bottom filling
+    
+    // Generate past 84 days (12 weeks)
+    const today = new Date();
+    for (let i = 0; i < 84; i++) {
+        const d = new Date(today);
+        d.setDate(today.getDate() - (83 - i));
+        const dateStr = toLocalString(d);
+        const count = (db.heatmap_data && db.heatmap_data[dateStr]) ? db.heatmap_data[dateStr] : 0;
+        
+        let level = 0;
+        if (count > 0 && count <= 5) level = 1;
+        else if (count >= 6 && count <= 14) level = 2;
+        else if (count >= 15 && count <= 29) level = 3;
+        else if (count >= 30) level = 4;
+        
+        const cell = document.createElement('div');
+        cell.className = 'heatmap-cell';
+        cell.dataset.level = level;
+        cell.title = `${dateStr} — ${count} questions`;
+        heatContainer.appendChild(cell);
+    }
 }
 
 

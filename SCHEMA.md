@@ -50,3 +50,16 @@ The JSON file must contain a single top-level array of objects.
   }
 ]
 ```
+
+## Gamification & Arcade Keys
+The application tracks progress using several additional properties in `localStorage`:
+
+| Key | Type | Description |
+| --- | --- | --- |
+| `arcade_total_xp` | Integer | The global sum of all XP earned from sessions and speed runs. |
+| `streak_count` | Integer | The current sequence of consecutive days studied. |
+| `streak_last_date` | String | ISO Date (YYYY-MM-DD) of the last recorded streak event. |
+| `streak_questions_today` | Integer | The number of questions answered successfully today. |
+| `streak_questions_date` | String | Date string tracking today to trigger daily resets. |
+| `mastered_topics` | Array | A JSON stringified array of topic names that have reached 100% mastery. |
+| `heatmap_data` | Object | A JSON stringified dictionary mapping ISO dates to integer question counts. |

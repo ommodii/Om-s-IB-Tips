@@ -24,7 +24,7 @@
         <div class="nav-links">
             <button data-target="view-home" class="nav-link active">Home</button>
             <button data-target="view-setup" class="nav-link">Study</button>
-            <button data-target="view-progress" class="nav-link">Progress</button>
+            <button data-target="view-arcade" class="nav-link">Arcade</button>
             <button data-target="view-browse" class="nav-link">Browse</button>
             <button id="dark-toggle-desktop" class="nav-link"><i data-lucide="moon"></i></button>
         </div>
@@ -143,6 +143,7 @@
 
         <!-- View: Active Session -->
         <section id="view-session" class="view hidden">
+            <div id="speed-timer-bar" class="speed-bar"></div>
             <div class="session-topbar">
                 <div class="progress-track">
                     <div id="session-progress-fill" class="progress-fill"></div>
@@ -175,8 +176,12 @@
                     </div>
                     <!-- Responses for Flashcard -->
                     <div class="flashcard-controls hidden mt-32">
-                        <button class="btn btn-danger btn-lg flex-1" id="btn-fc-missed">Missed it (1)</button>
-                        <button class="btn btn-success btn-lg flex-1" id="btn-fc-gotit">Got it (2)</button>
+                        <div class="mb-16 text-center"><button class="btn btn-ghost text-muted btn-sm" id="btn-fc-missed">Forgot it / Missed (Reset)</button></div>
+                        <div class="dflex gap-16">
+                            <button class="btn btn-danger btn-lg flex-1" id="btn-fc-hard">Hard (1.2x)<br><span class="text-xs">+10 XP</span></button>
+                            <button class="btn btn-primary btn-lg flex-1" id="btn-fc-good">Good (1.5x)<br><span class="text-xs">+20 XP</span></button>
+                            <button class="btn btn-success btn-lg flex-1" id="btn-fc-easy">Easy (2.0x)<br><span class="text-xs">+25 XP</span></button>
+                        </div>
                     </div>
                 </div>
 
@@ -230,15 +235,51 @@
             </div>
         </section>
 
-        <!-- View: Progress -->
-        <section id="view-progress" class="view hidden">
-            <header class="section-header">
-                <h2>Progress</h2>
-                <p class="text-muted">Your topic mastery and stats.</p>
+        <!-- View: Arcade -->
+        <section id="view-arcade" class="view hidden">
+            <header class="section-header text-center mb-32">
+                <h2>The Arcade</h2>
+                <p class="text-muted">Master your subjects and earn XP.</p>
             </header>
 
-            <div id="progress-container" class="mt-32">
-                <!-- Subjects injected by JS -->
+            <!-- Player Card -->
+            <div class="card p-24 mb-32 dflex justify-between items-center rounded player-card">
+                <div class="flex-1">
+                    <h3 class="mb-4 text-xl">Level <span id="arcade-level">1</span></h3>
+                    <div class="progress-track mt-8 mb-4">
+                        <div id="arcade-xp-fill" class="progress-fill"></div>
+                    </div>
+                    <p class="text-xs text-muted"><span id="arcade-xp">0</span> / <span id="arcade-next-xp">50</span> XP to next level</p>
+                </div>
+                <div class="streak-box text-center ml-24 pl-24 border-l border-gray-700">
+                    <p class="text-3xl font-bold text-warning streak-glow" id="arcade-streak">🔥 0</p>
+                    <p class="text-xs text-muted uppercase tracking-wide">Day Streak</p>
+                </div>
+            </div>
+
+            <!-- Rings: Topic Mastery -->
+            <h3 class="mb-16">Topic Mastery</h3>
+            <div id="arcade-rings-container" class="mb-48">
+                <!-- Injected rings -->
+            </div>
+
+            <!-- Heatmap: Study Activity -->
+            <h3 class="mb-16">Study Activity (Past 12 Weeks)</h3>
+            <div class="card p-24 overflow-x-auto">
+                <div id="arcade-heatmap-container" class="heatmap-grid mb-8">
+                    <!-- Injected Heatmap -->
+                </div>
+                <div class="dflex justify-between text-xs text-muted">
+                    <span>Less</span>
+                    <div class="dflex gap-4">
+                        <div class="heatmap-cell" data-level="0"></div>
+                        <div class="heatmap-cell" data-level="1"></div>
+                        <div class="heatmap-cell" data-level="2"></div>
+                        <div class="heatmap-cell" data-level="3"></div>
+                        <div class="heatmap-cell" data-level="4"></div>
+                    </div>
+                    <span>More</span>
+                </div>
             </div>
         </section>
 
@@ -306,14 +347,18 @@
             </div>
         </div>
 
+        <!-- Toast / Notification container -->
+        <div id="toast-mastery" class="toast hidden">
+            <span id="toast-message">🎉 Topic mastered: [Topic]</span>
+        </div>
+
     </main>
 
     <!-- Bottom Navigation for Mobile -->
     <nav id="bottom-nav" class="hidden">
         <button data-target="view-home" class="nav-link active"><i data-lucide="home"></i><span>Home</span></button>
         <button data-target="view-setup" class="nav-link"><i data-lucide="layers"></i><span>Study</span></button>
-        <button data-target="view-progress" class="nav-link"><i
-                data-lucide="bar-chart-2"></i><span>Progress</span></button>
+        <button data-target="view-arcade" class="nav-link"><i data-lucide="gamepad-2"></i><span>Arcade</span></button>
         <button data-target="view-browse" class="nav-link"><i data-lucide="search"></i><span>Browse</span></button>
         <button id="dark-toggle-mobile" class="nav-link"><i data-lucide="moon"></i><span>Theme</span></button>
     </nav>
@@ -327,6 +372,9 @@
     <!-- KaTeX Core and Auto-render Extension -->
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+
+    <!-- Canvas Confetti -->
+    <script defer src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 
     <script defer src="app.js"></script>
 </body>
