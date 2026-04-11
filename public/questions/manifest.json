@@ -1,0 +1,7 @@
+{
+  "banks": [
+    "public/questions/chemistry-hl.json",
+    "public/questions/physics-hl.json",
+    "public/questions/math-sl.json"
+  ]
+}

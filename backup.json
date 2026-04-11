@@ -1,0 +1,152 @@
+[
+    {
+        "id": "chem-latex-001",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Which of the following describes the relationship between the mass, moles, and molar mass of a substance?",
+        "answer": "$n = \\frac{m}{M}$",
+        "options": [
+            "$n = \\frac{m}{M}$",
+            "$m = \\frac{n}{M}$",
+            "$M = m \\times n$",
+            "$n = m \\times M$"
+        ],
+        "difficulty": 1,
+        "explanation": "The number of moles $n$ is equal to mass $m$ divided by molar mass $M$."
+    },
+    {
+        "id": "chem-latex-002",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "flashcard",
+        "question": "What is the formula required to calculate the energy of a photon?",
+        "answer": "$$E = hf$$",
+        "difficulty": 1,
+        "explanation": "Energy $E$ is proportional to frequency $f$, where $h$ is Planck's constant ($6.63 \\times 10^{-34} \\text{ J s}$)."
+    },
+    {
+        "id": "chem-latex-003",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "flashcard",
+        "question": "State the ideal gas equation.",
+        "answer": "$$PV = nRT$$",
+        "difficulty": 1,
+        "explanation": "Pressure times volume equals moles times the gas constant times temperature in Kelvin."
+    },
+    {
+        "id": "chem-latex-004",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What is the formal charge formula for an atom in a molecule?",
+        "answer": "$FC = V - \\left(N + \\frac{B}{2}\\right)$",
+        "options": [
+            "$FC = V - (N + B)$",
+            "$FC = V - \\left(N + \\frac{B}{2}\\right)$",
+            "$FC = N - \\left(V + \\frac{B}{2}\\right)$",
+            "$FC = V + N - B$"
+        ],
+        "difficulty": 2,
+        "explanation": "Formal charge equals valence electrons $V$ minus non-bonding electrons $N$ and half the bonding electrons $B$."
+    },
+    {
+        "id": "chem-latex-005",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "flashcard",
+        "question": "What is the structural formula of ethanoic acid?",
+        "answer": "$\\text{CH}_3\\text{COOH}$",
+        "difficulty": 1,
+        "explanation": "Ethanoic acid contains a carboxyl functional group ($\\text{-COOH}$)."
+    },
+    {
+        "id": "chem-latex-006",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "mcq",
+        "question": "Which thermodynamics equation relates Gibbs free energy, enthalpy, and entropy?",
+        "answer": "$$\\Delta G = \\Delta H - T\\Delta S$$",
+        "options": [
+            "$$\\Delta G = \\Delta H + T\\Delta S$$",
+            "$$\\Delta G = \\Delta H - T\\Delta S$$",
+            "$$\\Delta G = T\\Delta H - \\Delta S$$",
+            "$$\\Delta S = \\Delta H - T\\Delta G$$"
+        ],
+        "difficulty": 2,
+        "explanation": "A reaction is spontaneous when $\\Delta G < 0$."
+    },
+    {
+        "id": "chem-latex-007",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 1: What drives chemical reactions?",
+        "type": "flashcard",
+        "question": "What is the standard enthalpy of combustion for methane, given it releases $890 \\text{ kJ mol}^{-1}$?",
+        "answer": "$\\Delta H^\\circ_c = -890 \\text{ kJ mol}^{-1}$",
+        "difficulty": 1,
+        "explanation": "Combustion is exothermic, so the sign must be negative."
+    },
+    {
+        "id": "chem-latex-008",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "mcq",
+        "question": "What is the equilibrium constant expression $K_c$ for the Haber process: $\\text{N}_2\\text{(g)} + 3\\text{H}_2\\text{(g)} \\rightleftharpoons 2\\text{NH}_3\\text{(g)}$?",
+        "answer": "$$K_c = \\frac{[\\text{NH}_3]^2}{[\\text{N}_2][\\text{H}_2]^3}$$",
+        "options": [
+            "$$K_c = \\frac{[\\text{N}_2][\\text{H}_2]^3}{[\\text{NH}_3]^2}$$",
+            "$$K_c = \\frac{[\\text{NH}_3]}{[\\text{N}_2][\\text{H}_2]}$$",
+            "$$K_c = \\frac{2[\\text{NH}_3]}{[\\text{N}_2] + 3[\\text{H}_2]}$$",
+            "$$K_c = \\frac{[\\text{NH}_3]^2}{[\\text{N}_2][\\text{H}_2]^3}$$"
+        ],
+        "difficulty": 2,
+        "explanation": "Products are raised to their stoichiometric coefficients divided by reactants raised to theirs."
+    },
+    {
+        "id": "chem-latex-009",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 2: How much, how fast and how far?",
+        "type": "flashcard",
+        "question": "What is the Arrhenius equation relating rate constant $k$ and activation energy $E_a$?",
+        "answer": "$$k = A e^{\\frac{-E_a}{RT}}$$",
+        "difficulty": 3,
+        "explanation": "Taking the natural log gives: $\\ln k = \\frac{-E_a}{R}\\left(\\frac{1}{T}\\right) + \\ln A$, which is highly useful for linear graphing."
+    },
+    {
+        "id": "chem-latex-010",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "mcq",
+        "question": "How do you calculate pH from the concentration of hydrogen ions?",
+        "answer": "$$\\text{pH} = -\\log_{10}[\\text{H}^+]$$",
+        "options": [
+            "$$\\text{pH} = \\log_{10}[\\text{H}^+]$$",
+            "$$\\text{pH} = -\\log_{10}[\\text{OH}^-]$$",
+            "$$\\text{pH} = -\\log_{10}[\\text{H}^+]$$",
+            "$$\\text{pH} = 10^{-[\\text{H}^+]}$$"
+        ],
+        "difficulty": 1,
+        "explanation": "The negative base-10 logarithm of the hydronium ion concentration provides the pH."
+    },
+    {
+        "id": "chem-latex-011",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "flashcard",
+        "question": "For a weak acid $\\text{HA}$, what is the acid dissociation constant $K_a$?",
+        "answer": "$$K_a = \\frac{[\\text{H}^+][\\text{A}^-]}{[\\text{HA}]}$$",
+        "difficulty": 2,
+        "explanation": "This determines the strength of the weak acid in solution."
+    },
+    {
+        "id": "chem-latex-012",
+        "subject": "Chemistry HL",
+        "topic": "Reactivity 3: What are the mechanisms of chemical change?",
+        "type": "flashcard",
+        "question": "What is the relationship between the ionic product of water ($K_w$), $K_a$, and $K_b$ for a conjugate acid-base pair?",
+        "answer": "$$K_w = K_a \\times K_b$$",
+        "difficulty": 2,
+        "explanation": "At $298 \\text{ K}$, $K_w = 1.0 \\times 10^{-14}$."
+    }
+]

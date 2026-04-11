@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om's IB Tips</title>
+    <meta name="description" content="Focused IB Diploma exam revision app.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ultra&display=swap" rel="stylesheet">
+
+    <!-- KaTeX CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Top Navigation -->
+    <nav id="top-nav" class="hidden">
+        <div class="nav-brand">Om's IB Tips</div>
+        <div class="nav-links">
+            <button data-target="view-home" class="nav-link active">Home</button>
+            <button data-target="view-setup" class="nav-link">Study</button>
+            <button data-target="view-progress" class="nav-link">Progress</button>
+            <button data-target="view-browse" class="nav-link">Browse</button>
+            <button id="dark-toggle-desktop" class="nav-link"><i data-lucide="moon"></i></button>
+        </div>
+    </nav>
+
+    <main id="app-container">
+
+        <!-- View: Load / First Time -->
+        <section id="view-load" class="view hidden">
+            <div class="centered-box text-center">
+                <i data-lucide="book-open" class="hero-icon"></i>
+                <h1>Om's IB Tips</h1>
+                <p class="text-muted">A dedicated study environment for your IB exams.</p>
+
+                <div class="action-stack mt-32">
+                    <button class="btn btn-primary w-full" id="btn-resume" style="display: none;">
+                        Resume with saved questions (<span id="saved-count">0</span>)
+                    </button>
+                    <!-- Loading state indicator -->
+                    <p class="text-sm text-muted mt-16" id="upload-status">Loading Question Bank...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- View: Home -->
+        <section id="view-home" class="view hidden">
+            <header class="section-header">
+                <h2>Dashboard</h2>
+            </header>
+
+            <div class="hero-card mt-24 text-center">
+                <h1 class="due-large" id="home-due-count">0</h1>
+                <p class="text-muted">Cards due today</p>
+                <div class="mt-24">
+                    <button id="btn-start-due" class="btn btn-primary btn-lg">Start now &rarr;</button>
+                </div>
+            </div>
+
+            <div class="dashboard-grid mt-32">
+                <div class="card p-24">
+                    <h3 class="mb-16">Bank Overview</h3>
+                    <div id="subject-pills" class="pill-group">
+                        <!-- Pillars injected by JS -->
+                    </div>
+                    <p class="text-sm text-muted mt-16">Total questions: <span id="home-total-count">0</span></p>
+                </div>
+
+                <div class="card p-24" id="recent-session-card">
+                    <h3 class="mb-16">Recent Session</h3>
+                    <div id="recent-session-stats">
+                        <p class="text-muted text-sm">No recent sessions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- View: Setup Study Session -->
+        <section id="view-setup" class="view hidden">
+            <header class="section-header">
+                <h2>Study Session</h2>
+                <p class="text-muted">Choose how you want to study today.</p>
+            </header>
+
+            <div class="setup-tabs mt-24">
+                <button class="tab-btn active" data-mode="spaced">Spaced Repetition</button>
+                <button class="tab-btn" data-mode="topic">Topic Focus</button>
+            </div>
+
+            <div class="card p-24 mt-24" id="setup-content">
+                <!-- Spaced Repetition Info -->
+                <div id="setup-mode-spaced" class="">
+                    <h3>Daily Review Mode</h3>
+                    <p class="text-muted mt-8 mb-24">Review cards that are due for interval training today to optimize
+                        retention.</p>
+                    <p class="font-medium">Cards in queue: <span id="setup-due-count">0</span></p>
+                    <div class="mt-32">
+                        <button id="btn-launch-spaced" class="btn btn-primary">Start Review &rarr;</button>
+                    </div>
+                </div>
+
+                <!-- Topic Focus Setup -->
+                <div id="setup-mode-topic" class="hidden">
+                    <h3>Topic Focus</h3>
+                    <p class="text-muted mt-8 mb-24">Drill down into specific subjects and topics.</p>
+
+                    <div class="form-group">
+                        <label>Subject</label>
+                        <select id="setup-subject" class="input-field"></select>
+                    </div>
+
+                    <div class="form-group mt-16">
+                        <label>Topics</label>
+                        <div id="setup-topics" class="checkbox-group">
+                            <!-- Injected by JS -->
+                        </div>
+                    </div>
+
+                    <div class="form-group mt-16">
+                        <label>Difficulty</label>
+                        <select id="setup-difficulty" class="input-field">
+                            <option value="all">All levels</option>
+                            <option value="1">Level 1 (Easy)</option>
+                            <option value="2">Level 2 (Medium)</option>
+                            <option value="3">Level 3 (Hard)</option>
+                        </select>
+                    </div>
+
+                    <p class="font-medium mt-32 border-t pt-16">Your session: <span id="setup-focus-count">0</span>
+                        questions</p>
+                    <div class="mt-16">
+                        <button id="btn-launch-topic" class="btn btn-primary" disabled>Start Session &rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- View: Active Session -->
+        <section id="view-session" class="view hidden">
+            <div class="session-topbar">
+                <div class="progress-track">
+                    <div id="session-progress-fill" class="progress-fill"></div>
+                </div>
+                <div class="session-header dflex justify-between items-center px-24 py-16">
+                    <div class="session-meta">
+                        <span id="session-subject" class="badge">Subject</span>
+                        <span id="session-counter" class="text-sm font-medium ml-16">1 / 10</span>
+                    </div>
+                    <button id="btn-exit-session" class="btn btn-ghost text-sm">Exit</button>
+                </div>
+            </div>
+
+            <div class="session-arena mt-32 pb-48">
+                <!-- Flashcard -->
+                <div id="card-flashcard" class="card-container hidden">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <h2 class="question-text text-left w-full">Question</h2>
+                            <p class="hint-text mt-32 text-muted text-sm text-center"><i data-lucide="hand"
+                                    class="inline-icon"></i> Tap to reveal or press Space</p>
+                        </div>
+                        <div class="flashcard-back">
+                            <div class="answer-content text-left w-full">
+                                <p class="text-sm text-muted font-medium mb-16 uppercase tracking-wide">Answer</p>
+                                <h3 class="answer-text">Answer</h3>
+                                <div id="flashcard-explanation" class="explanation-box hidden mt-24"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Responses for Flashcard -->
+                    <div class="flashcard-controls hidden mt-32">
+                        <button class="btn btn-danger btn-lg flex-1" id="btn-fc-missed">Missed it (1)</button>
+                        <button class="btn btn-success btn-lg flex-1" id="btn-fc-gotit">Got it (2)</button>
+                    </div>
+                </div>
+
+                <!-- MCQ -->
+                <div id="card-mcq" class="mcq-container hidden max-w-2xl mx-auto">
+                    <h2 class="question-text mb-32 text-left">Question</h2>
+                    <div class="options-grid" id="mcq-options">
+                        <!-- Options generated by JS -->
+                    </div>
+                    <div id="mcq-explanation" class="explanation-box hidden mt-32"></div>
+                    <div class="mcq-controls mt-32 text-right hidden">
+                        <button class="btn btn-primary" id="btn-mcq-next">Next &rarr; (Enter)</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- View: Session Summary -->
+        <section id="view-summary" class="view hidden">
+            <div class="max-w-2xl mx-auto">
+                <header class="section-header text-center mb-48">
+                    <h2>Session Complete</h2>
+                    <p class="text-muted">Here's how you did.</p>
+                </header>
+
+                <div class="summary-stats grid-3 mb-32">
+                    <div class="stat-box">
+                        <p class="text-muted text-sm">Answered</p>
+                        <p class="text-2xl font-medium" id="sum-total">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <p class="text-success text-sm">Correct</p>
+                        <p class="text-2xl font-medium" id="sum-correct">0</p>
+                    </div>
+                    <div class="stat-box">
+                        <p class="text-danger text-sm">Incorrect</p>
+                        <p class="text-2xl font-medium" id="sum-incorrect">0</p>
+                    </div>
+                </div>
+
+                <h3 class="mb-16">Questions to Review</h3>
+                <div id="summary-missed-list" class="missed-list mb-32">
+                    <!-- Injected by JS -->
+                </div>
+
+                <div class="dflex gap-16">
+                    <button class="btn btn-secondary flex-1" id="btn-sum-home">Back to Home</button>
+                    <button class="btn btn-primary flex-1" id="btn-sum-review" style="display: none;">Review
+                        Missed</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- View: Progress -->
+        <section id="view-progress" class="view hidden">
+            <header class="section-header">
+                <h2>Progress</h2>
+                <p class="text-muted">Your topic mastery and stats.</p>
+            </header>
+
+            <div id="progress-container" class="mt-32">
+                <!-- Subjects injected by JS -->
+            </div>
+        </section>
+
+        <!-- View: Browse -->
+        <section id="view-browse" class="view hidden">
+            <header class="section-header dflex justify-between items-center flex-wrap gap-16">
+                <div>
+                    <h2>Question Bank</h2>
+                    <p class="text-muted">Browse and search all loaded questions.</p>
+                </div>
+                <div class="search-wrap relative flex-1 max-w-sm">
+                    <i data-lucide="search" class="absolute left-10 top-10 text-muted w-16 h-16"></i>
+                    <input type="text" id="browse-search" placeholder="Search questions..."
+                        class="input-field pl-32 w-full">
+                </div>
+            </header>
+
+            <div class="browse-filters dflex gap-16 mt-24 mb-24 overflow-x-auto pb-8">
+                <select id="filter-subject" class="input-field text-sm">
+                    <option value="">All Subjects</option>
+                </select>
+                <select id="filter-type" class="input-field text-sm">
+                    <option value="">All Types</option>
+                    <option value="flashcard">Flashcard</option>
+                    <option value="mcq">MCQ</option>
+                </select>
+                <select id="filter-difficulty" class="input-field text-sm">
+                    <option value="">All Difficulty</option>
+                    <option value="1">Easy</option>
+                    <option value="2">Medium</option>
+                    <option value="3">Hard</option>
+                </select>
+            </div>
+
+            <div class="table-container border rounded overflow-hidden">
+                <table class="w-full text-left" id="browse-table">
+                    <thead>
+                        <tr class="bg-gray-50 text-sm text-muted">
+                            <th class="p-16 w-1/6">Subject</th>
+                            <th class="p-16 w-1/6">Topic</th>
+                            <th class="p-16 w-1/12">Diff</th>
+                            <th class="p-16">Question</th>
+                        </tr>
+                    </thead>
+                    <tbody id="browse-tbody">
+                        <!-- Rows injected by JS -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Keyboard shortcuts modal overlay -->
+        <div id="shortcuts-modal" class="modal-overlay hidden">
+            <div class="modal-content">
+                <h3 class="mb-16">Keyboard Shortcuts</h3>
+                <ul class="space-y-8 text-sm">
+                    <li class="dflex justify-between"><kbd>Space</kbd> <span>Flip flashcard</span></li>
+                    <li class="dflex justify-between"><kbd>1</kbd> / <kbd>2</kbd> <span>Got it / Missed it</span></li>
+                    <li class="dflex justify-between"><kbd>1</kbd> .. <kbd>4</kbd> <span>Select MCQ A/B/C/D</span></li>
+                    <li class="dflex justify-between"><kbd>Enter</kbd> <span>Next question</span></li>
+                    <li class="dflex justify-between"><kbd>Esc</kbd> <span>Exit session / Close modal</span></li>
+                    <li class="dflex justify-between"><kbd>?</kbd> <span>Show shortcuts</span></li>
+                </ul>
+                <button class="btn btn-secondary w-full mt-24" id="btn-close-shortcuts">Close</button>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Bottom Navigation for Mobile -->
+    <nav id="bottom-nav" class="hidden">
+        <button data-target="view-home" class="nav-link active"><i data-lucide="home"></i><span>Home</span></button>
+        <button data-target="view-setup" class="nav-link"><i data-lucide="layers"></i><span>Study</span></button>
+        <button data-target="view-progress" class="nav-link"><i
+                data-lucide="bar-chart-2"></i><span>Progress</span></button>
+        <button data-target="view-browse" class="nav-link"><i data-lucide="search"></i><span>Browse</span></button>
+        <button id="dark-toggle-mobile" class="nav-link"><i data-lucide="moon"></i><span>Theme</span></button>
+    </nav>
+
+    <!-- Scripts -->
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- PapaParse -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+
+    <!-- KaTeX Core and Auto-render Extension -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js"></script>
+
+    <script defer src="app.js"></script>
+</body>
+
+</html>

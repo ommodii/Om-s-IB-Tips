@@ -1,0 +1,1296 @@
+[
+    {
+        "id": "chem-latex-013",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "The molecule $O_2$ contains one $\\sigma$ and one $\\pi$ bond. How do p orbitals in the O atoms overlap to produce the $\\pi$ bond?",
+        "answer": "Sideways overlap results in high electron density above and below the bond axis",
+        "options": [
+            "End-to-end overlap results in high electron density along the bond axis",
+            "Sideways overlap results in high electron density along the bond axis",
+            "End-to-end overlap results in high electron density above and below the bond axis",
+            "Sideways overlap results in high electron density above and below the bond axis"
+        ],
+        "difficulty": 1,
+        "explanation": "Pi ($\\pi$) bonds are formed by the sideways overlap of p-orbitals, resulting in electron density above and below the internuclear axis."
+    },
+    {
+        "id": "chem-latex-014",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which correctly states the relative size of the bond angles for $H_2O$, $NH_3$, and $CH_4$?",
+        "answer": "$H_2O < NH_3 < CH_4$",
+        "options": [
+            "$CH_4 < NH_3 < H_2O$",
+            "$H_2O < NH_3 < CH_4$",
+            "$H_2O < CH_4 < NH_3$",
+            "$CH_4 < NH_3 < H_2O$"
+        ],
+        "difficulty": 1,
+        "explanation": "Repulsion decreases in the order: lone pair-lone pair > lone pair-bonding pair > bonding pair-bonding pair. $H_2O$ has 2 lone pairs ($104.5^\\circ$), $NH_3$ has 1 ($107^\\circ$), and $CH_4$ has 0 ($109.5^\\circ$)."
+    },
+    {
+        "id": "chem-latex-015",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which bond is more polar?",
+        "answer": "C-F",
+        "options": [
+            "C-C",
+            "C-N",
+            "C-F",
+            "C-Br"
+        ],
+        "difficulty": 1,
+        "explanation": "Polarity depends on the difference in electronegativity. Fluorine is the most electronegative element, making the C-F bond the most polar in this set."
+    },
+    {
+        "id": "chem-latex-016",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Carbon tetrachloride has covalent bonding. Which of the following clearly describes this type of bonding?",
+        "answer": "The electrostatic force of attraction between the shared pairs of electrons and the positively charged nuclei",
+        "options": [
+            "The electrostatic force of attraction by oppositely charged ions",
+            "The force of attraction between the electron donor and electron acceptor",
+            "The intermolecular force between hydrogen and most electronegative elements",
+            "The electrostatic force of attraction between the shared pairs of electrons and the positively charged nuclei"
+        ],
+        "difficulty": 1,
+        "explanation": "Covalent bonding is defined as the electrostatic attraction between a shared pair of electrons and the nuclei of the bonded atoms."
+    },
+    {
+        "id": "chem-latex-017",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "$CH_3COOH$ has which of the following intermolecular forces? I. London, II. Dipole-Dipole, III. Hydrogen bonds",
+        "answer": "I, II, and III",
+        "options": [
+            "I only",
+            "I and III only",
+            "I, II, and III",
+            "D. II only"
+        ],
+        "difficulty": 1,
+        "explanation": "Ethanoic acid is polar (dipole-dipole), has an O-H bond (hydrogen bonding), and all molecules possess London dispersion forces."
+    },
+    {
+        "id": "chem-latex-018",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which shows the oxygen-to-oxygen bonds in order of increasing average bond enthalpy?",
+        "answer": "$O-O < O=O < O\\equiv O$",
+        "options": [
+            "$O\\equiv O < O=O < O-O$",
+            "$O-O < O\\equiv O < O=O$",
+            "$O=O < O-O < O\\equiv O$",
+            "$O-O < O=O < O\\equiv O$"
+        ],
+        "difficulty": 1,
+        "explanation": "Triple bonds are stronger than double bonds, which are stronger than single bonds. Higher bond order correlates with higher bond enthalpy."
+    },
+    {
+        "id": "chem-latex-019",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the below gives the intermolecular forces in water in the correct order from weakest to strongest?",
+        "answer": "London < dipole-dipole < hydrogen bonding",
+        "options": [
+            "London < dipole-dipole < hydrogen bonding",
+            "Dipole-dipole < London < hydrogen bonding",
+            "Hydrogen bonding < dipole-dipole < London",
+            "London < hydrogen bonding < dipole-dipole"
+        ],
+        "difficulty": 1,
+        "explanation": "London forces are the weakest, followed by dipole-dipole, with hydrogen bonding being the strongest type of permanent dipole-dipole interaction."
+    },
+    {
+        "id": "chem-latex-020",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which is a correct description of the bonding present in graphene, diamond, and graphite?",
+        "answer": "2-dimensional material with bond angles of $120^\\circ$, 3-dimensional material with bond angles of $109.5^\\circ$, Hexagonal layers with bond angles of $120^\\circ$",
+        "options": [
+            "3-dimensional material with bond angles of $109.5^\\circ$, 2-dimensional material with bond angles of $120^\\circ$, Hexagonal layers with bond angles of $120^\\circ$",
+            "Hexagonal layers with bond angles of $120^\\circ$, 3-dimensional material with bond angles of $109.5^\\circ$, 2-dimensional material with bond angles of $120^\\circ$",
+            "2-dimensional material with bond angles of $120^\\circ$, 3-dimensional material with bond angles of $109.5^\\circ$, Hexagonal layers with bond angles of $120^\\circ$",
+            "2-dimensional material with bond angles of $120^\\circ$, Hexagonal layers with bond angles of $120^\\circ$, 3-dimensional material with bond angles of $109.5^\\circ$"
+        ],
+        "difficulty": 1,
+        "explanation": "Graphene is a single 2D layer ($sp^2$), Diamond is a 3D network ($sp^3$), and Graphite consists of stacked hexagonal layers ($sp^2$)."
+    },
+    {
+        "id": "chem-latex-021",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following statements regarding silicon dioxide, $SiO_2$, are correct? I. Giant covalent tetrahedral, II. Insoluble and high melting point, III. Pair of nonbonding electrons on Si atoms.",
+        "answer": "I and II only",
+        "options": [
+            "I, and II only",
+            "I and III only",
+            "II and III only",
+            "I only"
+        ],
+        "difficulty": 2,
+        "explanation": "Silicon in $SiO_2$ forms four single bonds to oxygen atoms in a tetrahedral giant covalent lattice. There are no lone pairs on the silicon atom."
+    },
+    {
+        "id": "chem-latex-022",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which compounds have an ionic lattice in the solid state? I. Ammonium sulfate, II. Hydrogen chloride, III. Sodium carbonate",
+        "answer": "I and III only",
+        "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+        ],
+        "difficulty": 2,
+        "explanation": "Ammonium sulfate and Sodium carbonate are ionic compounds. Hydrogen chloride is a molecular covalent gas at room temperature."
+    },
+    {
+        "id": "chem-latex-023",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which statement explains the high boiling point of $NH_3$?",
+        "answer": "Strong hydrogen bonds",
+        "options": [
+            "Strong London forces",
+            "Strong N-H covalent bonds",
+            "Strong hydrogen bonds",
+            "Strong dipole-dipole interactions"
+        ],
+        "difficulty": 1,
+        "explanation": "The presence of hydrogen bonding between $NH_3$ molecules requires significant energy to overcome, leading to a high boiling point."
+    },
+    {
+        "id": "chem-latex-024",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following substances is the most soluble in water, with the correct reason given?",
+        "answer": "$NH_3$: It can form hydrogen bonds with water molecules",
+        "options": [
+            "$PF_3$: The bonds are very polar",
+            "$PF_3$: The molecule has a permanent dipole",
+            "$NH_3$: It can form hydrogen bonds with itself",
+            "$NH_3$: It can form hydrogen bonds with water molecules"
+        ],
+        "difficulty": 2,
+        "explanation": "Solubility in water is greatly enhanced by the ability of a solute to form hydrogen bonds with water molecules."
+    },
+    {
+        "id": "chem-latex-025",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following has covalent bonding? I. $CCl_4$, II. $Ca_3N_2$, III. $NH_3$",
+        "answer": "I and III only",
+        "options": [
+            "III only",
+            "I and II only",
+            "I and III only",
+            "I, II and III"
+        ],
+        "difficulty": 1,
+        "explanation": "$CCl_4$ and $NH_3$ are molecular covalent. $Ca_3N_2$ is ionic (metal + non-metal)."
+    },
+    {
+        "id": "chem-latex-026",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Based on single, double, and triple bonds, which set of molecules is arranged in increasing order of their bond strength?",
+        "answer": "$H_2 < O_2 < N_2$",
+        "options": [
+            "$H_2 < N_2 < O_2$",
+            "$H_2 < O_2 < N_2$",
+            "$O_2 < H_2 < N_2$",
+            "$N_2 < O_2 < H_2$"
+        ],
+        "difficulty": 2,
+        "explanation": "$H_2$ (single), $O_2$ (double), $N_2$ (triple). Bond strength increases with bond order."
+    },
+    {
+        "id": "chem-latex-027",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What is the hybridization of the boron atom in $BF_3$ and $BF_4^-$?",
+        "answer": "$sp^2, sp^3$",
+        "options": [
+            "$sp^3, sp^2$",
+            "$sp^2, sp^3$",
+            "$sp^2, sp^2$",
+            "$sp^3, sp^3$"
+        ],
+        "difficulty": 2,
+        "explanation": "$BF_3$ has 3 electron domains (trigonal planar, $sp^2$). $BF_4^-$ has 4 electron domains (tetrahedral, $sp^3$)."
+    },
+    {
+        "id": "chem-latex-028",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following cannot conduct electricity in a molten state? I. $PCl_3$, II. $NaCl$, III. $SO_2$",
+        "answer": "I and III only",
+        "options": [
+            "I and II only",
+            "II and III only",
+            "I, II and III",
+            "I and III only"
+        ],
+        "difficulty": 2,
+        "explanation": "Covalent molecular substances ($PCl_3$, $SO_2$) do not have free-moving ions or electrons in the molten state. $NaCl$ is ionic and conducts when molten."
+    },
+    {
+        "id": "chem-latex-029",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which orbitals of the carbon atoms are used to form the C-H and C=C bonds of ethene?",
+        "answer": "$sp^2$ orbitals; $sp^2$ and p orbitals",
+        "options": [
+            "$sp^2$ orbitals; p orbitals",
+            "p orbitals; $sp^2$ and p orbitals",
+            "$sp^2$ orbitals; $sp^2$ and p orbitals",
+            "p orbitals; $sp^2$ orbitals"
+        ],
+        "difficulty": 2,
+        "explanation": "In ethene ($sp^2$), C-H bonds are $sp^2$-s overlap. The C=C double bond consists of one $\\sigma$ ($sp^2$-$sp^2$ overlap) and one $\\pi$ (p-p overlap)."
+    },
+    {
+        "id": "chem-latex-030",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Why is hybridization helpful for explaining the bonding of carbon in ethene ($C_2H_4$)?",
+        "answer": "Hybridization allows the paired 2s electrons to participate in separate $\\sigma$ bonds",
+        "options": [
+            "Hybridization allows the paired 2s electrons to participate in separate $\\sigma$ bonds",
+            "Hybridization allows the paired 2s electrons to participate in separate $\\pi$ bonds",
+            "Hybridization allows the paired 2p electrons to participate in separate $\\sigma$ bonds",
+            "Hybridization allows the paired 2p electrons to participate in separate $\\pi$ bonds"
+        ],
+        "difficulty": 2,
+        "explanation": "Hybridization mixes the 2s and 2p orbitals to create equivalent orbitals, allowing carbon to form four bonds (in ethene, 3 $\\sigma$ and 1 $\\pi$)."
+    },
+    {
+        "id": "chem-latex-031",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "The Lewis structure of $NCl_3$ shows which type(s) of electrons? I. Non-Bonding, II. Bonding, III. Innermost",
+        "answer": "I and II only",
+        "options": [
+            "I and II only",
+            "I, II, and III",
+            "I only",
+            "II only"
+        ],
+        "difficulty": 1,
+        "explanation": "Lewis structures represent valence electrons only, including bonding pairs and lone (non-bonding) pairs."
+    },
+    {
+        "id": "chem-latex-032",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which molecule would be considered polar covalent?",
+        "answer": "$NH_3$",
+        "options": [
+            "$CO_2$",
+            "$NH_3$",
+            "$CH_4$",
+            "$SO_3$"
+        ],
+        "difficulty": 1,
+        "explanation": "$NH_3$ is trigonal pyramidal and asymmetrical, so the bond dipoles do not cancel. The others are symmetrical."
+    },
+    {
+        "id": "chem-latex-033",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following statements is true regarding the decomposition of $O_2$ and $O_3$?",
+        "answer": "$O_3$ contains weaker bonds than $O_2$ so is broken down by a longer wavelength of light",
+        "options": [
+            "$O_3$ contains weaker bonds than $O_2$ so is broken down by a shorter wavelength of light",
+            "$O_3$ contains weaker bonds than $O_2$ so is broken down by a longer wavelength of light",
+            "$O_3$ contains stronger bonds than $O_2$ so is broken down by a shorter wavelength of light",
+            "$O_3$ contains stronger bonds than $O_2$ so is broken down by a longer wavelength of light"
+        ],
+        "difficulty": 2,
+        "explanation": "$O_3$ has a bond order of 1.5 due to resonance, making its bonds weaker than the double bond in $O_2$. Lower energy (longer wavelength) light can break $O_3$ bonds."
+    },
+    {
+        "id": "chem-latex-034",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Based on their structures, which of the substances below is likely to be the most volatile?",
+        "answer": "HCl",
+        "options": [
+            "HF",
+            "HCl",
+            "H_2SO_4",
+            "HNO_3"
+        ],
+        "difficulty": 2,
+        "explanation": "Volatility increases as intermolecular forces decrease. $HCl$ only has dipole-dipole/London forces, whereas $HF$, $H_2SO_4$, and $HNO_3$ have strong hydrogen bonding."
+    },
+    {
+        "id": "chem-latex-035",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following molecules would NOT demonstrate resonance?",
+        "answer": "HCl",
+        "options": [
+            "$CO_3^{2-}$",
+            "$SO_4^{2-}$",
+            "$O_3$",
+            "HCl"
+        ],
+        "difficulty": 1,
+        "explanation": "$HCl$ is a simple diatomic molecule with a single covalent bond. Resonance requires the possibility of multiple valid Lewis structures (usually involving $\\pi$ systems)."
+    },
+    {
+        "id": "chem-latex-036",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which statement correctly explains why the boiling point of 2-methylpentane is lower than that of hexane?",
+        "answer": "2-methylpentane has more branching than hexane",
+        "options": [
+            "2-methylpentane has fewer electrons than hexane",
+            "2-methylpentane has a smaller $M_r$ than hexane",
+            "2-methylpentane has more branching than hexane",
+            "2-methylpentane has lower electron density than hexane"
+        ],
+        "difficulty": 2,
+        "explanation": "Branching reduces the surface area for London dispersion forces to act, leading to a lower boiling point despite having the same molecular formula."
+    },
+    {
+        "id": "chem-latex-037",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What is the correct number of total valence electrons and electron domains on the central atom for methanal, $CH_2O$?",
+        "answer": "12 valence electrons, 3 electron domains",
+        "options": [
+            "8 valence electrons, 3 electron domains",
+            "12 valence electrons, 3 electron domains",
+            "8 valence electrons, 4 electron domains",
+            "12 valence electrons, 4 electron domains"
+        ],
+        "difficulty": 2,
+        "explanation": "Total valence: $C(4) + H(2) + O(6) = 12$. The carbon has two single bonds (H) and one double bond (O), totaling 3 electron domains."
+    },
+    {
+        "id": "chem-latex-038",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the below shows the boiling points in the correct ascending order?",
+        "answer": "$(CH_3)_4C < CH_3CH_2CH(CH_3)CH_3 < CH_3CH_2CH_2CH_2CH_3$",
+        "options": [
+            "$(CH_3)_4C < CH_3CH_2CH_2CH_2CH_3 < CH_3CH_2CH(CH_3)CH_3$",
+            "$(CH_3)_4C < CH_3CH_2CH(CH_3)CH_3 < CH_3CH_2CH_2CH_2CH_3$",
+            "$CH_3CH_2CH_2CH_2CH_3 < CH_3CH_2CH(CH_3)CH_3 < (CH_3)_4C$",
+            "$CH_3CH_2CH(CH_3)CH_3 < CH_3CH_2CH_2CH_2CH_3 < (CH_3)_4C$"
+        ],
+        "difficulty": 3,
+        "explanation": "For isomers, increased branching leads to lower boiling points. Neopentane < Isopentane < n-Pentane."
+    },
+    {
+        "id": "chem-latex-039",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following statements regarding hybridization are true? I. Paired s electrons may occupy separate $sp^3$ orbitals, II. Total orbitals remain unchanged, III. $\\pi$ bonds form from sideways overlap of hybrid orbitals.",
+        "answer": "I and II only",
+        "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II, and III"
+        ],
+        "difficulty": 2,
+        "explanation": "Pi bonds form from the sideways overlap of unhybridized p orbitals, not hybrid orbitals."
+    },
+    {
+        "id": "chem-latex-040",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Why does the boiling point of compound Y ($CH_3CH_2CH_2OH$) differ from that of compound X ($CH_3CH_2OH$)?",
+        "answer": "Y has a higher boiling point because there are more atoms interacting via dispersion forces",
+        "options": [
+            "Y has a higher boiling point because there are more atoms interacting via dispersion forces",
+            "Y has a lower boiling point because there are more atoms interacting via dispersion forces",
+            "Y has a higher boiling point because there are more atoms interacting via hydrogen bonds",
+            "Y has a lower boiling point because there are more atoms interacting via hydrogen bonds"
+        ],
+        "difficulty": 2,
+        "explanation": "Both have hydrogen bonding, but Y has a longer carbon chain, providing more surface area for stronger London dispersion forces."
+    },
+    {
+        "id": "chem-latex-041",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following statements regarding the Lewis structure of $BF_3$ is correct?",
+        "answer": "The structure is considered to be electron deficient",
+        "options": [
+            "I, II, and III",
+            "I and II only",
+            "II only",
+            "III only"
+        ],
+        "difficulty": 2,
+        "explanation": "$BF_3$ is symmetrical (no net dipole) and trigonal planar (120$^{\\circ}$ angle) with single bonds. Boron only has 6 valence electrons, making it electron deficient."
+    },
+    {
+        "id": "chem-latex-042",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which molecule does NOT have a linear shape?",
+        "answer": "$SO_2$",
+        "options": [
+            "$CS_2$",
+            "$BeCl_2$",
+            "$C_2H_2$",
+            "$SO_2$"
+        ],
+        "difficulty": 1,
+        "explanation": "$SO_2$ has 3 electron domains (2 bonding, 1 lone pair), making its molecular geometry bent."
+    },
+    {
+        "id": "chem-latex-043",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "In a $CO_2$ molecule, how many lone and bonding pairs of electrons are present in the Lewis-dot structure?",
+        "answer": "4 lone pairs, 4 bonding pairs",
+        "options": [
+            "4 lone pairs, 4 bonding pairs",
+            "2 lone pairs, 6 bonding pairs",
+            "4 lone pairs, 2 bonding pairs",
+            "2 lone pairs, 8 bonding pairs"
+        ],
+        "difficulty": 2,
+        "explanation": "Carbon forms two double bonds (4 bonding pairs). Each oxygen has 2 lone pairs (4 lone pairs total)."
+    },
+    {
+        "id": "chem-latex-044",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which terms best describe the electron domain geometry of $BrCl_5$?",
+        "answer": "Octahedral",
+        "options": [
+            "Square pyramidal",
+            "Trigonal bipyramidal",
+            "Pentagonal planar",
+            "Octahedral"
+        ],
+        "difficulty": 3,
+        "explanation": "$BrCl_5$ has 5 bonding pairs and 1 lone pair on Br, totaling 6 electron domains, which is octahedral geometry."
+    },
+    {
+        "id": "chem-latex-045",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which row shows the correct interactions between the substances and water?",
+        "answer": "III only ($CH_3CH_2OH$ forms H-bonds with water and itself)",
+        "options": [
+            "I only",
+            "II only",
+            "III only",
+            "II and III only"
+        ],
+        "difficulty": 3,
+        "explanation": "Ethanol (III) has an O-H group allowing H-bonds with both water and other ethanol molecules. Dimethyl ether (II) can only H-bond with water, not itself."
+    },
+    {
+        "id": "chem-latex-046",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What is the hybridization of the N atom and the bond angle in the nitrite ion ($NO_2^-$)?",
+        "answer": "$sp^2$; $115^\\circ$",
+        "options": [
+            "$sp^2$; $125^\\circ$",
+            "$sp^2$; $115^\\circ$",
+            "$sp^3$; $112^\\circ$",
+            "$sp^3$; $107^\\circ$"
+        ],
+        "difficulty": 3,
+        "explanation": "$NO_2^-$ has 3 electron domains ($sp^2$). The lone pair repels the bonding pairs, reducing the angle from $120^\\circ$ to approximately $115^\\circ$."
+    },
+    {
+        "id": "chem-latex-047",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Chlorofluorocarbons (CFCs) contain bonds of the following lengths: C-C = $1.54 \\times 10^{-10}$ m, C-F = $1.38 \\times 10^{-10}$ m, C-Cl = $1.77 \\times 10^{-10}$ m. What is the order of increasing bond strength in the CFC molecule?",
+        "answer": "C-Cl < C-C < C-F",
+        "options": [
+            "C-C < C-F < C-Cl",
+            "C-C < C-Cl < C-F",
+            "C-Cl < C-C < C-F",
+            "C-F < C-C < C-Cl"
+        ],
+        "difficulty": 2,
+        "explanation": "Bond strength is inversely proportional to bond length. The shortest bond (C-F) is the strongest, and the longest bond (C-Cl) is the weakest."
+    },
+    {
+        "id": "chem-latex-048",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which molecule is polar?",
+        "answer": "$PH_3$",
+        "options": [
+            "$BeH_2$",
+            "$AlH_3$",
+            "$PH_3$",
+            "$SiH_4$"
+        ],
+        "difficulty": 2,
+        "explanation": "$PH_3$ is trigonal pyramidal with a lone pair on phosphorus, making it asymmetrical. $BeH_2$ (linear), $AlH_3$ (trigonal planar), and $SiH_4$ (tetrahedral) are all symmetrical and non-polar."
+    },
+    {
+        "id": "chem-latex-049",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which statement best describes the intramolecular bonding in HCN (l)?",
+        "answer": "Electrostatic attractions between pairs of electrons and positively charged nuclei",
+        "options": [
+            "Electrostatic attractions between $H^+$ and $CN^-$ ions",
+            "Hydrogen bonding",
+            "Van der Waals forces and hydrogen bonding",
+            "Electrostatic attractions between pairs of electrons and positively charged nuclei"
+        ],
+        "difficulty": 1,
+        "explanation": "Intramolecular bonding refers to the bonds within the molecule itself. In HCN, this is covalent bonding, defined as the attraction between shared electron pairs and nuclei."
+    },
+    {
+        "id": "chem-latex-050",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which molecule contains an incomplete octet of electrons?",
+        "answer": "$BF_3$",
+        "options": [
+            "$NF_3$",
+            "$BF_3$",
+            "$BrF$",
+            "$SF_2$"
+        ],
+        "difficulty": 1,
+        "explanation": "Boron in $BF_3$ is surrounded by only 6 valence electrons (3 bonding pairs), which is an exception to the octet rule known as an incomplete octet."
+    },
+    {
+        "id": "chem-latex-051",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which species has delocalized electrons?",
+        "answer": "$CO_3^{2-}$",
+        "options": [
+            "$OH^-$",
+            "$H_2CO$",
+            "$CO_2$",
+            "$CO_3^{2-}$"
+        ],
+        "difficulty": 2,
+        "explanation": "The carbonate ion ($CO_3^{2-}$) has resonance structures where the pi electrons are spread over the three C-O bonds, indicating delocalization."
+    },
+    {
+        "id": "chem-latex-052",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which atom does not obey the octet rule in the specified molecule?",
+        "answer": "S in $SF_6$",
+        "options": [
+            "C in $CO_2$",
+            "F in $BF_3$",
+            "O in $H_2O$",
+            "S in $SF_6$"
+        ],
+        "difficulty": 1,
+        "explanation": "Sulfur in $SF_6$ has an expanded octet, with 12 electrons in its valence shell (6 bonding pairs)."
+    },
+    {
+        "id": "chem-latex-053",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which molecule has the weakest nitrogen to nitrogen bond?",
+        "answer": "$N_2H_4$",
+        "options": [
+            "$N_2$",
+            "$N_2H_2$",
+            "$N_2H_4$",
+            "$N_2O$"
+        ],
+        "difficulty": 2,
+        "explanation": "$N_2$ has a triple bond, $N_2H_2$ has a double bond, and $N_2H_4$ (hydrazine) has a single bond. Single bonds are the weakest and longest."
+    },
+    {
+        "id": "chem-latex-054",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which compound has the shortest C to O bond?",
+        "answer": "CO",
+        "options": [
+            "$CH_3CHO$",
+            "CO",
+            "$CO_2$",
+            "$C_2H_5OC_2H_5$"
+        ],
+        "difficulty": 2,
+        "explanation": "Carbon monoxide (CO) has a triple bond, $CO_2$ has double bonds, and ethers/aldehydes have single or double bonds. Triple bonds are the shortest."
+    },
+    {
+        "id": "chem-latex-055",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which compound has the shortest C to N bond?",
+        "answer": "HCN",
+        "options": [
+            "HCN",
+            "$CH_3CH_2NH_2$",
+            "$CH_3CHNH$",
+            "$(CH_3)_2NH$"
+        ],
+        "difficulty": 2,
+        "explanation": "HCN contains a C-N triple bond, which is shorter and stronger than the double bond in imines or the single bond in amines."
+    },
+    {
+        "id": "chem-latex-056",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Along which series is the bond angle increasing?",
+        "answer": "$H_2O < NH_3 < CH_4$",
+        "options": [
+            "$NH_3 < H_2O < CH_4$",
+            "$CH_4 < NH_3 < H_2O$",
+            "$H_2O < NH_3 < CH_4$",
+            "$CH_4 < H_2O < NH_3$"
+        ],
+        "difficulty": 2,
+        "explanation": "Bond angles: $H_2O$ ($104.5^\\circ$) < $NH_3$ ($107^\\circ$) < $CH_4$ ($109.5^\\circ$)."
+    },
+    {
+        "id": "chem-latex-057",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What is the electron domain geometry of Si in $SiO_2$?",
+        "answer": "Tetrahedral",
+        "options": [
+            "Bent",
+            "Linear",
+            "Square planar",
+            "Tetrahedral"
+        ],
+        "difficulty": 2,
+        "explanation": "In the giant covalent structure of $SiO_2$, each Silicon atom is bonded to four Oxygen atoms in a tetrahedral arrangement."
+    },
+    {
+        "id": "chem-latex-058",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which molecule is most polar?",
+        "answer": "$CHF_3$",
+        "options": [
+            "$CF_4$",
+            "$CCl_4$",
+            "$CHF_3$",
+            "$CClF_3$"
+        ],
+        "difficulty": 2,
+        "explanation": "$CHF_3$ has a large net dipole moment because the C-H bond dipole does not cancel out the C-F bond dipoles. $CF_4$ and $CCl_4$ are non-polar due to symmetry."
+    },
+    {
+        "id": "chem-latex-059",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What is the main interaction between liquid $CH_4$ molecules?",
+        "answer": "London (dispersion) forces",
+        "options": [
+            "London (dispersion) forces",
+            "Dipole-dipole forces",
+            "Hydrogen bonding",
+            "Covalent bonding"
+        ],
+        "difficulty": 1,
+        "explanation": "Methane is a non-polar molecule; therefore, the only intermolecular forces present are London dispersion forces."
+    },
+    {
+        "id": "chem-latex-060",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which compound has hydrogen bonds between its molecules?",
+        "answer": "$CH_4O$ (Methanol)",
+        "options": [
+            "$CH_4$",
+            "$CH_4O$",
+            "$CH_3Cl$",
+            "$CH_2O$"
+        ],
+        "difficulty": 1,
+        "explanation": "Methanol contains an O-H bond, which is a requirement for the formation of hydrogen bonds between molecules."
+    },
+    {
+        "id": "chem-latex-061",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What is the order of increasing boiling point for the following compounds?",
+        "answer": "$CH_3CH_2CH_2CH_3 < CH_3COCH_3 < CH_3CH(OH)CH_3 < CH_3CO_2H$",
+        "options": [
+            "$CH_3CH_2CH_2CH_3 < CH_3CH(OH)CH_3 < CH_3COCH_3 < CH_3CO_2H$",
+            "$CH_3CH_2CH_2CH_3 < CH_3COCH_3 < CH_3CH(OH)CH_3 < CH_3CO_2H$",
+            "$CH_3CO_2H < CH_3COCH_3 < CH_3CH(OH)CH_3 < CH_3CH_2CH_2CH_3$",
+            "$CH_3CH_2CH_2CH_3 < CH_3COCH_3 < CH_3CO_2H < CH_3CH(OH)CH_3$"
+        ],
+        "difficulty": 3,
+        "explanation": "Order: Alkane (London) < Ketone (Dipole-dipole) < Alcohol (H-bond) < Carboxylic acid (Stronger H-bond/dimerization)."
+    },
+    {
+        "id": "chem-latex-062",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which compound has the lowest boiling point?",
+        "answer": "$CH_3C(CH_3)_2CH_3$",
+        "options": [
+            "$CH_3CH_2CH_2CH_2CH_3$",
+            "$CH_3CH(CH_3)CH_2CH_3$",
+            "$CH_3C(CH_3)_2CH_3$",
+            "$CH_3CH_2CH_2CH_2CH_2CH_3$"
+        ],
+        "difficulty": 2,
+        "explanation": "Among isomers ($C_5H_{12}$), the most branched molecule (2,2-dimethylpropane) has the smallest surface area, weakest London forces, and lowest boiling point."
+    },
+    {
+        "id": "chem-latex-063",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "For which species can resonance structures be drawn?",
+        "answer": "$HCOO^-$",
+        "options": [
+            "$HCOOH$",
+            "$HCOO^-$",
+            "$CH_3OH$",
+            "$H_2CO_3$"
+        ],
+        "difficulty": 2,
+        "explanation": "The methanoate ion ($HCOO^-$) has delocalized electrons across the O-C-O system, allowing for two equivalent resonance structures."
+    },
+    {
+        "id": "chem-latex-064",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What is the molecular geometry of $SF_4$?",
+        "answer": "See-saw",
+        "options": [
+            "Tetrahedral",
+            "Trigonal bipyramidal",
+            "See-saw",
+            "Square planar"
+        ],
+        "difficulty": 3,
+        "explanation": "$SF_4$ has 5 electron domains (4 bonding, 1 lone pair). Its electron domain geometry is trigonal bipyramidal, but its molecular geometry is see-saw."
+    },
+    {
+        "id": "chem-latex-065",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which species has a square planar molecular geometry?",
+        "answer": "$XeF_4$",
+        "options": [
+            "$SF_4$",
+            "$XeF_4$",
+            "$CF_4$",
+            "$PF_4^+$"
+        ],
+        "difficulty": 3,
+        "explanation": "$XeF_4$ has 6 electron domains (4 bonding, 2 lone pairs). The lone pairs occupy axial positions to minimize repulsion, resulting in a square planar shape."
+    },
+    {
+        "id": "chem-latex-066",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "How many sigma ($\\sigma$) and pi ($\\pi$) bonds are present in hydrogen cyanide, HCN?",
+        "answer": "2 $\\sigma$ and 2 $\\pi$",
+        "options": [
+            "1 $\\sigma$ and 1 $\\pi$",
+            "2 $\\sigma$ and 1 $\\pi$",
+            "2 $\\sigma$ and 2 $\\pi$",
+            "3 $\\sigma$ and 1 $\\pi$"
+        ],
+        "difficulty": 2,
+        "explanation": "HCN has one C-H single bond (1 $\\sigma$) and one C-N triple bond (1 $\\sigma$, 2 $\\pi$). Total: 2 $\\sigma$, 2 $\\pi$."
+    },
+    {
+        "id": "chem-latex-067",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "In which compound are all carbon atoms $sp^3$ hybridized?",
+        "answer": "$C_2Cl_6$",
+        "options": [
+            "$C_2H_2$",
+            "$C_2H_2Cl_2$",
+            "$C_2Cl_4$",
+            "$C_2Cl_6$"
+        ],
+        "difficulty": 2,
+        "explanation": "$C_2Cl_6$ (hexachloroethane) contains only single bonds, meaning each carbon is bonded to 4 atoms in a tetrahedral arrangement ($sp^3$)."
+    },
+    {
+        "id": "chem-latex-068",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which atom is $sp^2$ hybridized?",
+        "answer": "C in $H_2CO$",
+        "options": [
+            "C in $H_2CO$",
+            "C in $CO_2$",
+            "N in $CH_3NH_2$",
+            "O in $H_2O$"
+        ],
+        "difficulty": 2,
+        "explanation": "In methanal ($H_2CO$), carbon is bonded to 3 domains (2 H atoms and 1 O atom via a double bond), which requires $sp^2$ hybridization."
+    },
+    {
+        "id": "chem-latex-069",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "A compound consists of the ions $Ca^{2+}$ and $PO_4^{3-}$. What is the name and formula of the compound?",
+        "answer": "Calcium phosphate, $Ca_3(PO_4)_2$",
+        "options": [
+            "Calcium phosphate, $CaPO_4$",
+            "Calcium phosphate, $Ca_3(PO_4)_2$",
+            "Calcium phosphide, $Ca_3P_2$",
+            "Calcium phosphate, $Ca_2(PO_4)_3$"
+        ],
+        "difficulty": 1,
+        "explanation": "To balance the charges (+2 and -3), three $Ca^{2+}$ ions (+6 total) are required for every two $PO_4^{3-}$ ions (-6 total)."
+    },
+    {
+        "id": "chem-latex-070",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which properties are typical of ionic compounds?",
+        "answer": "Low volatility, Good solubility in polar solvents",
+        "options": [
+            "High volatility, Good solubility in polar solvents",
+            "Low volatility, Good solubility in polar solvents",
+            "High volatility, Poor solubility in polar solvents",
+            "Low volatility, Poor solubility in polar solvents"
+        ],
+        "difficulty": 1,
+        "explanation": "Ionic compounds have high melting points (low volatility) due to strong electrostatic attractions and generally dissolve in polar solvents like water."
+    },
+    {
+        "id": "chem-latex-071",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which statements are correct about lattice enthalpies? I. Smaller lattice enthalpies result in higher melting points. II. It depends on ionic charge. III. It depends on ionic size.",
+        "answer": "II and III only",
+        "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II, and III"
+        ],
+        "difficulty": 2,
+        "explanation": "Lattice enthalpy increases with higher ionic charge and smaller ionic radii. Higher lattice enthalpy results in higher melting points, making statement I incorrect."
+    },
+    {
+        "id": "chem-latex-072",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "Which of the following polyatomic ion formulas is incorrect?",
+        "answer": "$CO_4^{2-}$",
+        "options": [
+            "$NO_3^-$",
+            "$OH^-$",
+            "$SO_4^{2-}$",
+            "$CO_4^{2-}$"
+        ],
+        "difficulty": 1,
+        "explanation": "The carbonate ion is $CO_3^{2-}$. $CO_4^{2-}$ is not a standard polyatomic ion in the IB curriculum."
+    },
+    {
+        "id": "chem-latex-073",
+        "subject": "Chemistry HL",
+        "topic": "Structure 2: Models of bonding and structure",
+        "type": "mcq",
+        "question": "What is the formula of the compound formed between lithium and nitrogen?",
+        "answer": "$Li_3N$",
+        "options": [
+            "$LiN_3$",
+            "$LiN_2$",
+            "$Li_2N_3$",
+            "$Li_3N$"
+        ],
+        "difficulty": 1,
+        "explanation": "Lithium forms $Li^+$ and Nitrogen forms $N^{3-}$. Three lithium ions are needed to balance one nitride ion."
+    },
+    {
+        "id": "chem-latex-074",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which property of elements increases down a group but decreases across a period (left to right)?",
+        "answer": "Atomic radius",
+        "options": [
+            "Atomic radius",
+            "First ionization energy",
+            "Electronegativity",
+            "Electron affinity"
+        ],
+        "difficulty": 1,
+        "explanation": "Atomic radius increases down a group due to more shells and decreases across a period due to increased effective nuclear charge."
+    },
+    {
+        "id": "chem-latex-075",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which series represents atoms in order of decreasing atomic radius?",
+        "answer": "Mg > Al > Si",
+        "options": [
+            "Si > Al > Mg",
+            "Mg > Al > Si",
+            "Al > Si > P",
+            "Cl > S > P"
+        ],
+        "difficulty": 2,
+        "explanation": "Across a period, atomic radius decreases as the number of protons increases, pulling the electrons closer."
+    },
+    {
+        "id": "chem-latex-076",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which chemical equation represents the definition of first ionization energy?",
+        "answer": "$X(g) \\rightarrow X^+(g) + e^-$",
+        "options": [
+            "$X(s) + e^- \\rightarrow X^-(s)$",
+            "$X(s) \\rightarrow X^+(s) + e^-$",
+            "$X(g) \\rightarrow X^+(g) + e^-$",
+            "$X(g) + e^- \\rightarrow X^-(g)$"
+        ],
+        "difficulty": 1,
+        "explanation": "First ionization energy is the energy required to remove one mole of electrons from one mole of gaseous atoms."
+    },
+    {
+        "id": "chem-latex-077",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "The $d$ orbitals of the $[Zn(H_2O)_6]^{2+}$ ion are split into two energy levels. Why does the ion appear colourless?",
+        "answer": "Every $d$ orbital contains a pair of electrons",
+        "options": [
+            "The separation of energy levels is too large",
+            "The separation of energy levels is too small",
+            "Every $d$ orbital contains a pair of electrons",
+            "Every $d$ orbital is empty"
+        ],
+        "difficulty": 2,
+        "explanation": "$Zn^{2+}$ has a full $d$-sublevel ($d^{10}$). Because all orbitals are full, no electrons can be promoted to a higher $d$ orbital, so no light is absorbed."
+    },
+    {
+        "id": "chem-latex-078",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which oxide will dissolve in water to give the solution with the lowest pH?",
+        "answer": "$P_4O_{10}$",
+        "options": [
+            "$P_4O_{10}$",
+            "$SiO_2$",
+            "$Al_2O_3$",
+            "$MgO$"
+        ],
+        "difficulty": 2,
+        "explanation": "$P_4O_{10}$ is a non-metal oxide that forms phosphoric acid ($H_3PO_4$), which is a strong acid compared to the others."
+    },
+    {
+        "id": "chem-latex-079",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which of the following elements has the highest first ionization energy?",
+        "answer": "Oxygen",
+        "options": [
+            "Sulfur",
+            "Magnesium",
+            "Oxygen",
+            "Beryllium"
+        ],
+        "difficulty": 2,
+        "explanation": "Ionization energy increases up a group and across a period. Oxygen is further right and higher than the other options."
+    },
+    {
+        "id": "chem-latex-080",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which gives the correct order of increasing radius for these isoelectronic species?",
+        "answer": "$K^+ < Ar < Cl^- < S^{2-}$",
+        "options": [
+            "$S^{2-} < Cl^- < Ar < K^+$",
+            "$K^+ < Ar < Cl^- < S^{2-}$",
+            "$Ar < Cl^- < K^+ < S^{2-}$",
+            "$S^{2-} < K^+ < Ar < Cl^-$"
+        ],
+        "difficulty": 3,
+        "explanation": "Isoelectronic species have the same number of electrons. The radius increases as the number of protons (nuclear charge) decreases."
+    },
+    {
+        "id": "chem-latex-081",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "What is the oxidation state of the chromium ion in the complex $[Cr(H_2O)_2Cl_4]^-$?",
+        "answer": "3+",
+        "options": [
+            "4+",
+            "3+",
+            "2+",
+            "1+"
+        ],
+        "difficulty": 3,
+        "explanation": "$H_2O$ is neutral (0), $Cl$ is -1. $x + (2 \\times 0) + (4 \\times -1) = -1 \\implies x - 4 = -1 \\implies x = +3$."
+    },
+    {
+        "id": "chem-latex-082",
+        "subject": "Chemistry HL",
+        "topic": "Structure 3: Classification of matter",
+        "type": "mcq",
+        "question": "Which gives the correct value of $x$ and the shape of the $[CuCl_4]^{x-}$ complex?",
+        "answer": "$x = 2$, Tetrahedral",
+        "options": [
+            "$x = 2$, Tetrahedral",
+            "$x = 2$, Square planar",
+            "$x = 4$, Square planar",
+            "$x = 4$, Tetrahedral"
+        ],
+        "difficulty": 3,
+        "explanation": "For $[CuCl_4]^{x-}$, $Cu^{2+}$ and $4 \\times Cl^-$ results in $x = 2$. With a $d^9$ configuration and four large chloride ligands, the shape is tetrahedral."
+    },
+    {
+        "id": "chem-latex-095",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "What is the maximum number of electrons that can occupy the 4p subshell?",
+        "answer": "6",
+        "options": [
+            "2",
+            "6",
+            "10",
+            "14"
+        ],
+        "difficulty": 1,
+        "explanation": "Any p-subshell has three orbitals, and each orbital can hold a maximum of 2 electrons ($3 \\times 2 = 6$)."
+    },
+    {
+        "id": "chem-latex-096",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Which of the following subshells contains the highest energy?",
+        "answer": "3d",
+        "options": [
+            "2s",
+            "2p",
+            "3s",
+            "3d"
+        ],
+        "difficulty": 1,
+        "explanation": "According to the Aufbau principle, energy increases as the principal quantum number $n$ and the orbital type ($s < p < d < f$) increase."
+    },
+    {
+        "id": "chem-latex-097",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "What is the correct electron configuration for the $Cr^{3+}$ ion?",
+        "answer": "$[Ar] 3d^3$",
+        "options": [
+            "$[Ar] 4s^1 3d^2$",
+            "$[Ar] 4s^2 3d^1$",
+            "$[Ar] 3d^3$",
+            "$[Ar] 3d^4$"
+        ],
+        "difficulty": 2,
+        "explanation": "Chromium atoms are $[Ar] 4s^1 3d^5$. When forming ions, transition metals lose 4s electrons first. $Cr^{3+}$ loses one 4s and two 3d electrons."
+    },
+    {
+        "id": "chem-latex-098",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Which equation represents the second ionization energy for Copper (Cu)?",
+        "answer": "$Cu^+(g) \\rightarrow Cu^{2+}(g) + e^-$",
+        "options": [
+            "$Cu(g) \\rightarrow Cu^{2+}(g) + 2e^-$",
+            "$Cu^+(g) \\rightarrow Cu^{2+}(g) + e^-$",
+            "$Cu^{2+}(g) \\rightarrow Cu^{3+}(g) + e^-$",
+            "$Cu(s) \\rightarrow Cu^+(g) + e^-$"
+        ],
+        "difficulty": 2,
+        "explanation": "The $n^{th}$ ionization energy always describes the removal of 1 mole of electrons from 1 mole of gaseous $(n-1)^+$ ions."
+    },
+    {
+        "id": "chem-latex-099",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Which statements about the hydrogen emission spectrum are correct? I. Lines converge at higher energies. II. Lines converge at higher frequencies. III. Lines converge at higher wavelengths.",
+        "answer": "I and II only",
+        "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II, and III"
+        ],
+        "difficulty": 2,
+        "explanation": "As energy levels get closer at higher $n$, the energy differences (and thus frequencies) converge. Wavelength is inversely proportional, so it would decrease/converge at lower values."
+    },
+    {
+        "id": "chem-latex-100",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "flashcard",
+        "question": "If the wavelength ($\\lambda$) of light is doubled while velocity remains constant, what happens to the frequency ($f$)?",
+        "answer": "The frequency decreases by half.",
+        "difficulty": 1,
+        "explanation": "Using $c = f\\lambda$, if velocity $c$ is constant, frequency and wavelength are inversely proportional."
+    },
+    {
+        "id": "chem-latex-101",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "The successive ionization energies for a Period 2 element are 800, 2430, 3660, and 25000 kJ mol$^{-1}$. Which element is this most likely to be?",
+        "answer": "Boron (B)",
+        "options": [
+            "Lithium (Li)",
+            "Beryllium (Be)",
+            "Boron (B)",
+            "Carbon (C)"
+        ],
+        "difficulty": 3,
+        "explanation": "The huge jump occurs between the 3rd and 4th ionization energies ($3660 \\rightarrow 25000$), indicating the 4th electron is being removed from a core shell. This element has 3 valence electrons."
+    },
+    {
+        "id": "chem-latex-102",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "What is the correct ground state electron configuration of Chromium (Z=24)?",
+        "answer": "$1s^2 2s^2 2p^6 3s^2 3p^6 3d^5 4s^1$",
+        "options": [
+            "$1s^2 2s^2 2p^6 3s^2 3p^6 3d^4 4s^2$",
+            "$1s^2 2s^2 2p^6 3s^2 3p^6 3d^5 4s^1$",
+            "$1s^2 2s^2 2p^6 3s^2 3p^6 4s^2 4d^4$",
+            "$[Ar] 4s^2 3d^4$"
+        ],
+        "difficulty": 2,
+        "explanation": "Chromium is an exception; it adopts a $[Ar] 3d^5 4s^1$ configuration because the half-filled d-subshell provides extra stability."
+    },
+    {
+        "id": "chem-latex-103",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "flashcard",
+        "question": "Which electron transition in the hydrogen atom produces the shortest wavelength?",
+        "answer": "$n=5 \\rightarrow n=1$",
+        "difficulty": 2,
+        "explanation": "The shortest wavelength corresponds to the highest energy transition. Transitions to $n=1$ (Lyman series) are in the UV region and have much higher energy than transitions to $n=2$ or $3$."
+    },
+    {
+        "id": "chem-latex-104",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "How many unpaired electrons are in the $Mn^{2+}$ ion?",
+        "answer": "5",
+        "options": [
+            "1",
+            "3",
+            "5",
+            "0"
+        ],
+        "difficulty": 2,
+        "explanation": "Manganese is $[Ar] 4s^2 3d^5$. $Mn^{2+}$ loses the two 4s electrons, leaving five unpaired electrons in the 3d subshell according to Hund's Rule."
+    },
+    {
+        "id": "chem-latex-105",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "mcq",
+        "question": "Why does Sulfur have a lower first ionization energy than Phosphorus?",
+        "answer": "Sulfur has a pair of electrons in a 3p orbital that repel each other.",
+        "options": [
+            "Phosphorus has more protons.",
+            "Sulfur has a larger atomic radius.",
+            "Sulfur has a pair of electrons in a 3p orbital that repel each other.",
+            "Phosphorus has a full p-subshell."
+        ],
+        "difficulty": 3,
+        "explanation": "In Phosphorus ($3p^3$), each p-orbital is singly occupied. In Sulfur ($3p^4$), one p-orbital is doubly occupied; the inter-electron repulsion makes it easier to remove that fourth electron."
+    },
+    {
+        "id": "chem-latex-106",
+        "subject": "Chemistry HL",
+        "topic": "Structure 1: Models of the particulate nature of matter",
+        "type": "flashcard",
+        "question": "Define 'First Ionization Energy'.",
+        "answer": "The energy required to remove one mole of electrons from one mole of gaseous atoms in their ground state.",
+        "difficulty": 1,
+        "explanation": "Standard definition. Key components: one mole, gaseous state, ground state."
+    }
+]
