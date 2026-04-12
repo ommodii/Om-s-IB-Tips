@@ -18,6 +18,15 @@
 </head>
 
 <body>
+    <!-- Background Layers -->
+    <div id="bg-container" class="bg-canvas">
+        <div id="tsparticles"></div>
+        <div class="aurora-bg-layer hidden-off-theme">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+            <div class="blob blob-3"></div>
+        </div>
+    </div>
     <!-- Top Navigation -->
     <nav id="top-nav" class="hidden">
         <div class="nav-brand">Om's IB Tips</div>
@@ -418,6 +427,9 @@
 
     <!-- Canvas Confetti -->
     <script defer src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <!-- particles.js -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 
     <script defer src="auth.js"></script>
     <script defer src="app.js"></script>
