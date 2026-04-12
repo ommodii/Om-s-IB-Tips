@@ -1286,7 +1286,7 @@ body.subject-tint-math {
 .heatmap-cell[title]:hover::after {
     content: attr(title);
     position: absolute;
-    bottom: 100%;
+    bottom: calc(100% + 4px);
     left: 50%;
     transform: translateX(-50%);
     background: #000;
