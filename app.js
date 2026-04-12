@@ -54,7 +54,67 @@ function loadDB() {
 
 function saveDB() {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(db));
+
+    if (window.currentUser && window.supabaseClient) {
+        // Create a lightweight copy of the DB containing only essential stats and IDs
+        // to avoid storing huge repetitive blocks of text in the database.
+        const dbCopy = JSON.parse(JSON.stringify(db));
+        dbCopy.questions = dbCopy.questions.map(q => ({ id: q.id, stats: q.stats }));
+        
+        window.supabaseClient.from('user_profiles').upsert({
+            user_id: window.currentUser.id,
+            db_data: dbCopy,
+            updated_at: new Date().toISOString()
+        }).then(({ error }) => {
+            if (error) console.error("Supabase sync failed:", error);
+        });
+    }
 }
+
+window.syncFromSupabase = async function(userId) {
+    if (!window.supabaseClient) return;
+
+    const { data, error } = await window.supabaseClient
+        .from('user_profiles')
+        .select('db_data')
+        .eq('user_id', userId)
+        .single();
+        
+    if (data && data.db_data) {
+        const remoteDB = data.db_data;
+        
+        // Merge remote scalars
+        if (remoteDB.arcade_total_xp !== undefined) db.arcade_total_xp = remoteDB.arcade_total_xp;
+        if (remoteDB.mastered_topics) db.mastered_topics = remoteDB.mastered_topics;
+        if (remoteDB.streak_count !== undefined) db.streak_count = remoteDB.streak_count;
+        if (remoteDB.streak_last_date) db.streak_last_date = remoteDB.streak_last_date;
+        if (remoteDB.heatmap_data) db.heatmap_data = remoteDB.heatmap_data;
+
+        // Merge stats for questions
+        if (remoteDB.questions && Array.isArray(remoteDB.questions)) {
+            remoteDB.questions.forEach(rq => {
+                const localQ = db.questions.find(x => x.id === rq.id);
+                if (localQ && rq.stats) {
+                    localQ.stats = rq.stats;
+                }
+            });
+        }
+
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(db));
+        
+        // Refresh the current view to reflect loaded data
+        if (!document.getElementById('view-home').classList.contains('hidden')) {
+            initHome();
+        } else if (!document.getElementById('view-arcade').classList.contains('hidden')) {
+            initArcade();
+        }
+    } else if (error && error.code !== 'PGRST116') { 
+        console.error("Fetch profile error:", error);
+    } else if (!data) {
+        // New user! Push current local storage up.
+        saveDB(); 
+    }
+};
 
 // Ensure each question has stats initialized
 

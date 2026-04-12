@@ -6,10 +6,39 @@ let currentUser = null;
 
 if (SUPABASE_URL !== 'YOUR_SUPABASE_URL' && SUPABASE_ANON_KEY !== 'YOUR_SUPABASE_ANON_KEY') {
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    window.supabaseClient = supabaseClient; // Expose globally
+
+    // Call getSession explicitly to ensure URL fragment is parsed
+    supabaseClient.auth.getSession().then(({ data: { session }, error }) => {
+        if (error) console.error("Auth session error:", error);
+        currentUser = session?.user || null;
+        window.currentUser = currentUser;
+        
+        if (currentUser && typeof window.syncFromSupabase === 'function') {
+            window.syncFromSupabase(currentUser.id);
+        }
+
+        updateAuthUI();
+
+        // Clean up the URL hash if it contains auth info
+        if (window.location.hash && window.location.hash.includes('access_token')) {
+            window.history.replaceState(null, document.title, window.location.pathname + window.location.search);
+            document.getElementById('auth-modal')?.classList.add('hidden');
+        }
+    });
 
     supabaseClient.auth.onAuthStateChange((event, session) => {
         currentUser = session?.user || null;
+        window.currentUser = currentUser;
+        
+        if (currentUser && event === 'SIGNED_IN' && typeof window.syncFromSupabase === 'function') {
+            window.syncFromSupabase(currentUser.id);
+        }
+
         updateAuthUI();
+        if (event === 'SIGNED_IN') {
+            document.getElementById('auth-modal')?.classList.add('hidden');
+        }
     });
 } else {
     console.warn("Supabase credentials missing. Authentication features are disabled.");
