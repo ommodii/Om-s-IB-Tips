@@ -1,1 +1,2524 @@
-[]
+[
+    {
+        "id": "physics-hl-001",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Which of the following is correct regarding the gravitational field strength at a point near a planet?",
+        "answer": "It is the force per unit mass acting on a point mass at that point",
+        "options": [
+            "It is the total force of gravity acting on an object",
+            "It is the force per unit mass acting on a point mass at that point",
+            "It is inversely proportional to the distance from the centre of the planet",
+            "It is independent of the mass of the planet"
+        ],
+        "difficulty": 1,
+        "explanation": "Gravitational field strength ($g$) is defined as the gravitational force per unit mass: $g = F_g / m$."
+    },
+    {
+        "id": "physics-hl-002",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "The gravitational field strength on the Moon is $g_E / 6$. Two objects of mass $m$ and $2m$ are released from heights $h$ and $2h$. What are their accelerations right after release?",
+        "answer": "Both are $g_E / 6$",
+        "options": [
+            "$g_E / 6$ and $g_E / 12$",
+            "Both are $g_E / 6$",
+            "$g_E / 12$ and $g_E / 6$",
+            "Both are $g_E / 12$"
+        ],
+        "difficulty": 1,
+        "explanation": "Acceleration in a gravitational field is equal to the gravitational field strength and is independent of the mass of the falling object ($a = g$)."
+    },
+    {
+        "id": "physics-hl-003",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "The work done on a beta-minus particle moving from $Y$ to $X$ is $-10$ eV. What is the work done BY the field on an electron moved from $Z$ to $W$ across the same potential difference?",
+        "answer": "$+10$ eV",
+        "options": [
+            "$+10$ eV",
+            "$-10$ eV",
+            "$-20$ eV",
+            "$+20$ eV"
+        ],
+        "difficulty": 2,
+        "explanation": "Beta-minus particles and electrons have the same charge. Work done by the field is the negative of work done on the particle. If $W_{ext} = -10$ eV, then $W_{field} = +10$ eV."
+    },
+    {
+        "id": "physics-hl-004",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A point charge moves between parallel plates separated by 5 cm with a potential difference of 50 V. What is the average electric field strength $E$?",
+        "answer": "1000 N C$^{-1}$",
+        "options": [
+            "1000 N C$^{-1}$",
+            "250 N C$^{-1}$",
+            "10 N C$^{-1}$",
+            "2.5 N C$^{-1}$"
+        ],
+        "difficulty": 1,
+        "explanation": "$E = V / d = 50 / 0.05 = 1000$ V/m (or N/C)."
+    },
+    {
+        "id": "physics-hl-005",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Which list correctly ranks the fundamental forces in decreasing order of strength?",
+        "answer": "Strong nuclear, electromagnetic, weak nuclear, gravitational",
+        "options": [
+            "Weak nuclear, strong nuclear, electromagnetic, gravitational",
+            "Strong nuclear, electromagnetic, weak nuclear, gravitational",
+            "Gravitational, electromagnetic, weak nuclear, strong nuclear",
+            "Electromagnetic, gravitational, strong nuclear, weak nuclear"
+        ],
+        "difficulty": 1,
+        "explanation": "The strong nuclear force is the strongest, followed by EM, the weak force, and gravity is by far the weakest."
+    },
+    {
+        "id": "physics-hl-006",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "An iron rod $XY$ carries a current in a magnetic field directed INTO the page. If the current flows from $X$ to $Y$ (left to right), what is the direction of the force?",
+        "answer": "Upwards",
+        "options": [
+            "Upwards",
+            "Downwards",
+            "Away from observer",
+            "Towards observer"
+        ],
+        "difficulty": 2,
+        "explanation": "Using Fleming's Left Hand Rule: Magnetic field (Index) points in, Current (Middle) points right, Thumb (Force) points up."
+    },
+    {
+        "id": "physics-hl-007",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A bar magnet is moved toward a free-hanging metal ring. Which direction is the force on the ring when the magnet moves right (toward) and left (away)?",
+        "answer": "Right; Left",
+        "options": [
+            "Right; Left",
+            "Right; Right",
+            "Left; Right",
+            "Left; Left"
+        ],
+        "difficulty": 2,
+        "explanation": "By Lenz's Law, the ring will experience a force that opposes the motion of the magnet. Moving toward pushes the ring away (Right); moving away pulls the ring toward (Left)."
+    },
+    {
+        "id": "physics-hl-008",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Two objects A and B are separated by distance $r$. Mass A is much larger than mass B. Compare the magnitude of the gravitational force exerted by A on B to B on A.",
+        "answer": "Magnitude is the same; direction is opposite",
+        "options": [
+            "Magnitude is same; direction is same",
+            "Magnitude is same; direction is opposite",
+            "Magnitude is bigger for A; direction is same",
+            "Magnitude is bigger for A; direction is opposite"
+        ],
+        "difficulty": 1,
+        "explanation": "According to Newton's Third Law, the gravitational force between two bodies is equal in magnitude and opposite in direction, regardless of their masses."
+    },
+    {
+        "id": "physics-hl-009",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "State the relationship between gravitational force and distance $r$ from the surface of a planet for an external point.",
+        "answer": "The force follows an inverse-square law ($F \\propto 1/r^2$) where $r$ is the distance from the center of the planet.",
+        "difficulty": 1,
+        "explanation": "This is defined by Newton's Universal Law of Gravitation: $F = G Mm / r^2$."
+    },
+    {
+        "id": "physics-hl-010",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A satellite orbits a planet at radius $R$. If it moves to an orbit of $2R$, how does the gravitational field strength ($g$) change?",
+        "answer": "It decreases by a factor of 4",
+        "options": [
+            "It decreases by a factor of 2",
+            "It decreases by a factor of 4",
+            "It remains the same",
+            "It increases by a factor of 2"
+        ],
+        "difficulty": 2,
+        "explanation": "$g = GM / r^2$. If $r$ doubles, $r^2$ quadruples, so field strength becomes $1/4$ of the original."
+    },
+    {
+        "id": "physics-hl-011",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Which of the following is correct regarding a satellite in circular orbit?",
+        "answer": "The centripetal force is provided by the gravitational force",
+        "options": [
+            "The gravitational field strength is zero",
+            "The satellite has zero acceleration",
+            "The centripetal force is provided by the gravitational force",
+            "Total energy is equal to kinetic energy"
+        ],
+        "difficulty": 1,
+        "explanation": "In orbit, the only force acting is gravity, which acts as the centripetal force ($F_g = F_c$)."
+    },
+    {
+        "id": "physics-hl-012",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Spaceship A orbits Earth with speed $v_A$. Spaceship B orbits a planet with twice the mass of Earth at the same radius. What is the orbital speed of B?",
+        "answer": "$\\sqrt{2} v_A$",
+        "options": [
+            "$v_A / 2$",
+            "$v_A / \\sqrt{2}$",
+            "$\\sqrt{2} v_A$",
+            "$2v_A$"
+        ],
+        "difficulty": 2,
+        "explanation": "Orbital speed $v = \\sqrt{GM / r}$. If $M$ doubles, $v$ increases by $\\sqrt{2}$."
+    },
+    {
+        "id": "physics-hl-013",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A beam of electrons enters a uniform electric field directed downwards. What is the effect on the horizontal and vertical velocity components?",
+        "answer": "Horizontal stays same; Vertical increases (upwards)",
+        "options": [
+            "Horizontal increases; Vertical stays same",
+            "Horizontal decreases; Vertical stays same",
+            "Horizontal stays same; Vertical increases",
+            "Horizontal stays same; Vertical decreases"
+        ],
+        "difficulty": 2,
+        "explanation": "The electric field is vertical, so the force is vertical ($F = qE$). No horizontal force means horizontal velocity is constant. For electrons (negative), the force is opposite to the field direction."
+    },
+    {
+        "id": "physics-hl-014",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Two charges $+Q$ and $-Q$ are on a horizontal line. At a point $X$ equidistant from both charges (above the center), what is the direction of the net electric field?",
+        "answer": "To the right",
+        "options": [
+            "To the right",
+            "To the left",
+            "Up",
+            "Down"
+        ],
+        "difficulty": 2,
+        "explanation": "The field from $+Q$ points away (up and right), the field from $-Q$ points toward (down and right). The vertical components cancel, leaving a net horizontal field to the right."
+    },
+    {
+        "id": "physics-hl-015",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "An electron enters a magnetic field and is deflected in a circular path. What is the direction of the magnetic field if an electron moving right is deflected 'into' the page?",
+        "answer": "Upwards",
+        "options": [
+            "Out of page",
+            "Into page",
+            "Upwards",
+            "Downwards"
+        ],
+        "difficulty": 2,
+        "explanation": "Using Right-Hand Rule for negative charges: Thumb (velocity) right, Palm (force) in, Fingers (field) point up."
+    },
+    {
+        "id": "physics-hl-016",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Two parallel current-carrying wires $X$ and $Y$ have currents in the same direction. What is the direction of the force on wire $Y$?",
+        "answer": "Towards wire X",
+        "options": [
+            "Towards wire X",
+            "Away from wire X",
+            "Upwards",
+            "Downwards"
+        ],
+        "difficulty": 1,
+        "explanation": "Parallel wires with currents in the same direction attract each other."
+    },
+    {
+        "id": "physics-hl-017",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Satellite A (mass $M$) and B (mass $3M$) orbit the same planet at the same speed. If $F_c(A) / F_c(B) = 1/3$, what is the radius of B's orbit?",
+        "answer": "$R$",
+        "options": [
+            "$R/2$",
+            "$2R/3$",
+            "$R$",
+            "$3R/2$"
+        ],
+        "difficulty": 2,
+        "explanation": "Centripetal force $F_c = mv^2 / r$. If $v$ is constant and mass triples, the force triples if $r$ remains the same."
+    },
+    {
+        "id": "physics-hl-018",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "State Newton's Universal Law of Gravitation.",
+        "answer": "Every point mass attracts every other point mass with a force that is directly proportional to the product of their masses and inversely proportional to the square of the distance between them.",
+        "difficulty": 1,
+        "explanation": "Equation: $F = G M_1 M_2 / r^2$."
+    },
+    {
+        "id": "physics-hl-019",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "Explain why an astronaut in an orbiting space station feels weightless.",
+        "answer": "The astronaut and the space station are both in free fall toward the Earth with the same acceleration, meaning there is no normal contact force between them.",
+        "difficulty": 2,
+        "explanation": "Weightlessness is the absence of a supporting normal force ($R=0$)."
+    },
+    {
+        "id": "physics-hl-020",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A geostationary satellite orbits $3.6 \\times 10^7$ m above Earth's surface ($R_E = 6.4 \\times 10^3$ km). Calculate the gravitational field strength $g$ at that orbit.",
+        "answer": "0.22 N kg$^{-1}$",
+        "options": [
+            "9.8 N kg$^{-1}$",
+            "0.54 N kg$^{-1}$",
+            "0.22 N kg$^{-1}$",
+            "0.11 N kg$^{-1}$"
+        ],
+        "difficulty": 2,
+        "explanation": "Total radius $r = 3.6 \\times 10^7 + 0.64 \\times 10^7 = 4.24 \\times 10^7$ m. $g = g_{surface} (R_E / r)^2 = 9.8 (6.4/42.4)^2 \\approx 0.22$."
+    },
+    {
+        "id": "physics-hl-021",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "Define gravitational field strength.",
+        "answer": "The gravitational force per unit mass exerted on a small point mass placed at that point.",
+        "difficulty": 1,
+        "explanation": "Unit: N kg$^{-1}$ or m s$^{-2}$."
+    },
+    {
+        "id": "physics-hl-022",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A non-conducting sphere (radius 2 cm) has a charge of 0.1 $\\mu$C. Calculate the charge density $\\rho$.",
+        "answer": "2.98 $\\times 10^{-3}$ C m$^{-3}$",
+        "options": [
+            "1.25 $\\times 10^{-3}$ C m$^{-3}$",
+            "2.98 $\\times 10^{-3}$ C m$^{-3}$",
+            "5.50 $\\times 10^{-2}$ C m$^{-3}$",
+            "0.10 C m$^{-3}$"
+        ],
+        "difficulty": 2,
+        "explanation": "$\\rho = Q / V = 0.1 \\times 10^{-6} / (\\frac{4}{3}\\pi (0.02)^3) \\approx 2.98 \\times 10^{-3}$."
+    },
+    {
+        "id": "physics-hl-023",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "Describe the motion of a positive test charge released from the surface of a uniformly charged positive sphere.",
+        "answer": "The charge will move away from the sphere with decreasing acceleration.",
+        "difficulty": 2,
+        "explanation": "The electric field outside is $E \\propto 1/r^2$. As distance $r$ increases, the force ($F=qE$) and acceleration ($a=F/m$) decrease."
+    },
+    {
+        "id": "physics-hl-024",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "In an atom, an electron orbits at $2.18 \\times 10^6$ m/s at a radius of $0.53 \\times 10^{-10}$ m. Determine the charge of the nucleus.",
+        "answer": "$+1.6 \\times 10^{-19}$ C",
+        "options": [
+            "$+1.6 \\times 10^{-19}$ C",
+            "$+3.2 \\times 10^{-19}$ C",
+            "$+4.8 \\times 10^{-19}$ C",
+            "$0$ C"
+        ],
+        "difficulty": 3,
+        "explanation": "$F_c = F_e \\Rightarrow mv^2/r = kQq/r^2 \\Rightarrow Q = mv^2r / (kq)$. Using electron mass and charge constants gives $Q \\approx 1.6 \\times 10^{-19}$ C."
+    },
+    {
+        "id": "physics-hl-025",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "An electron orbits at level $n=2$ with $KE = 5.44 \\times 10^{-19}$ J. How does centripetal acceleration compare to the $n=1$ state?",
+        "answer": "It decreases",
+        "options": [
+            "It increases",
+            "It decreases",
+            "It stays the same",
+            "It becomes zero"
+        ],
+        "difficulty": 2,
+        "explanation": "Radius $r \\propto n^2$. Speed $v \\propto 1/n$. Acceleration $a = v^2/r \\propto (1/n^2) / n^2 = 1/n^4$. As $n$ increases, $a$ decreases sharply."
+    },
+    {
+        "id": "physics-hl-026",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A particle with charge $1.6 \\times 10^{-19}$ C enters a 2.0 T magnetic field at $3.5 \\times 10^6$ m/s. Calculate the magnetic force magnitude.",
+        "answer": "1.12 $\\times 10^{-12}$ N",
+        "options": [
+            "1.12 $\\times 10^{-12}$ N",
+            "5.60 $\\times 10^{-13}$ N",
+            "2.24 $\\times 10^{-12}$ N",
+            "0 N"
+        ],
+        "difficulty": 2,
+        "explanation": "$F = qvB = (1.6 \\times 10^{-19})(3.5 \\times 10^6)(2.0) = 1.12 \\times 10^{-12}$ N."
+    },
+    {
+        "id": "physics-hl-027",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A wire at right angles to a field has force per unit length $F/L$. If length, field strength, and current are all doubled, what is the new $F/L$?",
+        "answer": "4 $F/L$",
+        "options": [
+            "$F/L$",
+            "2 $F/L$",
+            "4 $F/L$",
+            "8 $F/L$"
+        ],
+        "difficulty": 2,
+        "explanation": "$F = BIL$. New force $F' = (2B)(2I)(2L) = 8F$. New $F'/L' = 8F / 2L = 4 (F/L)$."
+    },
+    {
+        "id": "physics-hl-028",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A loop (5.0 cm$^2$) is in a 10 mT field. It rotates with period 4.0 s. What is the change in flux linkage after 2.0 s (half a turn)?",
+        "answer": "10 $\\mu$Wb",
+        "options": [
+            "0",
+            "0.5 $\\mu$Wb",
+            "5.0 $\\mu$Wb",
+            "10 $\\mu$Wb"
+        ],
+        "difficulty": 3,
+        "explanation": "Initial flux $\\Phi = BA = 10^{-2} \\times 5 \\times 10^{-4} = 5 \\mu$Wb. Half a turn ($180^\\circ$) means final flux is $-5 \\mu$Wb. Change $= |5 - (-5)| = 10 \\mu$Wb."
+    },
+    {
+        "id": "physics-hl-029",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A conducting rod of length $L$ moves with speed $v$ in field $B$ connected to a bulb of resistance $R$. What is the power output?",
+        "answer": "$B^2 v^2 L^2 / R$",
+        "options": [
+            "$BvL / R$",
+            "$B^2 v^2 L^2 / R$",
+            "$B^2 v^2 L^2 / R^2$",
+            "Zero"
+        ],
+        "difficulty": 2,
+        "explanation": "Emf $\\epsilon = BvL$. Power $P = \\epsilon^2 / R = (BvL)^2 / R$."
+    },
+    {
+        "id": "physics-hl-030",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "The current in wire X is decreasing. What is the direction of induced current in loops Y (above) and Z (below) in the same plane?",
+        "answer": "Clockwise; Anti-clockwise",
+        "options": [
+            "Clockwise; Clockwise",
+            "Anti-clockwise; Clockwise",
+            "Clockwise; Anti-clockwise",
+            "Horizontal"
+        ],
+        "difficulty": 3,
+        "explanation": "By Lenz's law: X's field into page at Y is decreasing, so Y induces clockwise current to reinforce it. X's field out of page at Z is decreasing, so Z induces anti-clockwise current."
+    },
+    {
+        "id": "physics-hl-031",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "Show that the orbital period $T$ of the Moon is $T = 2\\pi \\sqrt{r^3 / GM}$.",
+        "answer": "$F_g = F_c \\Rightarrow GMm/r^2 = mv^2/r$. Since $v = 2\\pi r / T$, substituting gives $GM/r = 4\\pi^2 r^2 / T^2 \\Rightarrow T^2 = 4\\pi^2 r^3 / GM$.",
+        "difficulty": 2,
+        "explanation": "Standard derivation equating gravitational and centripetal forces."
+    },
+    {
+        "id": "physics-hl-032",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Calculate the orbital speed of the Moon around Earth ($M = 5.98 \\times 10^{24}$ kg, $r = 3.84 \\times 10^8$ m).",
+        "answer": "1020 m s$^{-1}$",
+        "options": [
+            "1020 m s$^{-1}$",
+            "3600 m s$^{-1}$",
+            "9800 m s$^{-1}$",
+            "30000 m s$^{-1}$"
+        ],
+        "difficulty": 2,
+        "explanation": "$v = \\sqrt{GM/r} = \\sqrt{(6.67 \\times 10^{-11})(5.98 \\times 10^{24}) / 3.84 \\times 10^8} \\approx 1020$ m/s."
+    },
+    {
+        "id": "physics-hl-033",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "During a solar eclipse, does the Sun or Earth exert a larger gravitational force on the Moon?",
+        "answer": "The Sun",
+        "options": [
+            "The Sun",
+            "The Earth",
+            "They are equal",
+            "Depends on the phase"
+        ],
+        "difficulty": 3,
+        "explanation": "$F_{sun} = G M_s m / r_{sm}^2 \\approx 4.4 \\times 10^{20}$ N. $F_{earth} = G M_e m / r_{em}^2 \\approx 2.0 \\times 10^{20}$ N. The Sun's pull is more than double the Earth's."
+    },
+    {
+        "id": "physics-hl-034",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A spaceship moves from an orbit of radius $d$ to $d/2$. Describe the change in energies.",
+        "answer": "KE increases; PE decreases; Total Energy decreases",
+        "options": [
+            "KE decreases; PE increases; Total stays same",
+            "KE increases; PE decreases; Total stays same",
+            "KE increases; PE decreases; Total decreases",
+            "KE decreases; PE increases; Total decreases"
+        ],
+        "difficulty": 3,
+        "explanation": "$v = \\sqrt{GM/r} \\Rightarrow$ KE increases. $E_p = -GMm/r \\Rightarrow$ more negative (decrease). $E_{tot} = -GMm/2r \\Rightarrow$ more negative (decrease)."
+    },
+    {
+        "id": "physics-hl-035",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Planet X has half the mass and twice the diameter of Planet Y. If escape speed on X is $v$, what is it on Y?",
+        "answer": "2v",
+        "options": [
+            "v/2",
+            "$v/\\sqrt{2}$",
+            "$\\sqrt{2}v$",
+            "2v"
+        ],
+        "difficulty": 3,
+        "explanation": "$v_{esc} = \\sqrt{2GM/R}$. For Y, mass is $2M$ and radius is $R/2$. $v_Y = \\sqrt{2G(2M)/(R/2)} = \\sqrt{4 \\cdot 2GM/R} = 2v$."
+    },
+    {
+        "id": "physics-hl-036",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A satellite settles on a lower orbit. How do its kinetic energy and centripetal force change?",
+        "answer": "Both increase",
+        "options": [
+            "Both increase",
+            "KE increases; Force decreases",
+            "KE decreases; Force increases",
+            "Both decrease"
+        ],
+        "difficulty": 2,
+        "explanation": "$v = \\sqrt{GM/r} \\Rightarrow$ lower $r$, higher $v$ (KE). $F = GMm/r^2 \\Rightarrow$ lower $r$, higher Force."
+    },
+    {
+        "id": "physics-hl-037",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "Define electric potential.",
+        "answer": "The work done per unit charge in bringing a small positive test charge from infinity to that point in the field.",
+        "difficulty": 1,
+        "explanation": "Unit: J C$^{-1}$ or Volt (V)."
+    },
+    {
+        "id": "physics-hl-038",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Which of the following is equivalent to the unit of electric potential difference?",
+        "answer": "N m C$^{-1}$",
+        "options": [
+            "N m C$^{-1}$",
+            "N m$^{-1}$ C$^{-1}$",
+            "J C",
+            "J m$^{-1}$ C$^{-1}$"
+        ],
+        "difficulty": 2,
+        "explanation": "$V = W/q \\Rightarrow$ J/C. Also $W = Fd \\Rightarrow$ Nm, so V = Nm/C."
+    },
+    {
+        "id": "physics-hl-039",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Two charges $-4 \\mu$C and $+8 \\mu$C are 2 cm apart. At which location relative to the charges is the electric field zero?",
+        "answer": "To the left of the negative charge",
+        "options": [
+            "Between the charges",
+            "To the left of the negative charge",
+            "To the right of the positive charge",
+            "Nowhere"
+        ],
+        "difficulty": 3,
+        "explanation": "For $E=0$ with opposite charges, the point must be outside the segment, closer to the smaller magnitude charge (the $-4 \\mu$C)."
+    },
+    {
+        "id": "physics-hl-040",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Calculate the work done by the electric field on a $-6 \\mu$C charge moved from a plate at $+12$ V to a plate at $-2$ V.",
+        "answer": "$-84 \\mu$J",
+        "options": [
+            "$+84 \\mu$J",
+            "$-84 \\mu$J",
+            "$+60 \\mu$J",
+            "$-60 \\mu$J"
+        ],
+        "difficulty": 2,
+        "explanation": "$W = -q \\Delta V = -(-6 \\times 10^{-6})(-2 - 12) = (6 \\times 10^{-6})(-14) = -84 \\mu$J."
+    },
+    {
+        "id": "physics-hl-041",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A negative ion moves from equipotential 1 (high potential) to 2 (low potential). What is the nature of the work done on the ion by the field?",
+        "answer": "Negative",
+        "options": [
+            "Positive",
+            "Negative",
+            "Zero",
+            "Depends on speed"
+        ],
+        "difficulty": 2,
+        "explanation": "A negative charge naturally moves toward higher potential. Forcing it to lower potential means the field does negative work."
+    },
+    {
+        "id": "physics-hl-042",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A wire carrying current $I$ is in a field $B$ (into page) with force $F$. It is moved to field $B$ (out of page) at angle $\\theta$ to the field. What is the new force magnitude?",
+        "answer": "$F \\sin \\theta$",
+        "options": [
+            "$F$",
+            "$F / \\sin \\theta$",
+            "$F \\sin \\theta$",
+            "Zero"
+        ],
+        "difficulty": 2,
+        "explanation": "Force $F = BIL \\sin \\theta$. The original force was at $90^\\circ$ ($\\sin 90 = 1$), so new force is $F \\sin \\theta$."
+    },
+    {
+        "id": "physics-hl-043",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Calculate the force on wire B (current 12A, length 1m) placed 0.1 cm from wire A (current 10A).",
+        "answer": "0.024 N",
+        "options": [
+            "0.002 N",
+            "0.012 N",
+            "0.024 N",
+            "0.240 N"
+        ],
+        "difficulty": 3,
+        "explanation": "$F = (\\mu_0 I_A I_B L) / (2\\pi r) = (4\\pi \\times 10^{-7} \\cdot 10 \\cdot 12 \\cdot 1) / (2\\pi \\cdot 0.001) = 2.4 \\times 10^{-2}$ N."
+    },
+    {
+        "id": "physics-hl-044",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "Determine the direction of current in a third wire C placed between wires A and B such that it is pushed to the right.",
+        "answer": "Depends on the current directions of A and B; it moves toward the wire with current in the same direction or away from current in the opposite direction.",
+        "difficulty": 3,
+        "explanation": "Magnetic forces between parallel wires are attractive (same direction) or repulsive (opposite directions)."
+    },
+    {
+        "id": "physics-hl-045",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A proton moves at $5.6 \\times 10^6$ m/s at $35^\\circ$ to a $4.2 \\times 10^{-3}$ T solenoid field. Calculate the force magnitude.",
+        "answer": "2.1 $\\times 10^{-15}$ N",
+        "options": [
+            "2.1 $\\times 10^{-15}$ N",
+            "3.7 $\\times 10^{-15}$ N",
+            "1.3 $\\times 10^{-15}$ N",
+            "0 N"
+        ],
+        "difficulty": 2,
+        "explanation": "$F = qvB \\sin \\theta = (1.6 \\times 10^{-19})(5.6 \\times 10^6)(4.2 \\times 10^{-3})\\sin(35^\\circ) \\approx 2.15 \\times 10^{-15}$ N."
+    },
+    {
+        "id": "physics-hl-046",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "Explain the shape of the path taken by a proton entering a magnetic field at an angle.",
+        "answer": "Helical (Spiral).",
+        "difficulty": 2,
+        "explanation": "The velocity component parallel to the field remains constant (linear motion), while the perpendicular component causes circular motion. The result is a helix."
+    },
+    {
+        "id": "physics-hl-047",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A conducting rod moves right in a field directed OUT of the page. What is the direction of the established electric field inside the rod?",
+        "answer": "From top to bottom",
+        "options": [
+            "Top to bottom",
+            "Bottom to top",
+            "Left to right",
+            "Right to left"
+        ],
+        "difficulty": 3,
+        "explanation": "Using Fleming's Left Hand Rule for positive charges: Fingers (field) out, Thumb (motion) right, Palm (force) points down. Positive charges accumulate at the bottom, creating a field from top to bottom."
+    },
+    {
+        "id": "physics-hl-048",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A point where the electric field is zero between charge X and $+20$ nC is only found in Region 1 (to the left of X). What is true about X?",
+        "answer": "Negative and smaller in magnitude than 20 nC",
+        "options": [
+            "Positive and bigger than 20 nC",
+            "Positive and smaller than 20 nC",
+            "Negative and bigger than 20 nC",
+            "Negative and smaller than 20 nC"
+        ],
+        "difficulty": 3,
+        "explanation": "If the null point is outside and closer to X, X must be opposite to the 20 nC charge and smaller in magnitude."
+    },
+    {
+        "id": "physics-hl-049",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Planet X has radius $R$ and density $\\rho$. Planet Y has radius $0.25R$ and density $3\\rho$. What is the ratio $g_Y / g_X$?",
+        "answer": "3/4",
+        "options": [
+            "3/4",
+            "4",
+            "16",
+            "48"
+        ],
+        "difficulty": 3,
+        "explanation": "$g = G M / R^2 = G (\\rho \\cdot \\frac{4}{3}\\pi R^3) / R^2 \\propto \\rho R$. Ratio $= (3\\rho \\cdot 0.25R) / (\\rho R) = 0.75$."
+    },
+    {
+        "id": "physics-hl-050",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A proton and an object with charge $+e$ exert forces. To the nearest order of magnitude, what mass must the object have for the net force to be zero?",
+        "answer": "10$^6$ kg",
+        "options": [
+            "10$^1$ kg",
+            "10$^3$ kg",
+            "10$^6$ kg",
+            "10$^9$ kg"
+        ],
+        "difficulty": 3,
+        "explanation": "$F_e = F_g \\Rightarrow k e^2 / r^2 = G m_p m / r^2 \\Rightarrow m = k e^2 / G m_p \\approx 10^6$ kg."
+    },
+    {
+        "id": "physics-hl-051",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "The gravitational potential change for a 40 kg satellite is 600 MJ. If the initial potential is $-20$ MJ kg$^{-1}$, what is the final potential?",
+        "answer": "$-5$ MJ kg$^{-1}$",
+        "options": [
+            "$-20$ MJ kg$^{-1}$",
+            "$-15$ MJ kg$^{-1}$",
+            "$-10$ MJ kg$^{-1}$",
+            "$-5$ MJ kg$^{-1}$"
+        ],
+        "difficulty": 2,
+        "explanation": "$\\Delta V = \\Delta E_p / m = 600 / 40 = 15$ MJ/kg. $V_f = V_i + 15 = -20 + 15 = -5$ MJ/kg."
+    },
+    {
+        "id": "physics-hl-052",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Net force on $m_2$ is zero when $d = x/3$ (where $d$ is distance from $m_1$). What is the ratio $m_1 / m_3$?",
+        "answer": "1/4",
+        "options": [
+            "1/4",
+            "2/3",
+            "1",
+            "4"
+        ],
+        "difficulty": 3,
+        "explanation": "$G m_1 m_2 / d^2 = G m_3 m_2 / (x-d)^2 \\Rightarrow m_1 / d^2 = m_3 / (2d)^2 \\Rightarrow m_1/m_3 = d^2 / 4d^2 = 1/4$."
+    },
+    {
+        "id": "physics-hl-053",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Planet B has twice the density and twice the radius of Planet A. What is the surface gravity ratio $g_B / g_A$?",
+        "answer": "4",
+        "options": [
+            "1",
+            "2",
+            "4",
+            "8"
+        ],
+        "difficulty": 2,
+        "explanation": "$g \\propto \\rho R$. $g_B = (2\\rho)(2R) \\cdot g_A / (\\rho R) = 4 g_A$."
+    },
+    {
+        "id": "physics-hl-054",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Two charges at distance $r$ in a medium ($k = 1/\\epsilon$) have force $F$. To keep $F$ same in air, what is the new distance?",
+        "answer": "$r \\sqrt{\\epsilon_r}$",
+        "options": [
+            "$\\epsilon_r r$",
+            "$r / \\epsilon_r$",
+            "$r / \\sqrt{\\epsilon_r}$",
+            "$r \\sqrt{\\epsilon_r}$"
+        ],
+        "difficulty": 3,
+        "explanation": "$F \\propto 1/(\\epsilon r^2)$. If $\\epsilon$ decreases by factor $\\epsilon_r$, $r^2$ must increase by $\\epsilon_r$ to keep force constant."
+    },
+    {
+        "id": "physics-hl-055",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "An electron reaches speed $v$ after potential difference $V$. What is its speed if $V$ is doubled?",
+        "answer": "$\\sqrt{2} v$",
+        "options": [
+            "$\\sqrt{2} v$",
+            "$2v$",
+            "$v/2$",
+            "$v$"
+        ],
+        "difficulty": 2,
+        "explanation": "$qV = \\frac{1}{2}mv^2 \\Rightarrow v \\propto \\sqrt{V}$."
+    },
+    {
+        "id": "physics-hl-056",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Moving an electron from 10V to 30V equipotentials requires how much work?",
+        "answer": "20 eV",
+        "options": [
+            "10 eV",
+            "20 eV",
+            "30 eV",
+            "0 eV"
+        ],
+        "difficulty": 1,
+        "explanation": "Work in eV is just the potential difference times the number of elementary charges."
+    },
+    {
+        "id": "physics-hl-057",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Charge $q$ is in equilibrium at distance $d/4$ from $q_1$. What is the ratio $q_1 / q_2$?",
+        "answer": "1/9",
+        "options": [
+            "16",
+            "4",
+            "1/9",
+            "3"
+        ],
+        "difficulty": 3,
+        "explanation": "$k q_1 q / (d/4)^2 = k q_2 q / (3d/4)^2 \\Rightarrow q_1 / (1/16) = q_2 / (9/16) \\Rightarrow q_1/q_2 = 1/9$."
+    },
+    {
+        "id": "physics-hl-058",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "An alpha particle accelerates from rest over 2.0m in a 50 N/C field. Estimate its final speed.",
+        "answer": "5.0 $\\times 10^4$ m s$^{-1}$",
+        "options": [
+            "0.5 $\\times 10^4$ m s$^{-1}$",
+            "5.0 $\\times 10^4$ m s$^{-1}$",
+            "5.0 $\\times 10^5$ m s$^{-1}$",
+            "5.0 $\\times 10^9$ m s$^{-1}$"
+        ],
+        "difficulty": 3,
+        "explanation": "$KE = qEd = (2 \\cdot 1.6 \\times 10^{-19}) \\cdot 50 \\cdot 2 = 3.2 \\times 10^{-17}$ J. $v = \\sqrt{2 KE / m} \\approx 5 \\times 10^4$ m/s."
+    },
+    {
+        "id": "physics-hl-059",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "In a mass spectrometer, an alpha particle ($v = 2 \\times 10^7$ m/s) follows a path of radius 15 cm in a 2.77 T field. Calculate its mass.",
+        "answer": "6.6 $\\times 10^{-27}$ kg",
+        "options": [
+            "1.6 $\\times 10^{-27}$ kg",
+            "3.3 $\\times 10^{-27}$ kg",
+            "6.6 $\\times 10^{-27}$ kg",
+            "9.1 $\\times 10^{-31}$ kg"
+        ],
+        "difficulty": 3,
+        "explanation": "$r = mv / qB \\Rightarrow m = rqB / v = (0.15 \\cdot 2 \\cdot 1.6 \\times 10^{-19} \\cdot 2.77) / (2 \\times 10^7) \\approx 6.65 \\times 10^{-27}$ kg."
+    },
+    {
+        "id": "physics-hl-060",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "Explain why centripetal force does no work on a charged particle in a uniform magnetic field.",
+        "answer": "The magnetic force is always perpendicular to the direction of motion (velocity).",
+        "difficulty": 2,
+        "explanation": "Work $W = Fd \\cos \\theta$. Since $\\theta = 90^\\circ$ at all times, $\\cos 90 = 0$, and no energy is transferred."
+    },
+    {
+        "id": "physics-hl-061",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Two positive charges $q_1$ and $q_2$ are separated by distance $d$. A third charge $q$ is in equilibrium at $d/4$ from $q_1$. Find the ratio $q_1 / q_2$.",
+        "answer": "1/9",
+        "options": [
+            "1/16",
+            "1/4",
+            "1/9",
+            "3"
+        ],
+        "difficulty": 2,
+        "explanation": "For equilibrium, forces from $q_1$ and $q_2$ must be equal: $k q_1 q / (d/4)^2 = k q_2 q / (3d/4)^2$. Simplifying gives $q_1 / (1/16) = q_2 / (9/16) \\Rightarrow q_1/q_2 = 1/9$."
+    },
+    {
+        "id": "physics-hl-062",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A charged particle passes through parallel plates with an electric field. What could prevent the particle from deflecting?",
+        "answer": "A magnetic field directed out of the page",
+        "options": [
+            "A magnetic field directed into the page",
+            "A magnetic field directed out of the page",
+            "Increasing the plate separation",
+            "Decreasing the particle's mass"
+        ],
+        "difficulty": 2,
+        "explanation": "To move without deflection, the magnetic force must equal and oppose the electric force ($qE = qvB$). If the electric field points down, a positive particle is pushed down; the magnetic force must be up. Using the Left-Hand Rule, the field must point out of the page."
+    },
+    {
+        "id": "physics-hl-063",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "An alpha particle ($+2e$) moves in a region of magnetic field $B$. Why does it undergo circular motion?",
+        "answer": "The magnetic force is always perpendicular to the velocity",
+        "options": [
+            "The magnetic field is uniform",
+            "The magnetic force is always perpendicular to the velocity",
+            "The electric field is zero",
+            "The particle has a high mass-to-charge ratio"
+        ],
+        "difficulty": 1,
+        "explanation": "A constant force perpendicular to the velocity provides a centripetal acceleration, resulting in a circular path."
+    },
+    {
+        "id": "physics-hl-064",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A conductor coil rotates in a magnetic field at frequency $f$. If the frequency is doubled to $2f$, how does the maximum induced power output change?",
+        "answer": "It increases by a factor of 4",
+        "options": [
+            "It stays the same",
+            "It doubles",
+            "It increases by a factor of 4",
+            "It increases by a factor of 8"
+        ],
+        "difficulty": 3,
+        "explanation": "Induced emf $\\epsilon \\propto f$. Power $P = \\epsilon^2 / R$, so $P \\propto f^2$. Doubling frequency quadruples the power."
+    },
+    {
+        "id": "physics-hl-065",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A conducting rod of length 0.20m moves at 3.0 m/s through a 5.0 T field into the page. If connected to a 1.5 $\\Omega$ resistor, find the induced current.",
+        "answer": "2.0 A",
+        "options": [
+            "1.0 A",
+            "2.0 A",
+            "3.0 A",
+            "5.0 A"
+        ],
+        "difficulty": 2,
+        "explanation": "Induced emf $\\epsilon = BvL = 5.0 \\times 3.0 \\times 0.20 = 3.0$ V. Current $I = V / R = 3.0 / 1.5 = 2.0$ A."
+    },
+    {
+        "id": "physics-hl-066",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Satellite A (mass $3m$) is at height $R$ from the surface. Satellite B (mass $m$) is at height $2R$. Find the ratio of centripetal force $F_A / F_B$.",
+        "answer": "27/4",
+        "options": [
+            "27/4",
+            "4/27",
+            "6",
+            "12"
+        ],
+        "difficulty": 3,
+        "explanation": "$F = GMm / r^2$. $r_A = 2R$ (radius + height), $r_B = 3R$. Ratio $= (3m / (2R)^2) / (m / (3R)^2) = (3/4) / (1/9) = 27/4$."
+    },
+    {
+        "id": "physics-hl-067",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A planet has the same radius as Earth but surface gravity of 6.76 N kg$^{-1}$. Calculate the planet's mass.",
+        "answer": "4.1 $\\times 10^{24}$ kg",
+        "options": [
+            "2.5 $\\times 10^{24}$ kg",
+            "4.1 $\\times 10^{24}$ kg",
+            "5.98 $\\times 10^{24}$ kg",
+            "8.2 $\\times 10^{24}$ kg"
+        ],
+        "difficulty": 2,
+        "explanation": "$g = GM / R^2 \\Rightarrow M = gR^2 / G = (6.76 \\times (6.37 \\times 10^6)^2) / (6.67 \\times 10^{-11}) \\approx 4.1 \\times 10^{24}$ kg."
+    },
+    {
+        "id": "physics-hl-068",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A proton released from a positive plate gains speed $v$. What speed does an alpha particle gain under the same potential difference $V$?",
+        "answer": "$v / \\sqrt{2}$",
+        "options": [
+            "$v / 2$",
+            "$v / \\sqrt{2}$",
+            "$v$",
+            "$v \\sqrt{2}$"
+        ],
+        "difficulty": 3,
+        "explanation": "$qV = 0.5 mv^2 \\Rightarrow v = \\sqrt{2qV / m}$. For an alpha particle, $q$ is $2\\times$ and $m$ is $4\\times$. $v_\\alpha = \\sqrt{2(2q)V / (4m)} = v \\sqrt{1/2} = v / \\sqrt{2}$."
+    },
+    {
+        "id": "physics-hl-069",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Charges of 2C and 8C are 9cm apart. At what distance from the 2C charge is the electric field zero?",
+        "answer": "3.00 cm",
+        "options": [
+            "1.70 cm",
+            "3.00 cm",
+            "4.50 cm",
+            "6.00 cm"
+        ],
+        "difficulty": 2,
+        "explanation": "$k(2)/x^2 = k(8)/(9-x)^2 \\Rightarrow \\sqrt{2}/x = \\sqrt{8}/(9-x) \\Rightarrow 1/x = 2/(9-x) \\Rightarrow 9-x = 2x \\Rightarrow 3x=9$."
+    },
+    {
+        "id": "physics-hl-070",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A 0.8 $\\mu$C charge is moved from a 10V equipotential to a 30V equipotential. Find the work done on the charge.",
+        "answer": "10$^{14}$ eV",
+        "options": [
+            "16 $\\mu$eV",
+            "10$^{14}$ J",
+            "10$^{14}$ eV",
+            "10$^{13}$ eV"
+        ],
+        "difficulty": 2,
+        "explanation": "$W = q \\Delta V = (0.8 \\times 10^{-6} / 1.6 \\times 10^{-19}) \\times 20$ eV $= 5 \\times 10^{12} \\times 20 = 10^{14}$ eV."
+    },
+    {
+        "id": "physics-hl-071",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "An alpha particle is accelerated through potential $V$ into field $B$. Which sketch describes the path radius $r$ vs potential $V$?",
+        "answer": "$r \\propto \\sqrt{V}$",
+        "options": [
+            "$r \\propto V$",
+            "$r \\propto V^2$",
+            "$r \\propto \\sqrt{V}$",
+            "$r \\propto 1/V$"
+        ],
+        "difficulty": 3,
+        "explanation": "$qvB = mv^2/r \\Rightarrow r = mv/qB$. Since $v = \\sqrt{2qV/m}$, $r = \\sqrt{2mV/qB^2}$, so $r$ is proportional to $\\sqrt{V}$."
+    },
+    {
+        "id": "physics-hl-072",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Radiation passes through paper into a field directed into the page. Gamma is not deflected. What is correct about the other radiation penetrating the paper?",
+        "answer": "Beta-minus; deflected upwards",
+        "options": [
+            "Alpha; deflected upwards",
+            "Alpha; deflected downwards",
+            "Beta-minus; deflected upwards",
+            "Beta-minus; deflected downwards"
+        ],
+        "difficulty": 2,
+        "explanation": "Alpha is blocked by paper. Beta-minus penetrates and is negative; using the Left-Hand Rule (middle finger opposite to motion), it is deflected upwards."
+    },
+    {
+        "id": "physics-hl-073",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A satellite is launched with $v = 0.8 v_{esc}$. Show the total initial energy.",
+        "answer": "$-9GMm / 25R$",
+        "options": [
+            "$-9GMm / 25R$",
+            "$-GMm / R$",
+            "$-0.64 GMm / R$",
+            "$Zero$"
+        ],
+        "difficulty": 3,
+        "explanation": "$E_{tot} = KE + GPE = 0.5m(0.8\\sqrt{2GM/R})^2 - GMm/R = 0.5m(1.28GM/R) - GMm/R = 0.64GMm/R - GMm/R = -0.36GMm/R = -9GMm/25R$."
+    },
+    {
+        "id": "physics-hl-074",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Calculate the GPE of two masses ($6.2 \\times 10^3$ kg and $4.0 \\times 10^3$ kg) separated by 4.3 m.",
+        "answer": "$-3.8 \\times 10^{-4}$ J",
+        "options": [
+            "$-3.8 \\times 10^{-4}$ J",
+            "$-5.7 \\times 10^{-7}$ J",
+            "$+3.8 \\times 10^{-4}$ J",
+            "$0$ J"
+        ],
+        "difficulty": 2,
+        "explanation": "$E_p = -G m_1 m_2 / r = -(6.67 \\times 10^{-11} \\cdot 6.2 \\times 10^3 \\cdot 4.0 \\times 10^3) / 4.3 \\approx -3.8 \\times 10^{-4}$ J."
+    },
+    {
+        "id": "physics-hl-075",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "What is the orbital speed of a satellite at height $2R$ from the surface of a planet if the escape speed at the surface is $v_{esc}$?",
+        "answer": "$v_{esc} / \\sqrt{6}$",
+        "options": [
+            "$v_{esc} / 3$",
+            "$v_{esc} / \\sqrt{6}$",
+            "$v_{esc} / 2$",
+            "$v_{esc} \\sqrt{6}$"
+        ],
+        "difficulty": 3,
+        "explanation": "$v_{esc} = \\sqrt{2GM/R}$. $v_{orb} = \\sqrt{GM/3R} = \\sqrt{(v_{esc}^2 R / 2) / 3R} = \\sqrt{v_{esc}^2 / 6}$."
+    },
+    {
+        "id": "physics-hl-076",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "At what height above Earth's surface ($R_E$) does the gravitational field strength become half its surface value?",
+        "answer": "0.41 $R_E$",
+        "options": [
+            "0.41 $R_E$",
+            "0.50 $R_E$",
+            "1.00 $R_E$",
+            "1.41 $R_E$"
+        ],
+        "difficulty": 3,
+        "explanation": "$g/2 = GM / (R_E+h)^2 \\Rightarrow 0.5 GM/R_E^2 = GM / (R_E+h)^2 \\Rightarrow 2R_E^2 = (R_E+h)^2 \\Rightarrow \\sqrt{2}R_E = R_E + h \\Rightarrow h = (\\sqrt{2}-1)R_E$."
+    },
+    {
+        "id": "physics-hl-077",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Estimate the speed of an alpha particle accelerated through $E = 50$ N/C over 2.0m.",
+        "answer": "5.0 $\\times 10^4$ m s$^{-1}$",
+        "options": [
+            "0.5 $\\times 10^4$ m s$^{-1}$",
+            "5.0 $\\times 10^4$ m s$^{-1}$",
+            "5.0 $\\times 10^5$ m s$^{-1}$",
+            "1.0 $\\times 10^6$ m s$^{-1}$"
+        ],
+        "difficulty": 3,
+        "explanation": "$0.5 mv^2 = qEd \\Rightarrow v = \\sqrt{2(2e)Ed / m} \\approx 5 \\times 10^4$."
+    },
+    {
+        "id": "physics-hl-078",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A conducting sphere ($r=20$ cm, $Q=+3.2 \\mu$C) has point A 20 cm from its surface. Calculate the surface potential.",
+        "answer": "1.4 $\\times 10^5$ V",
+        "options": [
+            "1.4 $\\times 10^5$ V",
+            "7.2 $\\times 10^4$ V",
+            "2.8 $\\times 10^5$ V",
+            "0 V"
+        ],
+        "difficulty": 2,
+        "explanation": "$V = kQ/r = (8.99 \\times 10^9 \\cdot 3.2 \\times 10^{-6}) / 0.20 \\approx 1.44 \\times 10^5$ V."
+    },
+    {
+        "id": "physics-hl-079",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A conducting rod (length $L$) slides down vertical rails in a horizontal field $B$. What happens to the induced current over time?",
+        "answer": "It increases until it reaches a constant terminal value",
+        "options": [
+            "It stays constant",
+            "It increases indefinitely",
+            "It increases until it reaches a constant terminal value",
+            "It oscillates"
+        ],
+        "difficulty": 3,
+        "explanation": "Gravity accelerates the rod, increasing $v$, which increases emf and current ($I = BvL/R$). The resulting magnetic braking force ($BIL$) increases until it equals the weight, reaching terminal velocity."
+    },
+    {
+        "id": "physics-hl-080",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A generator has a loop in a rotating magnet track (frequency $\\omega$). If $\\omega$ increases, what is the effect on the induced current graph?",
+        "answer": "Higher peak current and higher frequency",
+        "options": [
+            "Higher peak current only",
+            "Higher frequency only",
+            "Higher peak current and higher frequency",
+            "Lower peak current"
+        ],
+        "difficulty": 2,
+        "explanation": "Max induced emf $\\epsilon_0 = NBA\\omega$. Peak current $I_0 = \\epsilon_0 / R$, so $I_0 \\propto \\omega$. Frequency also increases with $\\omega$."
+    },
+    {
+        "id": "physics-hl-081",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Two planets have the same density but Planet X has a larger radius. Which quantity is SMALLER for satellite A orbiting X compared to B orbiting Y at the same radius?",
+        "answer": "None of these",
+        "options": [
+            "Orbital speed",
+            "Orbital period",
+            "Centripetal acceleration",
+            "None of these"
+        ],
+        "difficulty": 3,
+        "explanation": "$g = G M_{planet} / r^2$. Since X has larger radius and same density, it has more mass. Higher mass at same orbital radius means higher $g$, higher speed, and shorter period."
+    },
+    {
+        "id": "physics-hl-082",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Resultant gravitational field is zero at point X between a planet (25M) and moon (M). If moon's potential at X is $V$, find total potential at X.",
+        "answer": "6V",
+        "options": [
+            "2V",
+            "3V",
+            "6V",
+            "26V"
+        ],
+        "difficulty": 3,
+        "explanation": "At null point, $G(25M)/r_p^2 = GM/r_m^2 \\Rightarrow 5/r_p = 1/r_m \\Rightarrow r_p = 5r_m$. Total potential $= -G(25M)/5r_m - GM/r_m = -5(GM/r_m) - GM/r_m = 6V$."
+    },
+    {
+        "id": "physics-hl-083",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Satellite Y has orbital period $8T$ around Earth. If satellite X has period $T$ and radius $R$, find Y's orbital radius.",
+        "answer": "4R",
+        "options": [
+            "16R",
+            "8R",
+            "4R",
+            "2R"
+        ],
+        "difficulty": 2,
+        "explanation": "By Kepler's 3rd Law: $(R_Y / R_X)^3 = (T_Y / T_X)^2 = (8)^2 = 64$. $R_Y / R_X = \\sqrt[3]{64} = 4$."
+    },
+    {
+        "id": "physics-hl-084",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "An object ($m, q$) drops at constant velocity $v$ between vertical plates. What is the magnitude of the required electric field $E$?",
+        "answer": "mg/q",
+        "options": [
+            "mg/q",
+            "mg/qv",
+            "mv/q",
+            "zero"
+        ],
+        "difficulty": 2,
+        "explanation": "At constant velocity, net force is zero. Upward electric force must balance downward gravity: $qE = mg \\Rightarrow E = mg/q$."
+    },
+    {
+        "id": "physics-hl-085",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Two charges have an acceleration ratio $a_{neg} = 3 a_{pos}$. What is the mass ratio $m_{pos} / m_{neg}$?",
+        "answer": "3",
+        "options": [
+            "1/3",
+            "1",
+            "3",
+            "9"
+        ],
+        "difficulty": 2,
+        "explanation": "Electrostatic force is the same on both (Newton's 3rd). $F = m a$. So $m_{neg} (3a) = m_{pos} (a) \\Rightarrow m_{pos}/m_{neg} = 3$."
+    },
+    {
+        "id": "physics-hl-086",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A satellite moves from height $h$ to $2h$. What is the new linear orbital speed?",
+        "answer": "Less than $v$",
+        "options": [
+            "$v/4$",
+            "Less than $v$",
+            "More than $v$",
+            "$v/2$"
+        ],
+        "difficulty": 1,
+        "explanation": "Orbital speed $v = \\sqrt{GM/r}$. Increasing height increases $r$, which decreases $v$."
+    },
+    {
+        "id": "physics-hl-087",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A conducting rod (length $l$) rotates with angular velocity $\\omega$ in a uniform field $B$. Find the emf between its ends.",
+        "answer": "$B \\omega l^2 / 2$",
+        "options": [
+            "$B \\omega l$",
+            "$B \\omega^2 l^2$",
+            "$B \\omega l^2 / 2$",
+            "Zero"
+        ],
+        "difficulty": 3,
+        "explanation": "Average velocity is $\\omega l / 2$. Induced emf $\\epsilon = B v_{avg} l = B (\\omega l / 2) l$."
+    },
+    {
+        "id": "physics-hl-088",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A satellite is at height $h$ where potential is $V$. If it moves to an orbit where potential is $V/2$, deduced the new height.",
+        "answer": "More than 2h",
+        "options": [
+            "h/2",
+            "Between h and 2h",
+            "2h",
+            "More than 2h"
+        ],
+        "difficulty": 3,
+        "explanation": "$V = -GM/(R+h)$. If $V$ becomes $V/2$, the distance $(R+h)$ must double to $2(R+h) = 2R + 2h$. The new height $H = 2R + 2h - R = R + 2h$, which is $> 2h$."
+    },
+    {
+        "id": "physics-hl-089",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A planet is equidistant from two equal stars ($M$, distance $d$). Find the resultant field strength at the planet if it is $d/2$ from the midpoint.",
+        "answer": "$2GM / d^2 \\cos(45^\\circ)$",
+        "options": [
+            "$2GM / d^2 \\cos(45^\\circ)$",
+            "$4GM / d^2 \\cos(45^\\circ)$",
+            "$2GM / d^2 \\tan(45^\\circ)$",
+            "$GM / d^2$"
+        ],
+        "difficulty": 3,
+        "explanation": "The distance from the planet to each star is $r = \\sqrt{(d/2)^2 + (d/2)^2} = d/\\sqrt{2}$. Individual field $g = GM / (d^2/2) = 2GM/d^2$. The vertical components add: $2 \\cdot g \\cdot \\cos(45^\\circ)$."
+    },
+    {
+        "id": "physics-hl-090",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Charges $+2Q$ and $-Q$ are on adjacent corners of a square. For the center potential to be zero, what must charges A and B (other corners) be?",
+        "answer": "$A = -2Q, B = +Q$ (or any set summing to $-Q$)",
+        "options": [
+            "$A = +2Q, B = -3Q$",
+            "$A = +2Q, B = -Q$",
+            "$A = -Q, B = +2Q$",
+            "$A = +2Q, B = +Q$"
+        ],
+        "difficulty": 3,
+        "explanation": "Potential is a scalar: $V \\propto \\sum q$. For $V=0$, $(+2Q) + (-Q) + A + B = 0 \\Rightarrow A + B = -Q$. Option A sums to $-Q$."
+    },
+    {
+        "id": "physics-hl-091",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "Define magnetic flux linkage.",
+        "answer": "The product of the magnetic flux through a single loop and the total number of turns in the coil.",
+        "difficulty": 1,
+        "explanation": "Equation: $\\Phi = NBA \\cos \\theta$."
+    },
+    {
+        "id": "physics-hl-092",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A triangular loop (75 turns) enters a 1.2 T field. Calculate the max flux linkage if the base is 10cm and height 5cm.",
+        "answer": "0.225 Wb",
+        "options": [
+            "0.003 Wb",
+            "0.225 Wb",
+            "0.450 Wb",
+            "1.20 Wb"
+        ],
+        "difficulty": 3,
+        "explanation": "Area $A = 0.5 \\times 0.1 \\times 0.05 = 0.0025$ m$^2$. Linkage $\\Phi = NBA = 75 \\times 1.2 \\times 0.0025 = 0.225$ Wb."
+    },
+    {
+        "id": "physics-hl-093",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Which of the following describes the induced emf as a square loop enters a uniform magnetic field at constant speed?",
+        "answer": "A constant non-zero value",
+        "options": [
+            "Zero",
+            "Increasing linearly",
+            "A constant non-zero value",
+            "Decreasing linearly"
+        ],
+        "difficulty": 2,
+        "explanation": "Emf $\\epsilon = BLv$. Since $B, L,$ and $v$ are constant while the loop is entering, the emf is constant until the loop is fully inside."
+    },
+    {
+        "id": "physics-hl-094",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "flashcard",
+        "question": "State Lenz's Law.",
+        "answer": "The direction of an induced current is such that it produces a magnetic field that opposes the change in magnetic flux that created it.",
+        "difficulty": 1,
+        "explanation": "This is a consequence of the law of conservation of energy."
+    },
+    {
+        "id": "physics-hl-095",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "What is the relationship between the rms current and peak current for a sinusoidal induced current?",
+        "answer": "$I_{rms} = I_0 / \\sqrt{2}$",
+        "options": [
+            "$I_{rms} = I_0$",
+            "$I_{rms} = 2I_0$",
+            "$I_{rms} = I_0 / \\sqrt{2}$",
+            "$I_{rms} = I_0 / 2$"
+        ],
+        "difficulty": 1,
+        "explanation": "Standard AC power relationship."
+    },
+    {
+        "id": "physics-hl-096",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A loop rotates in a field. If frequency is halved, how does the peak induced emf change?",
+        "answer": "It is halved",
+        "options": [
+            "It is halved",
+            "It doubles",
+            "It stays the same",
+            "It is quartered"
+        ],
+        "difficulty": 1,
+        "explanation": "$\\epsilon_0 = NBA\\omega$. Since $\\omega = 2\\pi f$, peak emf is directly proportional to frequency."
+    },
+    {
+        "id": "physics-hl-097",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A planet and moon have resultant field zero at point X. Which is larger, the potential from the planet or from the moon at X?",
+        "answer": "The planet's contribution",
+        "options": [
+            "The planet's",
+            "The moon's",
+            "They are equal",
+            "Cannot be determined"
+        ],
+        "difficulty": 3,
+        "explanation": "At null point, $GM_p/r_p^2 = GM_m/r_m^2$. Potential is $-GM/r$. Ratio $V_p/V_m = (M_p/r_p) / (M_m/r_m)$. Since $M_p/r_p^2 = M_m/r_m^2$, then $M_p/r_p = (M_m/r_m^2) \\cdot r_p$. Because $r_p > r_m$, the planet's potential magnitude is larger."
+    },
+    {
+        "id": "physics-hl-098",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A satellite ejects fuel opposite to its motion. How does its orbital radius change?",
+        "answer": "It increases",
+        "options": [
+            "It increases",
+            "It decreases",
+            "It stays same",
+            "It spirals inward"
+        ],
+        "difficulty": 2,
+        "explanation": "Ejecting fuel backward increases the satellite's speed. Higher speed provides more energy, moving the satellite to a higher (larger radius) orbit."
+    },
+    {
+        "id": "physics-hl-099",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "The GPE of a system is negative because:",
+        "answer": "Work must be done to move the masses to infinity",
+        "options": [
+            "Gravity is a repulsive force",
+            "Work must be done to move the masses to infinity",
+            "Potential is zero at the surface",
+            "Energy is lost as heat"
+        ],
+        "difficulty": 1,
+        "explanation": "Zero potential is defined at infinity. Since gravity is attractive, you must add energy to separate masses, meaning the potential at finite distances is lower than zero."
+    },
+    {
+        "id": "physics-hl-100",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "Which of the following represents the correct unit for gravitational potential?",
+        "answer": "J kg$^{-1}$",
+        "options": [
+            "N kg$^{-1}$",
+            "J kg$^{-1}$",
+            "m s$^{-2}$",
+            "N m"
+        ],
+        "difficulty": 1,
+        "explanation": "Gravitational potential is work per unit mass ($V = W/m$)."
+    },
+    {
+        "id": "physics-hl-101",
+        "subject": "Physics HL",
+        "topic": "Fields",
+        "type": "mcq",
+        "question": "A triangular loop moves at 3.0 cm/s into a field. If the height of the triangle is 5cm, how long does it take to induce an emf?",
+        "answer": "1.67 s",
+        "options": [
+            "1.67 s",
+            "3.00 s",
+            "5.00 s",
+            "0.60 s"
+        ],
+        "difficulty": 2,
+        "explanation": "Time to enter $= distance / speed = 5\\text{cm} / 3\\text{cm/s} \\approx 1.67$ s."
+    },
+    {
+        "id": "physics-hl-001",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A pilot points the nose of a plane in direction $P$ to counter strong winds and travel from $A$ to $B$. If $P$ points North-West and the intended path $A \\to B$ is North, what is the direction of the wind?",
+        "answer": "Eastward",
+        "options": [
+            "Northward",
+            "Southward",
+            "Eastward",
+            "Westward"
+        ],
+        "difficulty": 1,
+        "explanation": "To move directly North while pointing North-West, the wind must provide an Eastward component to cancel the Westward component of the plane's heading."
+    },
+    {
+        "id": "physics-hl-002",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Which of the following is a vector quantity?",
+        "answer": "Electric force",
+        "options": [
+            "Speed",
+            "Electric force",
+            "Electric current",
+            "Temperature"
+        ],
+        "difficulty": 1,
+        "explanation": "Force has both magnitude and direction. Speed, temperature, and current (in the context of circuit scalar analysis) are treated as scalars."
+    },
+    {
+        "id": "physics-hl-003",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A car descending a slope covers 27 m in 3.0 s starting from rest. Calculate the magnitude of its acceleration.",
+        "answer": "6.0 m s$^{-2}$",
+        "options": [
+            "3.0 m s$^{-2}$",
+            "6.0 m s$^{-2}$",
+            "9.0 m s$^{-2}$",
+            "18.0 m s$^{-2}$"
+        ],
+        "difficulty": 1,
+        "explanation": "Using $s = ut + \\frac{1}{2}at^2$: $27 = 0 + \\frac{1}{2}a(3)^2 \\Rightarrow 27 = 4.5a \\Rightarrow a = 6.0$ m s$^{-2}$."
+    },
+    {
+        "id": "physics-hl-004",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "On a velocity-time graph, what represents the displacement of an object?",
+        "answer": "Area under the graph",
+        "options": [
+            "Gradient of the line",
+            "x-intercept",
+            "y-intercept",
+            "Area under the graph"
+        ],
+        "difficulty": 1,
+        "explanation": "The integral of velocity with respect to time is displacement, which corresponds to the area under the $v-t$ curve."
+    },
+    {
+        "id": "physics-hl-005",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A ball rolls horizontally off a cliff and hits the ground with a vertical speed of 20 m s$^{-1}$. Calculate the height of the cliff. (Take $g = 10$ m s$^{-2}$)",
+        "answer": "20 m",
+        "options": [
+            "20 m",
+            "40 m",
+            "60 m",
+            "80 m"
+        ],
+        "difficulty": 1,
+        "explanation": "Using $v_y^2 = u_y^2 + 2gh$: $20^2 = 0 + 2(10)h \\Rightarrow 400 = 20h \\Rightarrow h = 20$ m."
+    },
+    {
+        "id": "physics-hl-006",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A basketball undergoes projectile motion. At the highest point of its trajectory, what are the directions of its velocity and acceleration vectors?",
+        "answer": "Velocity: Horizontal; Acceleration: Downward",
+        "options": [
+            "Velocity: Horizontal; Acceleration: None",
+            "Velocity: None; Acceleration: Downward",
+            "Velocity: Horizontal; Acceleration: Downward",
+            "Velocity: Vertical; Acceleration: Downward"
+        ],
+        "difficulty": 1,
+        "explanation": "At the peak, vertical velocity is zero but horizontal velocity remains. Gravity ($g$) acts downward throughout the flight."
+    },
+    {
+        "id": "physics-hl-007",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A soft ball of mass $m$ rebounds from a wall with a slower speed than a hard ball of the same mass. How do the impulse and change in momentum of the soft ball compare to the hard ball?",
+        "answer": "Impulse: Smaller; Change in momentum: Smaller",
+        "options": [
+            "Impulse: Greater; Change in momentum: Smaller",
+            "Impulse: Smaller; Change in momentum: Greater",
+            "Impulse: Greater; Change in momentum: Greater",
+            "Impulse: Smaller; Change in momentum: Smaller"
+        ],
+        "difficulty": 2,
+        "explanation": "Impulse equals change in momentum ($J = m\\Delta v$). A slower rebound means a smaller $\\Delta v$, resulting in a smaller change in momentum and smaller impulse."
+    },
+    {
+        "id": "physics-hl-008",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "An object moves in a circle at constant speed. Which statements are true? I. Resultant work is zero. II. Velocity is constant. III. The object is accelerating.",
+        "answer": "I and III only",
+        "options": [
+            "I only",
+            "II only",
+            "I and III only",
+            "II and III only"
+        ],
+        "difficulty": 2,
+        "explanation": "Work is zero because force is perpendicular to motion. Velocity is NOT constant (direction changes). Centripetal acceleration exists."
+    },
+    {
+        "id": "physics-hl-009",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "An object moves in a circular path ($r=2$ m) with an angular displacement of $\\pi/2$ rad in 5 s. What is the linear speed?",
+        "answer": "$\\pi/5$ m s$^{-1}$",
+        "options": [
+            "$\\pi/20$ m s$^{-1}$",
+            "$\\pi/10$ m s$^{-1}$",
+            "$\\pi/5$ m s$^{-1}$",
+            "$2\\pi/5$ m s$^{-1}$"
+        ],
+        "difficulty": 2,
+        "explanation": "$v = r\\omega = r(\\theta/t) = 2(\\frac{\\pi/2}{5}) = \\pi/5$ m s$^{-1}$."
+    },
+    {
+        "id": "physics-hl-010",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "flashcard",
+        "question": "Describe the free body diagram of a skydiver at terminal velocity.",
+        "answer": "The weight vector ($W$) pointing downwards is equal in length to the drag force vector ($F_{drag}$) pointing upwards.",
+        "difficulty": 1,
+        "explanation": "Terminal velocity occurs when the net force is zero ($a=0$)."
+    },
+    {
+        "id": "physics-hl-011",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A car (mass $m$, speed $2v$) and a truck (mass $3m$, speed $v$) collide head-on and stick together. What is their speed after collision?",
+        "answer": "$v/4$",
+        "options": [
+            "$v/4$",
+            "$4v/5$",
+            "$5v/4$",
+            "$4v$"
+        ],
+        "difficulty": 2,
+        "explanation": "Momentum: $m(2v) - 3m(v) = (4m)v_f \\Rightarrow -mv = 4mv_f \\Rightarrow |v_f| = v/4$."
+    },
+    {
+        "id": "physics-hl-012",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A mass hangs from a car mirror. As the car accelerates left, the string tilts right. Identify the forces in the free-body diagram.",
+        "answer": "Tension (up and left) and Weight (down)",
+        "options": [
+            "Tension (up and left) and Weight (down)",
+            "Tension (up and right) and Weight (down)",
+            "Normal force and Friction",
+            "Weight only"
+        ],
+        "difficulty": 1,
+        "explanation": "To accelerate left, the horizontal component of the string's tension must point left. Thus, the mass tilts right relative to the mirror."
+    },
+    {
+        "id": "physics-hl-013",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A ball is dropped from 12 m. At 3 m height, what expression represents its total energy (ignoring air resistance)?",
+        "answer": "$E_k + E_p$",
+        "options": [
+            "$E_k - E_p$",
+            "$E_k + E_p$",
+            "$E_k$ only",
+            "$E_p$ only"
+        ],
+        "difficulty": 1,
+        "explanation": "Total mechanical energy is the sum of kinetic and potential energy at any point."
+    },
+    {
+        "id": "physics-hl-014",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Which of the following is NOT a unit of power?",
+        "answer": "J",
+        "options": [
+            "W",
+            "J",
+            "N m s$^{-1}$",
+            "J s$^{-1}$"
+        ],
+        "difficulty": 1,
+        "explanation": "Joule (J) is a unit of work or energy. Power is work per unit time."
+    },
+    {
+        "id": "physics-hl-015",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A builder lifts 15 kg to a height of 6 m in 9 s. What is the power delivered? (Take $g = 10$ m s$^{-2}$)",
+        "answer": "100 W",
+        "options": [
+            "10 W",
+            "17 W",
+            "100 W",
+            "900 W"
+        ],
+        "difficulty": 1,
+        "explanation": "$P = mgh/t = (15 \\times 10 \\times 6) / 9 = 900/9 = 100$ W."
+    },
+    {
+        "id": "physics-hl-016",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A Sankey diagram shows 100 J input, 60 J wasted as heat. What is the efficiency?",
+        "answer": "40%",
+        "options": [
+            "20%",
+            "40%",
+            "60%",
+            "80%"
+        ],
+        "difficulty": 1,
+        "explanation": "Efficiency $= \\text{Useful Output} / \\text{Total Input} = (100-60)/100 = 40\\%$."
+    },
+    {
+        "id": "physics-hl-017",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A box is pulled with 5 N force over 4 m in 2 s. What is the average power delivered?",
+        "answer": "10 W",
+        "options": [
+            "2.5 W",
+            "5.0 W",
+            "10 W",
+            "40 W"
+        ],
+        "difficulty": 1,
+        "explanation": "$P = W/t = Fs/t = (5 \\times 4)/2 = 10$ W."
+    },
+    {
+        "id": "physics-hl-018",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Which of the following is NOT a suitable SI unit for energy?",
+        "answer": "kg m s$^{-2}$",
+        "options": [
+            "J",
+            "N m",
+            "kg m s$^{-2}$",
+            "kg m$^2$ s$^{-2}$"
+        ],
+        "difficulty": 1,
+        "explanation": "kg m s$^{-2}$ is the Newton (unit of force). Energy is force times distance (kg m$^2$ s$^{-2}$)."
+    },
+    {
+        "id": "physics-hl-019",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A resultant force-time graph is a horizontal line. Which graph represents the variation of momentum with time?",
+        "answer": "A line with a constant positive gradient",
+        "options": [
+            "A horizontal line",
+            "A line with a constant positive gradient",
+            "A vertical line",
+            "A parabola"
+        ],
+        "difficulty": 1,
+        "explanation": "Force is the rate of change of momentum ($F = \\Delta p / \\Delta t$). Constant force means constant rate of increase in momentum."
+    },
+    {
+        "id": "physics-hl-020",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Brakes apply a force of $5.1 \\times 10^3$ N for 3.0 s. What is the magnitude of the change in momentum?",
+        "answer": "15.3 kN s",
+        "options": [
+            "15 kN s",
+            "15000 N s",
+            "15.3 kN s",
+            "15300 N s"
+        ],
+        "difficulty": 1,
+        "explanation": "Impulse $= F \\Delta t = 5100 \\times 3 = 15300$ N s $= 15.3$ kN s."
+    },
+    {
+        "id": "physics-hl-021",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Identify a Newton's Third Law pair for a ball bouncing off a player's head.",
+        "answer": "Force of the head on the ball and force of the ball on the head",
+        "options": [
+            "Force of the ball on player and force of ball on earth",
+            "Force of the earth on ball and force of ball on player",
+            "Force of the head on the ball and force of the ball on the head",
+            "Force of the earth on player and force of player on ball"
+        ],
+        "difficulty": 1,
+        "explanation": "Third Law pairs must be the same force type acting between the same two objects in opposite directions."
+    },
+    {
+        "id": "physics-hl-022",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "flashcard",
+        "question": "In a Sankey diagram of a power plant, which section indicates the highest energy degradation?",
+        "answer": "The thickest arrow pointing away from the useful energy path (usually heat loss to the surroundings).",
+        "difficulty": 1,
+        "explanation": "Arrow width is proportional to energy magnitude."
+    },
+    {
+        "id": "physics-hl-023",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A coin is project upwards from 1.5 m with $u = 3.0$ m s$^{-1}$. Find maximum height reached above ground. ($g = 10$ m s$^{-2}$)",
+        "answer": "1.95 m",
+        "options": [
+            "0.45 m",
+            "1.50 m",
+            "1.95 m",
+            "6.00 m"
+        ],
+        "difficulty": 2,
+        "explanation": "$v^2 = u^2 + 2as \\Rightarrow 0 = 3^2 - 20s \\Rightarrow s = 0.45$ m. Total height $= 1.5 + 0.45 = 1.95$ m."
+    },
+    {
+        "id": "physics-hl-024",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A plane reaches takeoff speed (75 m s$^{-1}$) from rest with $a = 1.25$ m s$^{-2}$. What is the minimum runway length?",
+        "answer": "2250 m",
+        "options": [
+            "60 m",
+            "1875 m",
+            "2250 m",
+            "4500 m"
+        ],
+        "difficulty": 2,
+        "explanation": "$v^2 = u^2 + 2as \\Rightarrow 75^2 = 0 + 2(1.25)s \\Rightarrow 5625 = 2.5s \\Rightarrow s = 2250$ m."
+    },
+    {
+        "id": "physics-hl-025",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Ignoring air resistance, which graph shows the resultant force $R$ acting on a projectile versus its height $h$?",
+        "answer": "A horizontal line ($R$ is constant)",
+        "options": [
+            "A horizontal line ($R$ is constant)",
+            "A line with positive gradient",
+            "A line with negative gradient",
+            "A curve"
+        ],
+        "difficulty": 1,
+        "explanation": "The only force is weight ($mg$), which is constant regardless of height."
+    },
+    {
+        "id": "physics-hl-026",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A car accelerates linearly from 0 to 9 m s$^{-1}$ in 2 s, then moves at 9 m s$^{-1}$. How long until it travels 31.5 m?",
+        "answer": "4.5 s",
+        "options": [
+            "2.0 s",
+            "3.5 s",
+            "4.5 s",
+            "7.0 s"
+        ],
+        "difficulty": 2,
+        "explanation": "Dist in 2s $= \\text{area of triangle} = 9$ m. Remaining dist $= 22.5$ m. $t_{rem} = 22.5 / 9 = 2.5$ s. Total $t = 2 + 2.5 = 4.5$ s."
+    },
+    {
+        "id": "physics-hl-027",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "What can be deduced from a velocity-time graph? I. Displacement II. Acceleration III. Change in velocity",
+        "answer": "I, II and III",
+        "options": [
+            "I and II only",
+            "I and III only",
+            "II and III only",
+            "I, II and III"
+        ],
+        "difficulty": 1,
+        "explanation": "Area = Displacement. Gradient = Acceleration. Vertical difference = Change in velocity."
+    },
+    {
+        "id": "physics-hl-028",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A ball is launched at 2 m s$^{-1}$ at $35^\\circ$ to horizontal. What is the vertical component of velocity?",
+        "answer": "$2 \\sin(35^\\circ)$ m s$^{-1}$",
+        "options": [
+            "$2$ m s$^{-1}$",
+            "$2 \\cos(35^\\circ)$ m s$^{-1}$",
+            "$2 \\sin(35^\\circ)$ m s$^{-1}$",
+            "$2 \\tan(35^\\circ)$ m s$^{-1}$"
+        ],
+        "difficulty": 1,
+        "explanation": "Vertical component $v_y = v \\sin \\theta$."
+    },
+    {
+        "id": "physics-hl-029",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "An object moves 9 m East, then 12 m North. Find the magnitude of total displacement.",
+        "answer": "15 m",
+        "options": [
+            "3 m",
+            "15 m",
+            "21 m",
+            "36 m"
+        ],
+        "difficulty": 1,
+        "explanation": "Pythagoras: $\\sqrt{9^2 + 12^2} = \\sqrt{81 + 144} = 15$ m."
+    },
+    {
+        "id": "physics-hl-030",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A spring length $l$ varies with tension $T$ as $T = k(l - l_0)$. What is the gradient and y-intercept of a graph of $l$ (y-axis) vs $T$ (x-axis)?",
+        "answer": "Gradient: $1/k$; y-intercept: $l_0$",
+        "options": [
+            "Gradient: $k$; y-intercept: $l_0$",
+            "Gradient: $1/k$; y-intercept: $l_0$",
+            "Gradient: $k$; y-intercept: $0$",
+            "Gradient: $1/k$; y-intercept: $\\Delta l$"
+        ],
+        "difficulty": 2,
+        "explanation": "$l = (1/k)T + l_0$. Matches $y = mx + c$."
+    },
+    {
+        "id": "physics-hl-031",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A stationary body explodes into two pieces ($m_1, m_2$). The ratio of their kinetic energies $KE_1/KE_2$ is 9. Find the mass ratio $m_1/m_2$.",
+        "answer": "1/9",
+        "options": [
+            "1/9",
+            "1/3",
+            "3",
+            "9"
+        ],
+        "difficulty": 3,
+        "explanation": "Momentum conserved: $m_1v_1 = m_2v_2$. $KE \\propto p^2/m$. Since $p_1 = p_2$, $KE_1/KE_2 = m_2/m_1 = 9 \\Rightarrow m_1/m_2 = 1/9$."
+    },
+    {
+        "id": "physics-hl-032",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A ball falls with drag force $F_{drag} = kv^2$. What is the terminal velocity?",
+        "answer": "$\\sqrt{mg/k}$",
+        "options": [
+            "$mg/k$",
+            "$km/g$",
+            "$\\sqrt{mg/k}$",
+            "$\\sqrt{k/mg}$"
+        ],
+        "difficulty": 1,
+        "explanation": "At terminal velocity, $F_{drag} = W \\Rightarrow kv^2 = mg \\Rightarrow v = \\sqrt{mg/k}$."
+    },
+    {
+        "id": "physics-hl-033",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Two eggs fall. One breaks (stops), one bounces. Both have same collision time. Which exerts more force on floor?",
+        "answer": "Bounces; Greater change in momentum",
+        "options": [
+            "Broken; Greater change in momentum",
+            "Bounces; Less change in momentum",
+            "Broken; Less change in momentum",
+            "Bounces; Greater change in momentum"
+        ],
+        "difficulty": 2,
+        "explanation": "Bouncing involves $\\Delta v = v - (-u) = v+u$. Breaking is $\\Delta v = 0 - (-u) = u$. Larger $\\Delta v \\Rightarrow$ larger $\\Delta p \\Rightarrow$ larger force."
+    },
+    {
+        "id": "physics-hl-034",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "flashcard",
+        "question": "Identify the forces on a block at rest on a rough incline.",
+        "answer": "Weight (vertically down), Normal Force (perpendicular to incline), and Static Friction (up the slope).",
+        "difficulty": 1,
+        "explanation": "At rest, the parallel component of weight is balanced by friction."
+    },
+    {
+        "id": "physics-hl-035",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A pilot at the top of a vertical loop experiences which forces?",
+        "answer": "Weight and Normal Force, both pointing downward",
+        "options": [
+            "Weight down, Normal up",
+            "Weight down, Normal down",
+            "Centripetal force up",
+            "Normal force only"
+        ],
+        "difficulty": 2,
+        "explanation": "At the top, gravity acts down. To provide centripetal acceleration, the track must also push down (Normal force), unless the plane is just at the minimum speed."
+    },
+    {
+        "id": "physics-hl-036",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A stone on a rod rotates in a vertical circle at constant speed. How do the direction and magnitude of the centripetal force compare at two different points?",
+        "answer": "Direction: Different; Magnitude: Same",
+        "options": [
+            "Direction: Same; Magnitude: Same",
+            "Direction: Same; Magnitude: Different",
+            "Direction: Different; Magnitude: Same",
+            "Direction: Different; Magnitude: Different"
+        ],
+        "difficulty": 1,
+        "explanation": "Centripetal force magnitude is $mv^2/r$ (constant). Direction is always towards the center, which changes as the object moves."
+    },
+    {
+        "id": "physics-hl-037",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A box (mass $m$) is pulled horizontally with force $F$. Coefficient of dynamic friction is $\\mu$. How much energy is transferred to thermal energy over distance $d$?",
+        "answer": "$\\mu mgd$",
+        "options": [
+            "$Fd$",
+            "$(F - \\mu mg)d$",
+            "$\\mu mgd$",
+            "$mgd$"
+        ],
+        "difficulty": 1,
+        "explanation": "Thermal energy generated equals work done by friction ($W_f = F_f \\cdot d = \\mu N \\cdot d = \\mu mgd$)."
+    },
+    {
+        "id": "physics-hl-038",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Potential energy in a spring is $E = \\frac{1}{2}kx^2$. If uncertainty of $k$ is 2% and $x$ is 3%, find uncertainty of $E$.",
+        "answer": "8%",
+        "options": [
+            "5%",
+            "8%",
+            "11%",
+            "18%"
+        ],
+        "difficulty": 2,
+        "explanation": "$\\Delta E/E = \\Delta k/k + 2(\\Delta x/x) = 2\\% + 2(3\\%) = 8\\%$."
+    },
+    {
+        "id": "physics-hl-039",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A wheel accelerates uniformly from rest. After 16 s, it makes 5 rev/s. What is the angular displacement?",
+        "answer": "80$\\pi$ rad",
+        "options": [
+            "20$\\pi$ rad",
+            "40$\\pi$ rad",
+            "80$\\pi$ rad",
+            "160$\\pi$ rad"
+        ],
+        "difficulty": 2,
+        "explanation": "$\\omega_f = 10\\pi$ rad/s. $\\omega_{avg} = 5\\pi$ rad/s. $\\theta = \\omega_{avg} t = 5\\pi \\times 16 = 80\\pi$ rad."
+    },
+    {
+        "id": "physics-hl-040",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A disc starts from rest with angular acceleration $\\alpha$. What is the linear speed of an object at radius $r$ after time $t$?",
+        "answer": "$r\\alpha t$",
+        "options": [
+            "$\\alpha t$",
+            "$r\\alpha t$",
+            "$\\frac{1}{2}\\alpha t^2$",
+            "$\\frac{1}{2}r\\alpha t^2$"
+        ],
+        "difficulty": 1,
+        "explanation": "$v = r\\omega = r(\\alpha t)$."
+    },
+    {
+        "id": "physics-hl-041",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Cyclist A moves North at $4v$. Cyclist B moves West at $3v$. What is the magnitude of A relative to B?",
+        "answer": "5v",
+        "options": [
+            "v",
+            "4v",
+            "5v",
+            "7v"
+        ],
+        "difficulty": 1,
+        "explanation": "$v_{rel} = \\sqrt{(4v)^2 + (3v)^2} = 5v$."
+    },
+    {
+        "id": "physics-hl-042",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Muon decay observations provide evidence for which of the following?",
+        "answer": "Time dilation and Length contraction",
+        "options": [
+            "Time dilation only",
+            "Length contraction only",
+            "Time dilation and Length contraction",
+            "Absolute simultaneity"
+        ],
+        "difficulty": 1,
+        "explanation": "Muon decay proves time dilation from Earth's frame and length contraction from the muon's frame."
+    },
+    {
+        "id": "physics-hl-043",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "An airplane on a banked turn at angle $\\theta$ experiences a wings-perpendicular lift $L$. What is the centripetal force?",
+        "answer": "$L \\sin \\theta$",
+        "options": [
+            "$L$",
+            "$L \\cos \\theta$",
+            "$L \\sin \\theta$",
+            "$L \\tan \\theta$"
+        ],
+        "difficulty": 2,
+        "explanation": "The horizontal component of the lift force provides the centripetal force."
+    },
+    {
+        "id": "physics-hl-044",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A motor lifts 18.0 kg at 1.5 m s$^{-1}$. If input power is 297 W, find the efficiency. (Take $g = 10$ m s$^{-2}$)",
+        "answer": "91%",
+        "options": [
+            "9%",
+            "75%",
+            "61%",
+            "91%"
+        ],
+        "difficulty": 2,
+        "explanation": "$P_{out} = Fv = mgv = 18 \\times 10 \\times 1.5 = 270$ W. Efficiency $= 270/297 \\approx 91\\%$."
+    },
+    {
+        "id": "physics-hl-045",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A car engine provides 800 N thrust. Resistive forces are 300 N. It covers 1.0 km in 10 s. What is average output power?",
+        "answer": "8.0 $\\times 10^4$ W",
+        "options": [
+            "5.0 $\\times 10^3$ W",
+            "8.0 $\\times 10^3$ W",
+            "5.0 $\\times 10^4$ W",
+            "8.0 $\\times 10^4$ W"
+        ],
+        "difficulty": 2,
+        "explanation": "$v = 1000/10 = 100$ m/s. Power $= Fv = 800 \\times 100 = 80,000$ W."
+    },
+    {
+        "id": "physics-hl-046",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A box is pulled up a $30^\\circ$ slope by force $F$ directed at $30^\\circ$ to the slope. What is the work done over distance $d$?",
+        "answer": "$Fd \\cos(30^\\circ)$",
+        "options": [
+            "$Fd \\cos(30^\\circ)$",
+            "$Fd \\cos(60^\\circ)$",
+            "$Fd \\sin(30^\\circ)$",
+            "$Fd \\cos^2(30^\\circ)$"
+        ],
+        "difficulty": 2,
+        "explanation": "Work is the component of force parallel to displacement ($F \\cos \\theta$). Here displacement is along the slope, and the force angle relative to that direction is $30^\\circ$."
+    },
+    {
+        "id": "physics-hl-047",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "flashcard",
+        "question": "Define distance and differentiate it from displacement.",
+        "answer": "Distance is the total length of the path traveled (scalar). Displacement is the change in position (vector).",
+        "difficulty": 1,
+        "explanation": "Displacement depends only on the start and end points."
+    },
+    {
+        "id": "physics-hl-048",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A projectile is fired at an angle on the Moon. What is correct about its velocity components?",
+        "answer": "Horizontal component is constant; vertical component decreases steadily (initially).",
+        "options": [
+            "Horizontal component is constant",
+            "Vertical component is constant",
+            "Horizontal component decreases steadily",
+            "Both are constant"
+        ],
+        "difficulty": 1,
+        "explanation": "Without air resistance, there is no horizontal acceleration. Vertical velocity changes due to gravity."
+    },
+    {
+        "id": "physics-hl-049",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A ball reaches 36 km/h from rest in 0.5 s. What is the acceleration in terms of $g$? ($g = 10$ m s$^{-2}$)",
+        "answer": "2g",
+        "options": [
+            "0.2g",
+            "0.5g",
+            "2g",
+            "7g"
+        ],
+        "difficulty": 1,
+        "explanation": "$36$ km/h $= 10$ m/s. $a = (10-0)/0.5 = 20$ m/s$^2 = 2g$."
+    },
+    {
+        "id": "physics-hl-050",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A projectile is fired at 40 m s$^{-1}$ at angle $\\alpha$ towards a cliff 120 m away. What is the time of flight to reach the cliff plane?",
+        "answer": "$3 / \\cos \\alpha$",
+        "options": [
+            "3 s",
+            "7.5 s",
+            "$4 / \\cos \\alpha$",
+            "$3 / \\cos \\alpha$"
+        ],
+        "difficulty": 2,
+        "explanation": "$x = u \\cos \\alpha \\cdot t \\Rightarrow 120 = 40 \\cos \\alpha \\cdot t \\Rightarrow t = 3 / \\cos \\alpha$."
+    },
+    {
+        "id": "physics-hl-051",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A container is dropped and opens a parachute. Which graph shows vertical acceleration vs time?",
+        "answer": "A graph showing $g$, then a sudden jump to negative acceleration, returning toward zero.",
+        "options": [
+            "A straight horizontal line at $g$",
+            "A linear increase",
+            "A jump to negative acceleration then decay toward zero",
+            "A parabola"
+        ],
+        "difficulty": 2,
+        "explanation": "Initial free fall is $g$. Parachute opening creates a large upward force ($a < 0$), eventually reaching a new terminal velocity ($a=0$)."
+    },
+    {
+        "id": "physics-hl-052",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A horizontal projectile travels distance $x$ (horizontal) and $y$ (vertical) at $t=2$ s. What are the distances at $t=1$ s?",
+        "answer": "$x/2$ and $y/4$",
+        "options": [
+            "$x/2$ and $y/4$",
+            "$x/2$ and $y/2$",
+            "$x/4$ and $y/2$",
+            "$x/4$ and $y/4$"
+        ],
+        "difficulty": 2,
+        "explanation": "$x \\propto t \\Rightarrow x(1) = 0.5x$. $y \\propto t^2 \\Rightarrow y(1) = (0.5)^2 y = 0.25y$."
+    },
+    {
+        "id": "physics-hl-053",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "flashcard",
+        "question": "Two trucks pull a car along a straight path. If Truck X pulls North-East and the car moves North, describe Truck Y's pull.",
+        "answer": "Truck Y must pull North-West to cancel the Eastward component of Truck X.",
+        "difficulty": 2,
+        "explanation": "Vector sum of the pulling forces must point North."
+    },
+    {
+        "id": "physics-hl-054",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A box slides down a slope $\\theta$ at constant speed. Opposing forces total 16 N. What is the weight of the box?",
+        "answer": "$16 / \\sin \\theta$",
+        "options": [
+            "$8 / \\sin \\theta$",
+            "$16 / \\sin \\theta$",
+            "$8 / \\cos \\theta$",
+            "$16 / \\cos \\theta$"
+        ],
+        "difficulty": 2,
+        "explanation": "Constant speed $\\Rightarrow F_{net} = 0 \\Rightarrow mg \\sin \\theta = 16 \\Rightarrow mg = 16 / \\sin \\theta$."
+    },
+    {
+        "id": "physics-hl-055",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A rocket ejects gas in space. What happens to its momentum and kinetic energy?",
+        "answer": "Momentum increased; Kinetic Energy increased",
+        "options": [
+            "Conserved; Conserved",
+            "Increased; Conserved",
+            "Conserved; Increased",
+            "Increased; Increased"
+        ],
+        "difficulty": 2,
+        "explanation": "For the rocket specifically, the ejection of gas exerts a forward force, increasing its momentum and KE. (System momentum is conserved, but the prompt asks for the rocket)."
+    },
+    {
+        "id": "physics-hl-056",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A ball is dropped from $H$ and rebounds to $h < H$. What is the nature of collision and change in momentum?",
+        "answer": "Inelastic; $m(\\sqrt{2gH} + \\sqrt{2gh})$",
+        "options": [
+            "Elastic; $m(\\sqrt{2gH} - \\sqrt{2gh})$",
+            "Inelastic; $m(\\sqrt{2gH} - \\sqrt{2gh})$",
+            "Elastic; $m(\\sqrt{2gH} + \\sqrt{2gh})$",
+            "Inelastic; $m(\\sqrt{2gH} + \\sqrt{2gh})$"
+        ],
+        "difficulty": 3,
+        "explanation": "Energy loss means inelastic. Velocity at impact $= \\sqrt{2gH}$ (down), after impact $= \\sqrt{2gh}$ (up). Change in momentum $= m(v_{up} - (-v_{down})) = m(v_{up} + v_{down})$."
+    },
+    {
+        "id": "physics-hl-057",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A block mass $m$ at rest is acted on by opposite forces $F_1 > F_2$ for time $t$. Find the final velocity.",
+        "answer": "$\\frac{F_1 - F_2}{m} \\cdot t$",
+        "options": [
+            "$\\frac{F_1 + F_2}{m} \\cdot t$",
+            "$\\frac{F_1 - F_2}{m} \\cdot t$",
+            "$\\frac{F_2 - F_1}{m} \\cdot t$",
+            "$\\frac{F_1 - F_2}{t} \\cdot m$"
+        ],
+        "difficulty": 2,
+        "explanation": "$F_{net} = ma \\Rightarrow F_1 - F_2 = m(v/t) \\Rightarrow v = \\frac{F_1 - F_2}{m} t$."
+    },
+    {
+        "id": "physics-hl-058",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "Friction between car tires and road decreases on a banked turn. What changes prevent the car from slipping away?",
+        "answer": "Increase banking angle; Decrease car speed",
+        "options": [
+            "Increase angle; Increase speed",
+            "Decrease angle; Increase speed",
+            "Increase angle; Decrease speed",
+            "Decrease angle; Decrease speed"
+        ],
+        "difficulty": 2,
+        "explanation": "Increasing the angle increases the inward normal force component. Decreasing speed reduces the required centripetal force."
+    },
+    {
+        "id": "physics-hl-059",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A car makes a U-turn at 9 m s$^{-1}$. Inner radius 4 m, outer 10 m. Estimate the minimum acceleration.",
+        "answer": "8.1 m s$^{-2}$",
+        "options": [
+            "0.9 m s$^{-2}$",
+            "2.2 m s$^{-2}$",
+            "8.1 m s$^{-2}$",
+            "20.2 m s$^{-2}$"
+        ],
+        "difficulty": 2,
+        "explanation": "Acceleration $a = v^2 / r$. Minimum acceleration occurs at the largest radius ($r=10$). $a = 9^2 / 10 = 8.1$ m s$^{-2}$."
+    },
+    {
+        "id": "physics-hl-060",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "An object weight $W$ on a rod rotates in a vertical circle. Tension at the top is zero. Find tension at the bottom.",
+        "answer": "2W",
+        "options": [
+            "W",
+            "Smaller than W",
+            "2W",
+            "Greater than 2W"
+        ],
+        "difficulty": 3,
+        "explanation": "At top: $F_c = W \\Rightarrow mv^2/r = W$. At bottom: $F_c = T - W$. Since speed is constant, $T - W = W \\Rightarrow T = 2W$."
+    },
+    {
+        "id": "physics-hl-061",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A 0.20 kg ball collides elastically with a wall. If speed changes from 5 m s$^{-1}$ to -5 m s$^{-1}$ in 0.1 s, what is the average force?",
+        "answer": "20 N",
+        "options": [
+            "10 N",
+            "20 N",
+            "40 N",
+            "100 N"
+        ],
+        "difficulty": 1,
+        "explanation": "$F = \\Delta p / \\Delta t = 0.2(5 - (-5)) / 0.1 = 0.2(10) / 0.1 = 20$ N."
+    },
+    {
+        "id": "physics-hl-062",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A 100 N brick on a rough surface requires 30 N to move at constant speed. What is the dynamic friction coefficient?",
+        "answer": "0.3",
+        "options": [
+            "0.2",
+            "0.3",
+            "0.4",
+            "0.5"
+        ],
+        "difficulty": 1,
+        "explanation": "$\\mu_d = F_f / N = 30 / 100 = 0.3$."
+    },
+    {
+        "id": "physics-hl-063",
+        "subject": "Physics HL",
+        "topic": "Space, Time & Motion",
+        "type": "mcq",
+        "question": "A 0.5 kg ball hits a wall at 30 m s$^{-1}$. Momentum change is 22.5 kg m s$^{-1}$. Find the rebound speed.",
+        "answer": "15 m s$^{-1}$",
+        "options": [
+            "0 m s$^{-1}$",
+            "5 m s$^{-1}$",
+            "10 m s$^{-1}$",
+            "15 m s$^{-1}$"
+        ],
+        "difficulty": 2,
+        "explanation": "$\\Delta p = m(v - (-u)) \\Rightarrow 22.5 = 0.5(v + 30) \\Rightarrow 45 = v + 30 \\Rightarrow v = 15$."
+    }
+]
