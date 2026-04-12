@@ -408,6 +408,18 @@ document.getElementById('btn-launch-spaced').addEventListener('click', () => {
     startSession(queue, 'spaced');
 });
 
+document.getElementById('btn-reset-queue')?.addEventListener('click', () => {
+    if (confirm("This will force ALL questions in the bank to be 'Due Today'. Are you sure?")) {
+        const today = getTodayString();
+        db.questions.forEach(q => {
+            if (q.stats) q.stats.next_review = today;
+        });
+        saveDB();
+        initSetup(); // Refresh the count
+        alert("Queue reset successfully! You can now start the daily review.");
+    }
+});
+
 document.getElementById('btn-launch-topic').addEventListener('click', () => {
     const selSub = document.getElementById('setup-subject').value;
     const selDiff = document.getElementById('setup-difficulty').value;
