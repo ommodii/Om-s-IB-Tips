@@ -161,7 +161,7 @@ function recordAnswer(qId, isCorrect, multiplier = 1.5) {
 
 
 // --- 3. UI Router ---
-const views = ['view-load', 'view-home', 'view-setup', 'view-session', 'view-summary', 'view-arcade', 'view-browse'];
+const views = ['view-load', 'view-home', 'view-setup', 'view-test', 'view-session', 'view-summary', 'view-arcade', 'view-browse'];
 
 function switchView(viewId) {
     views.forEach(v => {
@@ -190,6 +190,7 @@ function switchView(viewId) {
     if (viewId === 'view-setup') initSetup();
     if (viewId === 'view-arcade') initArcade();
     if (viewId === 'view-browse') initBrowse();
+    if (viewId === 'view-test') initTest();
 
     // Re-render lucide icons if new ones appear
     lucide.createIcons();
@@ -437,6 +438,48 @@ document.getElementById('btn-launch-topic').addEventListener('click', () => {
         queue = queue.sort(() => Math.random() - 0.5);
     }
     startSession(queue, 'topic');
+});
+
+
+// --- 6.5. Unit Test View ---
+let unitTestQuestions = [];
+
+async function initTest() {
+    const statusEl = document.getElementById('unit-test-status');
+    const btnLaunch = document.getElementById('btn-launch-unit-test');
+    
+    if (unitTestQuestions.length > 0) {
+        statusEl.innerText = `${unitTestQuestions.length} questions loaded and ready.`;
+        btnLaunch.disabled = false;
+        return;
+    }
+    
+    statusEl.innerText = "Loading unit test questions...";
+    btnLaunch.disabled = true;
+    
+    try {
+        const res = await fetch(`/public/questions/chemistry-unit-test.json?t=${new Date().getTime()}`);
+        if (!res.ok) throw new Error("Could not load unit test");
+        const parsed = await res.json();
+        
+        // initialize stats but don't add to main db
+        parsed.forEach(q => initQuestionStats(q));
+        unitTestQuestions = parsed;
+        
+        statusEl.innerText = `${unitTestQuestions.length} questions loaded and ready.`;
+        btnLaunch.disabled = false;
+    } catch (err) {
+        console.error(err);
+        statusEl.innerText = "Failed to load unit test questions.";
+    }
+}
+
+document.getElementById('btn-launch-unit-test')?.addEventListener('click', () => {
+    if (unitTestQuestions.length > 0) {
+        // shuffle the queue optionally, or keep order. We will keep order for a set test
+        const queue = [...unitTestQuestions];
+        startSession(queue, 'unit-test');
+    }
 });
 
 

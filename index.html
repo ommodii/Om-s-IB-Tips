@@ -33,6 +33,7 @@
         <div class="nav-links">
             <button data-target="view-home" class="nav-link active">Home</button>
             <button data-target="view-setup" class="nav-link">Study</button>
+            <button data-target="view-test" class="nav-link">Unit Test</button>
             <button data-target="view-arcade" class="nav-link">Arcade</button>
             <button data-target="view-browse" class="nav-link">Browse</button>
             <button id="account-toggle-desktop" class="nav-link"><i data-lucide="user"></i><span
@@ -150,6 +151,21 @@
                         <button id="btn-launch-topic" class="btn btn-primary" disabled>Start Session &rarr;</button>
                     </div>
                 </div>
+            </div>
+        </section>
+
+        <!-- View: Unit Test -->
+        <section id="view-test" class="view hidden">
+            <header class="section-header">
+                <h2>Current Unit Test</h2>
+                <p class="text-muted">Test your knowledge with this pre-set quiz for Chemistry HL.</p>
+            </header>
+
+            <div class="card p-24 mt-24 text-center">
+                <h3 class="mb-16">Chemistry HL Unit Test</h3>
+                <p class="text-muted mb-24">Are you ready to begin the unit test? This is a separate bank of questions for your friends to study smarter.</p>
+                <button id="btn-launch-unit-test" class="btn btn-primary btn-lg">Start Unit Test &rarr;</button>
+                <div id="unit-test-status" class="mt-16 text-sm text-muted">Loading questions...</div>
             </div>
         </section>
 
@@ -427,6 +443,7 @@
     <nav id="bottom-nav" class="hidden">
         <button data-target="view-home" class="nav-link active"><i data-lucide="home"></i><span>Home</span></button>
         <button data-target="view-setup" class="nav-link"><i data-lucide="layers"></i><span>Study</span></button>
+        <button data-target="view-test" class="nav-link"><i data-lucide="clipboard-check"></i><span>Test</span></button>
         <button data-target="view-arcade" class="nav-link"><i data-lucide="gamepad-2"></i><span>Arcade</span></button>
         <button data-target="view-browse" class="nav-link"><i data-lucide="search"></i><span>Browse</span></button>
         <button id="account-toggle-mobile" class="nav-link"><i data-lucide="user"></i><span>Sign In</span></button>
