@@ -173,7 +173,7 @@
     "answer": "1.00",
     "options": ["0.250", "0.500", "1.00", "4.00"],
     "difficulty": 2
-  }
+  },
   {
     "id": "chem-quiz-001",
     "subject": "Chemistry HL",
